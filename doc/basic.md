@@ -120,6 +120,12 @@ https://visualstudio.microsoft.com/ko/downloads/
 커뮤니티 에디션 설치  
 설치시 C++ desktop만 선택  
 
+## pip 사용방법
+
+```
+pip list
+```
+
 ## scrapy 설치
 
 virtualenv에서  
@@ -140,7 +146,7 @@ http://www.uill.or.kr/UR/info/lecture/list.do?rbsIdx=34&page=1
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzQwODE1ODksMTk4OTg5MzU5NywxMT
-A0MzExNDk0LDIxMjI3Nzk4NTksLTIwNTg4ODUxMTcsMTkxNzIw
-MzMyNCwtODU1MjcxMzQ5XX0=
+eyJoaXN0b3J5IjpbLTE1MjczNTQ2ODQsLTEyMzQwODE1ODksMT
+k4OTg5MzU5NywxMTA0MzExNDk0LDIxMjI3Nzk4NTksLTIwNTg4
+ODUxMTcsMTkxNzIwMzMyNCwtODU1MjcxMzQ5XX0=
 -->
