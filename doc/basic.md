@@ -100,8 +100,9 @@ deactivate
 ## visual studio 설치
 
 https://visualstudio.microsoft.com/ko/downloads/  
-커뮤니티 에디션 설치
-설
+커뮤니티 에디션 설치  
+설치시 C++ desktop만 선택  
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzOTEwNTI5NV19
+eyJoaXN0b3J5IjpbLTg1NTI3MTM0OV19
 -->
