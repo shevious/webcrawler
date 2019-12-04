@@ -1,5 +1,7 @@
 
 # GIT
+github 계정 생성  
+id 송부 
 
 공통 작업자 승낙  
 https://github.com/shevious/webcrawler/invitations  
@@ -120,6 +122,6 @@ https://docs.scrapy.org/en/latest/intro/tutorial.html
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTg4ODUxMTcsMTkxNzIwMzMyNCwtOD
-U1MjcxMzQ5XX0=
+eyJoaXN0b3J5IjpbLTExNDk1OTI3NTksLTIwNTg4ODUxMTcsMT
+kxNzIwMzMyNCwtODU1MjcxMzQ5XX0=
 -->
