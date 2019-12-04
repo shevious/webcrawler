@@ -1,5 +1,8 @@
 
+# GIT
 
+공통 작업자 승낙  
+https://github.com/shevious/webcrawler/invitations  
 
 # windows
 
@@ -104,5 +107,5 @@ https://visualstudio.microsoft.com/ko/downloads/
 설치시 C++ desktop만 선택  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1NTI3MTM0OV19
+eyJoaXN0b3J5IjpbMzA1Nzc5MTEyLC04NTUyNzEzNDldfQ==
 -->
