@@ -148,9 +148,14 @@ scrapy startproject tutorial
 http://www.uill.or.kr/UR/info/lecture/list.do?rbsIdx=34&page=1  
 
 
+# portia
+
+project folders:
+
+/app/data/projects
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzYwOTQyOTgyLC02MzgyNzgxMjUsLTE1Mj
-czNTQ2ODQsLTEyMzQwODE1ODksMTk4OTg5MzU5NywxMTA0MzEx
-NDk0LDIxMjI3Nzk4NTksLTIwNTg4ODUxMTcsMTkxNzIwMzMyNC
-wtODU1MjcxMzQ5XX0=
+eyJoaXN0b3J5IjpbLTEyMzA4MjI3MjgsNzYwOTQyOTgyLC02Mz
+gyNzgxMjUsLTE1MjczNTQ2ODQsLTEyMzQwODE1ODksMTk4OTg5
+MzU5NywxMTA0MzExNDk0LDIxMjI3Nzk4NTksLTIwNTg4ODUxMT
+csMTkxNzIwMzMyNCwtODU1MjcxMzQ5XX0=
 -->
