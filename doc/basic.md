@@ -12,7 +12,8 @@ https://github.com/shevious/webcrawler/invitations
 stackedit.io
 우측 상단 클릭
 workspace => add a github workspace
-
+https://github.com/shevious/webcrawler/
+ok->ok
 
 
 # windows
@@ -27,6 +28,8 @@ Install now
  - Disable Path Length LImit 버튼 클릭
 
 ## git bash
+
+https://gitforwindows.org/  
 
 설치 시:
  - [x] checkout as-is, commit as-is
@@ -131,6 +134,6 @@ https://docs.scrapy.org/en/latest/intro/tutorial.html
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyMTA5NzYyNiwtMjA1ODg4NTExNywxOT
+eyJoaXN0b3J5IjpbMjEyMjc3OTg1OSwtMjA1ODg4NTExNywxOT
 E3MjAzMzI0LC04NTUyNzEzNDldfQ==
 -->
