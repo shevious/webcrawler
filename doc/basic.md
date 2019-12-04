@@ -114,7 +114,12 @@ pip install scrapy
 pip install scrapyd
 ```
 
+https://docs.scrapy.org/en/latest/intro/tutorial.html  
 
+```bash
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxNzIwMzMyNCwtODU1MjcxMzQ5XX0=
+eyJoaXN0b3J5IjpbLTIwNTg4ODUxMTcsMTkxNzIwMzMyNCwtOD
+U1MjcxMzQ5XX0=
 -->
