@@ -67,6 +67,9 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Pr
 
 ## pycharm
 
+https://www.jetbrains.com/ko-kr/pycharm/download/#section=mac  
+프로페셔널 버전
+
 설치:  
 
  - [x] Don't send
@@ -146,8 +149,8 @@ http://www.uill.or.kr/UR/info/lecture/list.do?rbsIdx=34&page=1
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzODI3ODEyNSwtMTUyNzM1NDY4NCwtMT
-IzNDA4MTU4OSwxOTg5ODkzNTk3LDExMDQzMTE0OTQsMjEyMjc3
-OTg1OSwtMjA1ODg4NTExNywxOTE3MjAzMzI0LC04NTUyNzEzND
-ldfQ==
+eyJoaXN0b3J5IjpbNzYwOTQyOTgyLC02MzgyNzgxMjUsLTE1Mj
+czNTQ2ODQsLTEyMzQwODE1ODksMTk4OTg5MzU5NywxMTA0MzEx
+NDk0LDIxMjI3Nzk4NTksLTIwNTg4ODUxMTcsMTkxNzIwMzMyNC
+wtODU1MjcxMzQ5XX0=
 -->
