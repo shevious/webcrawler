@@ -2,7 +2,7 @@
 # GIT
 
 공통 작업자 승낙  
-https://github.com/shevious/webcrawler/invitations  
+https://github.com/shevious/webcrawler/invitations  
 
 # windows
 
@@ -106,6 +106,15 @@ https://visualstudio.microsoft.com/ko/downloads/
 커뮤니티 에디션 설치  
 설치시 C++ desktop만 선택  
 
+## scrapy 설치
+
+virtualenv에서  
+```bash
+pip install scrapy
+pip install scrapyd
+```
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA1Nzc5MTEyLC04NTUyNzEzNDldfQ==
+eyJoaXN0b3J5IjpbMTkxNzIwMzMyNCwtODU1MjcxMzQ5XX0=
 -->
