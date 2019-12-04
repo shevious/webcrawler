@@ -1,10 +1,19 @@
 
 # GIT
+
 github 계정 생성  
 id 송부 
 
 공통 작업자 승낙  
 https://github.com/shevious/webcrawler/invitations  
+
+## stackedit
+
+stackedit.io
+우측 상단 클릭
+workspace => add a github workspace
+
+
 
 # windows
 
@@ -122,6 +131,6 @@ https://docs.scrapy.org/en/latest/intro/tutorial.html
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNDk1OTI3NTksLTIwNTg4ODUxMTcsMT
-kxNzIwMzMyNCwtODU1MjcxMzQ5XX0=
+eyJoaXN0b3J5IjpbLTcyMTA5NzYyNiwtMjA1ODg4NTExNywxOT
+E3MjAzMzI0LC04NTUyNzEzNDldfQ==
 -->
