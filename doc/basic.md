@@ -158,10 +158,15 @@ project folders:
 <a href="#" onclick="fn_applCheck2(\'view.do?rbsIdx=34&page=1&organIdx=3175&idx=EX18645\');return false;" onkeypress="this.onclick;" style="color:#ff8c23;">(\xec\xa3\xbc\xea\xb0\x84)\xeb\xb0\x94\xeb\x94\x94\xeb\x9d\xbc\xec\x9d\xb8 \xec\x9a\x94\xea\xb0\x80&\xed\x95\x84\xeb\x9d\xbc\xed\x85\x8c\xec\x8a\xa4</a>
 ```
 
+https://stackoverflow.com/questions/42989774/scrapy-spider-cant-find-urls-that-load-on-click  
+
+response.x를 사용해 보자
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk2NTI5MDMsLTEyMzA4MjI3MjgsNzYwOT
-QyOTgyLC02MzgyNzgxMjUsLTE1MjczNTQ2ODQsLTEyMzQwODE1
-ODksMTk4OTg5MzU5NywxMTA0MzExNDk0LDIxMjI3Nzk4NTksLT
-IwNTg4ODUxMTcsMTkxNzIwMzMyNCwtODU1MjcxMzQ5XX0=
+eyJoaXN0b3J5IjpbMTI4MzY1NDY5NywtMTIzMDgyMjcyOCw3Nj
+A5NDI5ODIsLTYzODI3ODEyNSwtMTUyNzM1NDY4NCwtMTIzNDA4
+MTU4OSwxOTg5ODkzNTk3LDExMDQzMTE0OTQsMjEyMjc3OTg1OS
+wtMjA1ODg4NTExNywxOTE3MjAzMzI0LC04NTUyNzEzNDldfQ==
+
 -->
