@@ -136,8 +136,10 @@ https://docs.scrapy.org/en/latest/intro/tutorial.html
 
 # 크롤 사이트
 
+http://www.uill.or.kr/UR/info/lecture/list.do?rbsIdx=34&page=1  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwNDMxMTQ5NCwyMTIyNzc5ODU5LC0yMD
-U4ODg1MTE3LDE5MTcyMDMzMjQsLTg1NTI3MTM0OV19
+eyJoaXN0b3J5IjpbMTk4OTg5MzU5NywxMTA0MzExNDk0LDIxMj
+I3Nzk4NTksLTIwNTg4ODUxMTcsMTkxNzIwMzMyNCwtODU1Mjcx
+MzQ5XX0=
 -->
