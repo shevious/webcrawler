@@ -153,9 +153,10 @@ http://www.uill.or.kr/UR/info/lecture/list.do?rbsIdx=34&page=1
 project folders:
 
 /app/data/projects
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzA4MjI3MjgsNzYwOTQyOTgyLC02Mz
-gyNzgxMjUsLTE1MjczNTQ2ODQsLTEyMzQwODE1ODksMTk4OTg5
-MzU5NywxMTA0MzExNDk0LDIxMjI3Nzk4NTksLTIwNTg4ODUxMT
-csMTkxNzIwMzMyNCwtODU1MjcxMzQ5XX0=
+eyJoaXN0b3J5IjpbMzI4OTUwNTAyLC0xMjMwODIyNzI4LDc2MD
+k0Mjk4MiwtNjM4Mjc4MTI1LC0xNTI3MzU0Njg0LC0xMjM0MDgx
+NTg5LDE5ODk4OTM1OTcsMTEwNDMxMTQ5NCwyMTIyNzc5ODU5LC
+0yMDU4ODg1MTE3LDE5MTcyMDMzMjQsLTg1NTI3MTM0OV19
 -->
