@@ -83,20 +83,25 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Pr
 ## virtualenv
 
 ```bash
-# virutal환경 만들기
+# virutalenv 만들기
 cd ~
 python -m venv venv
 
-
+# virtualenv 진입
 # git bash
 source venv/Scripts/activate
 # command
 venv\Scripts\activate.bat
 
+# virtualenv 나가기
 deactivate
-
 ```
 
+## visual studio 설치
+
+https://visualstudio.microsoft.com/ko/downloads/  
+커뮤니티 에디션 설치
+설
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NjQ1MjMwNl19
+eyJoaXN0b3J5IjpbLTkzOTEwNTI5NV19
 -->
