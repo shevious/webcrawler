@@ -22,6 +22,7 @@ ok->ok
 
 https://www.python.org/downloads/windows/  
 [Windows x86-64 executable installer](https://www.python.org/ftp/python/3.8.0/python-3.8.0-amd64.exe)  
+
 설치 시:  
 Install now  
  - [x] Add Python 3.8 to Path
@@ -172,9 +173,10 @@ selectors:
 https://exposingtheinvisible.org/guides/scraping/  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUxMTQ0OTkxMSwxNDk1NDkzOTg1LC0xOT
-I0NDQxMDIsMTI4MzY1NDY5NywtMTIzMDgyMjcyOCw3NjA5NDI5
-ODIsLTYzODI3ODEyNSwtMTUyNzM1NDY4NCwtMTIzNDA4MTU4OS
-wxOTg5ODkzNTk3LDExMDQzMTE0OTQsMjEyMjc3OTg1OSwtMjA1
-ODg4NTExNywxOTE3MjAzMzI0LC04NTUyNzEzNDldfQ==
+eyJoaXN0b3J5IjpbLTE5MTUxNDk5MTUsMTUxMTQ0OTkxMSwxND
+k1NDkzOTg1LC0xOTI0NDQxMDIsMTI4MzY1NDY5NywtMTIzMDgy
+MjcyOCw3NjA5NDI5ODIsLTYzODI3ODEyNSwtMTUyNzM1NDY4NC
+wtMTIzNDA4MTU4OSwxOTg5ODkzNTk3LDExMDQzMTE0OTQsMjEy
+Mjc3OTg1OSwtMjA1ODg4NTExNywxOTE3MjAzMzI0LC04NTUyNz
+EzNDldfQ==
 -->
