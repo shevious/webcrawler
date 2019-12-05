@@ -162,10 +162,13 @@ https://stackoverflow.com/questions/42989774/scrapy-spider-cant-find-urls-that-l
 
 response.x를 사용해 보자
 
-## 
+## xpath tutorial
+
+https://docs.scrapy.org/en/xpath-tutorial/topics/xpath-tutorial.html  
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NjkwMjU4NSwxMjgzNjU0Njk3LC0xMj
+eyJoaXN0b3J5IjpbLTE5MjQ0NDEwMiwxMjgzNjU0Njk3LC0xMj
 MwODIyNzI4LDc2MDk0Mjk4MiwtNjM4Mjc4MTI1LC0xNTI3MzU0
 Njg0LC0xMjM0MDgxNTg5LDE5ODk4OTM1OTcsMTEwNDMxMTQ5NC
 wyMTIyNzc5ODU5LC0yMDU4ODg1MTE3LDE5MTcyMDMzMjQsLTg1
