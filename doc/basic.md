@@ -147,6 +147,8 @@ scrapy startproject tutorial
 
 http://www.uill.or.kr/UR/info/lecture/list.do?rbsIdx=34&page=1  
 
+경북
+http://www.gile.or.kr/web/lecture/list.do?mId=72&page=1
 
 # portia
 
@@ -170,9 +172,9 @@ selectors:
 https://exposingtheinvisible.org/guides/scraping/  
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5NTQ5Mzk4NSwtMTkyNDQ0MTAyLDEyOD
-M2NTQ2OTcsLTEyMzA4MjI3MjgsNzYwOTQyOTgyLC02MzgyNzgx
-MjUsLTE1MjczNTQ2ODQsLTEyMzQwODE1ODksMTk4OTg5MzU5Ny
-wxMTA0MzExNDk0LDIxMjI3Nzk4NTksLTIwNTg4ODUxMTcsMTkx
-NzIwMzMyNCwtODU1MjcxMzQ5XX0=
+eyJoaXN0b3J5IjpbMTUxMTQ0OTkxMSwxNDk1NDkzOTg1LC0xOT
+I0NDQxMDIsMTI4MzY1NDY5NywtMTIzMDgyMjcyOCw3NjA5NDI5
+ODIsLTYzODI3ODEyNSwtMTUyNzM1NDY4NCwtMTIzNDA4MTU4OS
+wxOTg5ODkzNTk3LDExMDQzMTE0OTQsMjEyMjc3OTg1OSwtMjA1
+ODg4NTExNywxOTE3MjAzMzI0LC04NTUyNzEzNDldfQ==
 -->
