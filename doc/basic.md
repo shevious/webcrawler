@@ -166,11 +166,12 @@ response.x를 사용해 보자
 
 https://docs.scrapy.org/en/xpath-tutorial/topics/xpath-tutorial.html  
 
+https://exposingtheinvisible.org/guides/scraping/
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjQ0NDEwMiwxMjgzNjU0Njk3LC0xMj
-MwODIyNzI4LDc2MDk0Mjk4MiwtNjM4Mjc4MTI1LC0xNTI3MzU0
-Njg0LC0xMjM0MDgxNTg5LDE5ODk4OTM1OTcsMTEwNDMxMTQ5NC
-wyMTIyNzc5ODU5LC0yMDU4ODg1MTE3LDE5MTcyMDMzMjQsLTg1
-NTI3MTM0OV19
+eyJoaXN0b3J5IjpbNzkxNTk1Nzk3LC0xOTI0NDQxMDIsMTI4Mz
+Y1NDY5NywtMTIzMDgyMjcyOCw3NjA5NDI5ODIsLTYzODI3ODEy
+NSwtMTUyNzM1NDY4NCwtMTIzNDA4MTU4OSwxOTg5ODkzNTk3LD
+ExMDQzMTE0OTQsMjEyMjc3OTg1OSwtMjA1ODg4NTExNywxOTE3
+MjAzMzI0LC04NTUyNzEzNDldfQ==
 -->
