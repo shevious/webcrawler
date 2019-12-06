@@ -172,11 +172,17 @@ https://docs.scrapy.org/en/xpath-tutorial/topics/xpath-tutorial.html
 selectors: 
 https://exposingtheinvisible.org/guides/scraping/  
 
+## 강원
+
+```bash
+scrapy shell "https://www.e-room.or.kr/gw/portal" -s DOWNLOADER_CLIENT_TLS_CIPHERS='DEFAULT:!DH'
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MTUxNDk5MTUsMTUxMTQ0OTkxMSwxND
-k1NDkzOTg1LC0xOTI0NDQxMDIsMTI4MzY1NDY5NywtMTIzMDgy
-MjcyOCw3NjA5NDI5ODIsLTYzODI3ODEyNSwtMTUyNzM1NDY4NC
-wtMTIzNDA4MTU4OSwxOTg5ODkzNTk3LDExMDQzMTE0OTQsMjEy
-Mjc3OTg1OSwtMjA1ODg4NTExNywxOTE3MjAzMzI0LC04NTUyNz
-EzNDldfQ==
+eyJoaXN0b3J5IjpbMTI1MjM5MDk5MiwtMTkxNTE0OTkxNSwxNT
+ExNDQ5OTExLDE0OTU0OTM5ODUsLTE5MjQ0NDEwMiwxMjgzNjU0
+Njk3LC0xMjMwODIyNzI4LDc2MDk0Mjk4MiwtNjM4Mjc4MTI1LC
+0xNTI3MzU0Njg0LC0xMjM0MDgxNTg5LDE5ODk4OTM1OTcsMTEw
+NDMxMTQ5NCwyMTIyNzc5ODU5LC0yMDU4ODg1MTE3LDE5MTcyMD
+MzMjQsLTg1NTI3MTM0OV19
 -->
