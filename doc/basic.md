@@ -174,14 +174,16 @@ https://exposingtheinvisible.org/guides/scraping/
 
 ## 강원
 
-dhe 문제:  
+dhe 문제:  
 https://github.com/scrapy/scrapy/pull/3442  
+
+명령줄 옵션 방식(1)
 ```bash
 scrapy shell "https://www.e-room.or.kr/gw/portal" -s DOWNLOADER_CLIENT_TLS_CIPHERS='DEFAULT:!DH'
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NjgzMjkzMDYsLTE5MTUxNDk5MTUsMT
+eyJoaXN0b3J5IjpbLTE4MjI5ODA3MDEsLTE5MTUxNDk5MTUsMT
 UxMTQ0OTkxMSwxNDk1NDkzOTg1LC0xOTI0NDQxMDIsMTI4MzY1
 NDY5NywtMTIzMDgyMjcyOCw3NjA5NDI5ODIsLTYzODI3ODEyNS
 wtMTUyNzM1NDY4NCwtMTIzNDA4MTU4OSwxOTg5ODkzNTk3LDEx
