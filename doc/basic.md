@@ -181,8 +181,8 @@ https://github.com/scrapy/scrapy/pull/3442
 
 1. 명령줄 옵션 방식(1)  
     ```bash
-scrapy shell "https://www.e-room.or.kr/gw/portal" -s DOWNLOADER_CLIENT_TLS_CIPHERS='DEFAULT:!DH'
-```
+    scrapy shell "https://www.e-room.or.kr/gw/portal" -s DOWNLOADER_CLIENT_TLS_CIPHERS='DEFAULT:!DH'
+    ```
 2. `settings.py`에 추가 방식
 
     ```py
@@ -191,10 +191,10 @@ scrapy shell "https://www.e-room.or.kr/gw/portal" -s DOWNLOADER_CLIENT_TLS_CIPHE
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4ODA2MzI5MiwtMTkxNTE0OTkxNSwxNT
-ExNDQ5OTExLDE0OTU0OTM5ODUsLTE5MjQ0NDEwMiwxMjgzNjU0
-Njk3LC0xMjMwODIyNzI4LDc2MDk0Mjk4MiwtNjM4Mjc4MTI1LC
-0xNTI3MzU0Njg0LC0xMjM0MDgxNTg5LDE5ODk4OTM1OTcsMTEw
-NDMxMTQ5NCwyMTIyNzc5ODU5LC0yMDU4ODg1MTE3LDE5MTcyMD
-MzMjQsLTg1NTI3MTM0OV19
+eyJoaXN0b3J5IjpbLTExNTM4MjMxNzIsLTE5MTUxNDk5MTUsMT
+UxMTQ0OTkxMSwxNDk1NDkzOTg1LC0xOTI0NDQxMDIsMTI4MzY1
+NDY5NywtMTIzMDgyMjcyOCw3NjA5NDI5ODIsLTYzODI3ODEyNS
+wtMTUyNzM1NDY4NCwtMTIzNDA4MTU4OSwxOTg5ODkzNTk3LDEx
+MDQzMTE0OTQsMjEyMjc3OTg1OSwtMjA1ODg4NTExNywxOTE3Mj
+AzMzI0LC04NTUyNzEzNDldfQ==
 -->
