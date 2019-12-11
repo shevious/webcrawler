@@ -214,6 +214,10 @@ select distinct tablespace_name from user_tables;
 ```
 
 ```bash
+
+wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-instantclient19.5-basic-19.5.0.0.0-1.x86_64.rpm
+wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-instantclient19.5-devel-19.5.0.0.0-1.x86_64.rpm
+
 pip install django
 pip install cx_oracle
 django-admin.py startproject myproj
@@ -316,11 +320,11 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MTE2OTYxMjMsLTEyOTQzOTUwMjIsMT
-Q1Mjg1MjYyNywxMDAyNTA4NTg0LDE3ODIxMTAzNDAsLTE4Mzkz
-NDgzMzAsMjcwMzM4NzI4LDExOTQyMjY0MDksMTU4NTcxNDUyLC
-0xODk5NTAzMTMxLC0xOTgxODExMjg2LC0xMzk5MDIxMzUzLDEx
-NDk0MDc3NTMsLTExNTM4MjMxNzIsLTE5MTUxNDk5MTUsMTUxMT
-Q0OTkxMSwxNDk1NDkzOTg1LC0xOTI0NDQxMDIsMTI4MzY1NDY5
-NywtMTIzMDgyMjcyOF19
+eyJoaXN0b3J5IjpbLTM4ODYwODYxNywtMTgxMTY5NjEyMywtMT
+I5NDM5NTAyMiwxNDUyODUyNjI3LDEwMDI1MDg1ODQsMTc4MjEx
+MDM0MCwtMTgzOTM0ODMzMCwyNzAzMzg3MjgsMTE5NDIyNjQwOS
+wxNTg1NzE0NTIsLTE4OTk1MDMxMzEsLTE5ODE4MTEyODYsLTEz
+OTkwMjEzNTMsMTE0OTQwNzc1MywtMTE1MzgyMzE3MiwtMTkxNT
+E0OTkxNSwxNTExNDQ5OTExLDE0OTU0OTM5ODUsLTE5MjQ0NDEw
+MiwxMjgzNjU0Njk3XX0=
 -->
