@@ -215,6 +215,7 @@ select distinct tablespace_name from user_tables;
 
 ```bash
 pip install django
+pip install cx_oracle
 django-admin.py startproject myproj
 cd myproj
 ./manage.py startapp myapp
@@ -252,11 +253,11 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc4MjExMDM0MCwtMTgzOTM0ODMzMCwyNz
-AzMzg3MjgsMTE5NDIyNjQwOSwxNTg1NzE0NTIsLTE4OTk1MDMx
-MzEsLTE5ODE4MTEyODYsLTEzOTkwMjEzNTMsMTE0OTQwNzc1My
-wtMTE1MzgyMzE3MiwtMTkxNTE0OTkxNSwxNTExNDQ5OTExLDE0
-OTU0OTM5ODUsLTE5MjQ0NDEwMiwxMjgzNjU0Njk3LC0xMjMwOD
-IyNzI4LDc2MDk0Mjk4MiwtNjM4Mjc4MTI1LC0xNTI3MzU0Njg0
-LC0xMjM0MDgxNTg5XX0=
+eyJoaXN0b3J5IjpbMTAwMjUwODU4NCwxNzgyMTEwMzQwLC0xOD
+M5MzQ4MzMwLDI3MDMzODcyOCwxMTk0MjI2NDA5LDE1ODU3MTQ1
+MiwtMTg5OTUwMzEzMSwtMTk4MTgxMTI4NiwtMTM5OTAyMTM1My
+wxMTQ5NDA3NzUzLC0xMTUzODIzMTcyLC0xOTE1MTQ5OTE1LDE1
+MTE0NDk5MTEsMTQ5NTQ5Mzk4NSwtMTkyNDQ0MTAyLDEyODM2NT
+Q2OTcsLTEyMzA4MjI3MjgsNzYwOTQyOTgyLC02MzgyNzgxMjUs
+LTE1MjczNTQ2ODRdfQ==
 -->
