@@ -230,7 +230,19 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'myproj.myapp', # add this line
 ]
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.oracle',
+        'NAME': 'xe',
+        'USER': 'system',
+        'PASSWORD': 'oracle',
+        'HOST': 'localhost',
+        'PORT': '1521',
+    }
+}
 ```
+
 
 
 ## openssl 
@@ -240,11 +252,11 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzkzNDgzMzAsMjcwMzM4NzI4LDExOT
-QyMjY0MDksMTU4NTcxNDUyLC0xODk5NTAzMTMxLC0xOTgxODEx
-Mjg2LC0xMzk5MDIxMzUzLDExNDk0MDc3NTMsLTExNTM4MjMxNz
-IsLTE5MTUxNDk5MTUsMTUxMTQ0OTkxMSwxNDk1NDkzOTg1LC0x
-OTI0NDQxMDIsMTI4MzY1NDY5NywtMTIzMDgyMjcyOCw3NjA5ND
-I5ODIsLTYzODI3ODEyNSwtMTUyNzM1NDY4NCwtMTIzNDA4MTU4
-OSwxOTg5ODkzNTk3XX0=
+eyJoaXN0b3J5IjpbMTc4MjExMDM0MCwtMTgzOTM0ODMzMCwyNz
+AzMzg3MjgsMTE5NDIyNjQwOSwxNTg1NzE0NTIsLTE4OTk1MDMx
+MzEsLTE5ODE4MTEyODYsLTEzOTkwMjEzNTMsMTE0OTQwNzc1My
+wtMTE1MzgyMzE3MiwtMTkxNTE0OTkxNSwxNTExNDQ5OTExLDE0
+OTU0OTM5ODUsLTE5MjQ0NDEwMiwxMjgzNjU0Njk3LC0xMjMwOD
+IyNzI4LDc2MDk0Mjk4MiwtNjM4Mjc4MTI1LC0xNTI3MzU0Njg0
+LC0xMjM0MDgxNTg5XX0=
 -->
