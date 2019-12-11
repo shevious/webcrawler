@@ -267,6 +267,18 @@ class departments(models.Model):
 ```
 `myapp/views.py`
 ```py
+# Create your views here.
+
+from django.template import Context, loader
+from django.http import HttpResponse
+from myproj.myapp.models import employees, departments
+
+
+def index(request):
+    department_list = departments.objects.exclude(manager__employee_id__exact = None).order_by('manager__employee_id')
+    tmpl = loader.get_template("index.html")
+    cont = Context({'departments': department_list})
+    return HttpResponse(tmpl.render(cont))
 ```
 
 
@@ -278,11 +290,11 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTk1MzIxMDUzLDE0NTI4NTI2MjcsMTAwMj
-UwODU4NCwxNzgyMTEwMzQwLC0xODM5MzQ4MzMwLDI3MDMzODcy
-OCwxMTk0MjI2NDA5LDE1ODU3MTQ1MiwtMTg5OTUwMzEzMSwtMT
-k4MTgxMTI4NiwtMTM5OTAyMTM1MywxMTQ5NDA3NzUzLC0xMTUz
-ODIzMTcyLC0xOTE1MTQ5OTE1LDE1MTE0NDk5MTEsMTQ5NTQ5Mz
-k4NSwtMTkyNDQ0MTAyLDEyODM2NTQ2OTcsLTEyMzA4MjI3Mjgs
-NzYwOTQyOTgyXX0=
+eyJoaXN0b3J5IjpbNTU0NzI4ODAsMTQ1Mjg1MjYyNywxMDAyNT
+A4NTg0LDE3ODIxMTAzNDAsLTE4MzkzNDgzMzAsMjcwMzM4NzI4
+LDExOTQyMjY0MDksMTU4NTcxNDUyLC0xODk5NTAzMTMxLC0xOT
+gxODExMjg2LC0xMzk5MDIxMzUzLDExNDk0MDc3NTMsLTExNTM4
+MjMxNzIsLTE5MTUxNDk5MTUsMTUxMTQ0OTkxMSwxNDk1NDkzOT
+g1LC0xOTI0NDQxMDIsMTI4MzY1NDY5NywtMTIzMDgyMjcyOCw3
+NjA5NDI5ODJdfQ==
 -->
