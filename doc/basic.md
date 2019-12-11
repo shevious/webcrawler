@@ -218,7 +218,8 @@ select distinct tablespace_name from user_tables;
 wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-instantclient19.5-basic-19.5.0.0.0-1.x86_64.rpm
 wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-instantclient19.5-devel-19.5.0.0.0-1.x86_64.rpm
 sudo apt install alien -y
-sudo alien -i oracle-instantclient19.5-basic-19.5.0.0.0-1.x86_64.rpm
+sudo alien --scripts oracle-instantclient19.5-basic-19.5.0.0.0-1.x86_64.rpm
+sudo dpkg -i oracle-instantclient19.5-basic_19.5.0.0.0-2_amd64.deb
 pip install django
 pip install cx_oracle
 django-admin.py startproject myproj
@@ -321,11 +322,11 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1NzAyNjUwMCwtMzg4NjA4NjE3LC0xOD
-ExNjk2MTIzLC0xMjk0Mzk1MDIyLDE0NTI4NTI2MjcsMTAwMjUw
-ODU4NCwxNzgyMTEwMzQwLC0xODM5MzQ4MzMwLDI3MDMzODcyOC
-wxMTk0MjI2NDA5LDE1ODU3MTQ1MiwtMTg5OTUwMzEzMSwtMTk4
-MTgxMTI4NiwtMTM5OTAyMTM1MywxMTQ5NDA3NzUzLC0xMTUzOD
-IzMTcyLC0xOTE1MTQ5OTE1LDE1MTE0NDk5MTEsMTQ5NTQ5Mzk4
-NSwtMTkyNDQ0MTAyXX0=
+eyJoaXN0b3J5IjpbMTc1Mjg1ODQ3LDE3NTcwMjY1MDAsLTM4OD
+YwODYxNywtMTgxMTY5NjEyMywtMTI5NDM5NTAyMiwxNDUyODUy
+NjI3LDEwMDI1MDg1ODQsMTc4MjExMDM0MCwtMTgzOTM0ODMzMC
+wyNzAzMzg3MjgsMTE5NDIyNjQwOSwxNTg1NzE0NTIsLTE4OTk1
+MDMxMzEsLTE5ODE4MTEyODYsLTEzOTkwMjEzNTMsMTE0OTQwNz
+c1MywtMTE1MzgyMzE3MiwtMTkxNTE0OTkxNSwxNTExNDQ5OTEx
+LDE0OTU0OTM5ODVdfQ==
 -->
