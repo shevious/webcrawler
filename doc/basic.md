@@ -309,9 +309,23 @@ def index(request):
 ```
 `myproj/urls.py`
 ```py
-    path('myapp/', myproj.myapp.urls),
+from django.urls import path, include
+    path('myapp/', include('myapp.urls')),
+```
+`myapp/urls.py`
+```py
+from django.contrib import admin
+from django.urls import path
+from myapp.views import index, newdept
+
+urlpatterns = [
+    path('', index),
+    path(r'^(?P<emp_id>\d+)/(?P<dept_name>\w+)/(?P<dept_id>\d+)/$' , newdept),
+]
 ```
 
+
+https://stackoverflow.com/questions/49229664/configure-the-django-with-oracle-11g-data-base-issue  
 
 
 
@@ -322,11 +336,11 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1Mjg1ODQ3LDE3NTcwMjY1MDAsLTM4OD
-YwODYxNywtMTgxMTY5NjEyMywtMTI5NDM5NTAyMiwxNDUyODUy
-NjI3LDEwMDI1MDg1ODQsMTc4MjExMDM0MCwtMTgzOTM0ODMzMC
-wyNzAzMzg3MjgsMTE5NDIyNjQwOSwxNTg1NzE0NTIsLTE4OTk1
-MDMxMzEsLTE5ODE4MTEyODYsLTEzOTkwMjEzNTMsMTE0OTQwNz
-c1MywtMTE1MzgyMzE3MiwtMTkxNTE0OTkxNSwxNTExNDQ5OTEx
-LDE0OTU0OTM5ODVdfQ==
+eyJoaXN0b3J5IjpbMjg5NDY1NjAwLDE3NTI4NTg0NywxNzU3MD
+I2NTAwLC0zODg2MDg2MTcsLTE4MTE2OTYxMjMsLTEyOTQzOTUw
+MjIsMTQ1Mjg1MjYyNywxMDAyNTA4NTg0LDE3ODIxMTAzNDAsLT
+E4MzkzNDgzMzAsMjcwMzM4NzI4LDExOTQyMjY0MDksMTU4NTcx
+NDUyLC0xODk5NTAzMTMxLC0xOTgxODExMjg2LC0xMzk5MDIxMz
+UzLDExNDk0MDc3NTMsLTExNTM4MjMxNzIsLTE5MTUxNDk5MTUs
+MTUxMTQ0OTkxMV19
 -->
