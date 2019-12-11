@@ -216,7 +216,9 @@ select distinct tablespace_name from user_tables;
 ```bash
 pip install django
 django-admin.py startproject myproj
-
+cd myproj
+./manage.py startapp myapp
+vi 
 ```
 
 
@@ -227,7 +229,7 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA1MjA3MzE0MSwyNzAzMzg3MjgsMTE5ND
+eyJoaXN0b3J5IjpbLTEzMTA0NjM3NywyNzAzMzg3MjgsMTE5ND
 IyNjQwOSwxNTg1NzE0NTIsLTE4OTk1MDMxMzEsLTE5ODE4MTEy
 ODYsLTEzOTkwMjEzNTMsMTE0OTQwNzc1MywtMTE1MzgyMzE3Mi
 wtMTkxNTE0OTkxNSwxNTExNDQ5OTExLDE0OTU0OTM5ODUsLTE5
