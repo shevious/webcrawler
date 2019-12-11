@@ -226,6 +226,8 @@ django-admin.py startproject myproj
 cd myproj
 ./manage.py startapp myapp
 ```
+https://developer.oracle.com/dsl/vasiliev-django.html  
+
 `myproj/settings.py`
 ```py
 INSTALLED_APPS = [
@@ -343,11 +345,11 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjU0MDI2NTU3LDE3NTI4NTg0NywxNzU3MD
-I2NTAwLC0zODg2MDg2MTcsLTE4MTE2OTYxMjMsLTEyOTQzOTUw
-MjIsMTQ1Mjg1MjYyNywxMDAyNTA4NTg0LDE3ODIxMTAzNDAsLT
-E4MzkzNDgzMzAsMjcwMzM4NzI4LDExOTQyMjY0MDksMTU4NTcx
-NDUyLC0xODk5NTAzMTMxLC0xOTgxODExMjg2LC0xMzk5MDIxMz
-UzLDExNDk0MDc3NTMsLTExNTM4MjMxNzIsLTE5MTUxNDk5MTUs
-MTUxMTQ0OTkxMV19
+eyJoaXN0b3J5IjpbMTYyNTc3OTUyOCwxNzUyODU4NDcsMTc1Nz
+AyNjUwMCwtMzg4NjA4NjE3LC0xODExNjk2MTIzLC0xMjk0Mzk1
+MDIyLDE0NTI4NTI2MjcsMTAwMjUwODU4NCwxNzgyMTEwMzQwLC
+0xODM5MzQ4MzMwLDI3MDMzODcyOCwxMTk0MjI2NDA5LDE1ODU3
+MTQ1MiwtMTg5OTUwMzEzMSwtMTk4MTgxMTI4NiwtMTM5OTAyMT
+M1MywxMTQ5NDA3NzUzLC0xMTUzODIzMTcyLC0xOTE1MTQ5OTE1
+LDE1MTE0NDk5MTFdfQ==
 -->
