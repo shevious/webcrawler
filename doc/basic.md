@@ -192,7 +192,10 @@ https://github.com/scrapy/scrapy/pull/3442
 ## Oracle 11g 
 
 ```bash
-docker run -d -p 8080:8080 -p 1521:1521 jaspeen/oracle-xe-11g
+docker run -d -p 8080:8080 -p 1521:1521 jaspeen/oracle-xe-11g -name oracle
+```
+docker exec -it oracle11g sqlplus
+```
 ```
 create database:  
 ```sql
@@ -206,11 +209,11 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ2NjI3NTU2MCwtMTM5OTAyMTM1MywxMT
-Q5NDA3NzUzLC0xMTUzODIzMTcyLC0xOTE1MTQ5OTE1LDE1MTE0
-NDk5MTEsMTQ5NTQ5Mzk4NSwtMTkyNDQ0MTAyLDEyODM2NTQ2OT
-csLTEyMzA4MjI3MjgsNzYwOTQyOTgyLC02MzgyNzgxMjUsLTE1
-MjczNTQ2ODQsLTEyMzQwODE1ODksMTk4OTg5MzU5NywxMTA0Mz
-ExNDk0LDIxMjI3Nzk4NTksLTIwNTg4ODUxMTcsMTkxNzIwMzMy
-NCwtODU1MjcxMzQ5XX0=
+eyJoaXN0b3J5IjpbLTIwODIxNjk3ODYsLTEzOTkwMjEzNTMsMT
+E0OTQwNzc1MywtMTE1MzgyMzE3MiwtMTkxNTE0OTkxNSwxNTEx
+NDQ5OTExLDE0OTU0OTM5ODUsLTE5MjQ0NDEwMiwxMjgzNjU0Nj
+k3LC0xMjMwODIyNzI4LDc2MDk0Mjk4MiwtNjM4Mjc4MTI1LC0x
+NTI3MzU0Njg0LC0xMjM0MDgxNTg5LDE5ODk4OTM1OTcsMTEwND
+MxMTQ5NCwyMTIyNzc5ODU5LC0yMDU4ODg1MTE3LDE5MTcyMDMz
+MjQsLTg1NTI3MTM0OV19
 -->
