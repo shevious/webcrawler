@@ -223,7 +223,7 @@ cd myproj
 `myproj/settings.py`
 ```py
 INSTALLED_APPS = [
-    'myproj.myapp', # add this line
+    'myapp.app.MyappConfig', # add this line
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -254,11 +254,11 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDA1NTQ2NTIsMTAwMjUwODU4NCwxNz
-gyMTEwMzQwLC0xODM5MzQ4MzMwLDI3MDMzODcyOCwxMTk0MjI2
-NDA5LDE1ODU3MTQ1MiwtMTg5OTUwMzEzMSwtMTk4MTgxMTI4Ni
-wtMTM5OTAyMTM1MywxMTQ5NDA3NzUzLC0xMTUzODIzMTcyLC0x
-OTE1MTQ5OTE1LDE1MTE0NDk5MTEsMTQ5NTQ5Mzk4NSwtMTkyND
-Q0MTAyLDEyODM2NTQ2OTcsLTEyMzA4MjI3MjgsNzYwOTQyOTgy
-LC02MzgyNzgxMjVdfQ==
+eyJoaXN0b3J5IjpbMTQ1Mjg1MjYyNywxMDAyNTA4NTg0LDE3OD
+IxMTAzNDAsLTE4MzkzNDgzMzAsMjcwMzM4NzI4LDExOTQyMjY0
+MDksMTU4NTcxNDUyLC0xODk5NTAzMTMxLC0xOTgxODExMjg2LC
+0xMzk5MDIxMzUzLDExNDk0MDc3NTMsLTExNTM4MjMxNzIsLTE5
+MTUxNDk5MTUsMTUxMTQ0OTkxMSwxNDk1NDkzOTg1LC0xOTI0ND
+QxMDIsMTI4MzY1NDY5NywtMTIzMDgyMjcyOCw3NjA5NDI5ODIs
+LTYzODI3ODEyNV19
 -->
