@@ -301,7 +301,11 @@ def index(request):
 {% endfor %}
 </table>
 ```
-`myrp
+`myproj/urls.py`
+```py
+    path('myapp/', myproj.myapp.urls),
+```
+
 
 
 
@@ -312,11 +316,11 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MDQ4MTIxNiwxNDUyODUyNjI3LDEwMD
-I1MDg1ODQsMTc4MjExMDM0MCwtMTgzOTM0ODMzMCwyNzAzMzg3
-MjgsMTE5NDIyNjQwOSwxNTg1NzE0NTIsLTE4OTk1MDMxMzEsLT
-E5ODE4MTEyODYsLTEzOTkwMjEzNTMsMTE0OTQwNzc1MywtMTE1
-MzgyMzE3MiwtMTkxNTE0OTkxNSwxNTExNDQ5OTExLDE0OTU0OT
-M5ODUsLTE5MjQ0NDEwMiwxMjgzNjU0Njk3LC0xMjMwODIyNzI4
-LDc2MDk0Mjk4Ml19
+eyJoaXN0b3J5IjpbLTEyOTQzOTUwMjIsMTQ1Mjg1MjYyNywxMD
+AyNTA4NTg0LDE3ODIxMTAzNDAsLTE4MzkzNDgzMzAsMjcwMzM4
+NzI4LDExOTQyMjY0MDksMTU4NTcxNDUyLC0xODk5NTAzMTMxLC
+0xOTgxODExMjg2LC0xMzk5MDIxMzUzLDExNDk0MDc3NTMsLTEx
+NTM4MjMxNzIsLTE5MTUxNDk5MTUsMTUxMTQ0OTkxMSwxNDk1ND
+kzOTg1LC0xOTI0NDQxMDIsMTI4MzY1NDY5NywtMTIzMDgyMjcy
+OCw3NjA5NDI5ODJdfQ==
 -->
