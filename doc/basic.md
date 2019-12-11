@@ -197,11 +197,10 @@ docker run --name oracle11g -d -p 8080:8080 -p 1521:1521 jaspeen/oracle-xe-11g
 docker exec -it oracle11g sqlplus
 system / oracle
 
-http://localhost:8080/apex
+http://192.168.33.10:8080/apex/
 workspace: INTERNAL
 user: ADMIN
 password: oracle
-```
 ```
 
 ```
@@ -217,11 +216,11 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MzU1MjY5NywtMTk4MTgxMTI4NiwtMT
-M5OTAyMTM1MywxMTQ5NDA3NzUzLC0xMTUzODIzMTcyLC0xOTE1
-MTQ5OTE1LDE1MTE0NDk5MTEsMTQ5NTQ5Mzk4NSwtMTkyNDQ0MT
-AyLDEyODM2NTQ2OTcsLTEyMzA4MjI3MjgsNzYwOTQyOTgyLC02
-MzgyNzgxMjUsLTE1MjczNTQ2ODQsLTEyMzQwODE1ODksMTk4OT
-g5MzU5NywxMTA0MzExNDk0LDIxMjI3Nzk4NTksLTIwNTg4ODUx
-MTcsMTkxNzIwMzMyNF19
+eyJoaXN0b3J5IjpbLTE4OTk1MDMxMzEsLTE5ODE4MTEyODYsLT
+EzOTkwMjEzNTMsMTE0OTQwNzc1MywtMTE1MzgyMzE3MiwtMTkx
+NTE0OTkxNSwxNTExNDQ5OTExLDE0OTU0OTM5ODUsLTE5MjQ0ND
+EwMiwxMjgzNjU0Njk3LC0xMjMwODIyNzI4LDc2MDk0Mjk4Miwt
+NjM4Mjc4MTI1LC0xNTI3MzU0Njg0LC0xMjM0MDgxNTg5LDE5OD
+k4OTM1OTcsMTEwNDMxMTQ5NCwyMTIyNzc5ODU5LC0yMDU4ODg1
+MTE3LDE5MTcyMDMzMjRdfQ==
 -->
