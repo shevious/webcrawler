@@ -244,6 +244,30 @@ DATABASES = {
     }
 }
 ```
+`myapp/models.py`
+```py
+from django.db import models
+  
+# Create your models here.
+
+class employees(models.Model):
+    employee_id = models.IntegerField(primary_key=True)
+    first_name = models.CharField(max_length=20, null = True)
+    last_name = models.CharField(max_length=25)
+    email = models.CharField(max_length=25)
+    class Meta:
+         db_table = "employees"
+
+class departments(models.Model):
+    department_id = models.IntegerField(primary_key=True)
+    department_name = models.CharField(max_length=30)
+    manager = models.ForeignKey(employees, null = True, on_delete=models.CASCADE)
+    class Meta:
+         db_table = "departments"
+```
+`myapp/views.py`
+```py
+```
 
 
 
@@ -254,11 +278,11 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1Mjg1MjYyNywxMDAyNTA4NTg0LDE3OD
-IxMTAzNDAsLTE4MzkzNDgzMzAsMjcwMzM4NzI4LDExOTQyMjY0
-MDksMTU4NTcxNDUyLC0xODk5NTAzMTMxLC0xOTgxODExMjg2LC
-0xMzk5MDIxMzUzLDExNDk0MDc3NTMsLTExNTM4MjMxNzIsLTE5
-MTUxNDk5MTUsMTUxMTQ0OTkxMSwxNDk1NDkzOTg1LC0xOTI0ND
-QxMDIsMTI4MzY1NDY5NywtMTIzMDgyMjcyOCw3NjA5NDI5ODIs
-LTYzODI3ODEyNV19
+eyJoaXN0b3J5IjpbNTk1MzIxMDUzLDE0NTI4NTI2MjcsMTAwMj
+UwODU4NCwxNzgyMTEwMzQwLC0xODM5MzQ4MzMwLDI3MDMzODcy
+OCwxMTk0MjI2NDA5LDE1ODU3MTQ1MiwtMTg5OTUwMzEzMSwtMT
+k4MTgxMTI4NiwtMTM5OTAyMTM1MywxMTQ5NDA3NzUzLC0xMTUz
+ODIzMTcyLC0xOTE1MTQ5OTE1LDE1MTE0NDk5MTEsMTQ5NTQ5Mz
+k4NSwtMTkyNDQ0MTAyLDEyODM2NTQ2OTcsLTEyMzA4MjI3Mjgs
+NzYwOTQyOTgyXX0=
 -->
