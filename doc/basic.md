@@ -218,7 +218,18 @@ pip install django
 django-admin.py startproject myproj
 cd myproj
 ./manage.py startapp myapp
-vi 
+```
+`myproj/settings.py`
+```py
+INSTALLED_APPS = [
+    'django.contrib.admin',
+    'django.contrib.auth',
+    'django.contrib.contenttypes',
+    'django.contrib.sessions',
+    'django.contrib.messages',
+    'django.contrib.staticfiles',
+    'myproj.myapp', # add this line
+]
 ```
 
 
@@ -229,11 +240,11 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTA0NjM3NywyNzAzMzg3MjgsMTE5ND
-IyNjQwOSwxNTg1NzE0NTIsLTE4OTk1MDMxMzEsLTE5ODE4MTEy
-ODYsLTEzOTkwMjEzNTMsMTE0OTQwNzc1MywtMTE1MzgyMzE3Mi
-wtMTkxNTE0OTkxNSwxNTExNDQ5OTExLDE0OTU0OTM5ODUsLTE5
-MjQ0NDEwMiwxMjgzNjU0Njk3LC0xMjMwODIyNzI4LDc2MDk0Mj
-k4MiwtNjM4Mjc4MTI1LC0xNTI3MzU0Njg0LC0xMjM0MDgxNTg5
-LDE5ODk4OTM1OTddfQ==
+eyJoaXN0b3J5IjpbLTE4MzkzNDgzMzAsMjcwMzM4NzI4LDExOT
+QyMjY0MDksMTU4NTcxNDUyLC0xODk5NTAzMTMxLC0xOTgxODEx
+Mjg2LC0xMzk5MDIxMzUzLDExNDk0MDc3NTMsLTExNTM4MjMxNz
+IsLTE5MTUxNDk5MTUsMTUxMTQ0OTkxMSwxNDk1NDkzOTg1LC0x
+OTI0NDQxMDIsMTI4MzY1NDY5NywtMTIzMDgyMjcyOCw3NjA5ND
+I5ODIsLTYzODI3ODEyNSwtMTUyNzM1NDY4NCwtMTIzNDA4MTU4
+OSwxOTg5ODkzNTk3XX0=
 -->
