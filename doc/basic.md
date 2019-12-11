@@ -280,6 +280,27 @@ def index(request):
     cont = Context({'departments': department_list})
     return HttpResponse(tmpl.render(cont))
 ```
+`myapp/templates/index.html`
+```html
+<h1>Managers of departments</h1>
+<table border = 1px cellpadding="3" style="font-family:Arial">
+<tr>
+<th>empid</th>
+<th>first name</th>
+<th>first name</th>
+<th>email</th>
+<th>department name</th>
+</tr>
+{% for department in departments %}
+<tr>
+<td>{{department.manager.employee_id}}</td>
+<td>{{department.manager.first_name}}</td>
+<td>{{department.manager.last_name}}</td>
+<td>{{department.manager.email}}</td>
+<td>{{department.department_name}}</td>
+{% endfor %}
+</table>
+```
 
 
 
@@ -290,11 +311,11 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTU0NzI4ODAsMTQ1Mjg1MjYyNywxMDAyNT
-A4NTg0LDE3ODIxMTAzNDAsLTE4MzkzNDgzMzAsMjcwMzM4NzI4
-LDExOTQyMjY0MDksMTU4NTcxNDUyLC0xODk5NTAzMTMxLC0xOT
-gxODExMjg2LC0xMzk5MDIxMzUzLDExNDk0MDc3NTMsLTExNTM4
-MjMxNzIsLTE5MTUxNDk5MTUsMTUxMTQ0OTkxMSwxNDk1NDkzOT
-g1LC0xOTI0NDQxMDIsMTI4MzY1NDY5NywtMTIzMDgyMjcyOCw3
-NjA5NDI5ODJdfQ==
+eyJoaXN0b3J5IjpbMjEyNTQyODgzMCwxNDUyODUyNjI3LDEwMD
+I1MDg1ODQsMTc4MjExMDM0MCwtMTgzOTM0ODMzMCwyNzAzMzg3
+MjgsMTE5NDIyNjQwOSwxNTg1NzE0NTIsLTE4OTk1MDMxMzEsLT
+E5ODE4MTEyODYsLTEzOTkwMjEzNTMsMTE0OTQwNzc1MywtMTE1
+MzgyMzE3MiwtMTkxNTE0OTkxNSwxNTExNDQ5OTExLDE0OTU0OT
+M5ODUsLTE5MjQ0NDEwMiwxMjgzNjU0Njk3LC0xMjMwODIyNzI4
+LDc2MDk0Mjk4Ml19
 -->
