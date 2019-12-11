@@ -253,8 +253,6 @@ DATABASES = {
 `myapp/models.py`
 ```py
 from django.db import models
-  
-# Create your models here.
 
 class employees(models.Model):
     employee_id = models.IntegerField(primary_key=True)
@@ -273,18 +271,27 @@ class departments(models.Model):
 ```
 `myapp/views.py`
 ```py
-# Create your views here.
-
 from django.template import Context, loader
 from django.http import HttpResponse
-from myproj.myapp.models import employees, departments
-
+from myapp.models import employees, departments
 
 def index(request):
     department_list = departments.objects.exclude(manager__employee_id__exact = None).order_by('manager__employee_id')
     tmpl = loader.get_template("index.html")
     cont = Context({'departments': department_list})
     return HttpResponse(tmpl.render(cont))
+
+from django.shortcuts import get_object_or_404
+from django.db import transaction
+
+@transaction.atomic
+def newdept(request, emp_id, dept_name, dept_id):
+    new_dept = departments(department_id = dept_id, department_name = dept_name, manager = None)
+    new_dept.save()
+    emp = get_object_or_404(employees, employee_id__exact = emp_id)
+    new_dept.manager = emp
+    new_dept.save()
+    return HttpResponse("The %s department record has been inserted." %dept_name )
 ```
 `myapp/templates/index.html`
 ```html
@@ -336,7 +343,7 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg5NDY1NjAwLDE3NTI4NTg0NywxNzU3MD
+eyJoaXN0b3J5IjpbNjU0MDI2NTU3LDE3NTI4NTg0NywxNzU3MD
 I2NTAwLC0zODg2MDg2MTcsLTE4MTE2OTYxMjMsLTEyOTQzOTUw
 MjIsMTQ1Mjg1MjYyNywxMDAyNTA4NTg0LDE3ODIxMTAzNDAsLT
 E4MzkzNDgzMzAsMjcwMzM4NzI4LDExOTQyMjY0MDksMTU4NTcx
