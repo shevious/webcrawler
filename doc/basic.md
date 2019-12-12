@@ -225,7 +225,7 @@ sudo dpkg -i oracle-instantclient19.5-basic_19.5.0.0.0-2_amd64.deb
 brew install libaio
 ```
 
-## python
+## django 1.11
 
 https://code.djangoproject.com/ticket/29759
 
@@ -360,11 +360,11 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjAwMTIzNjUsMTIzNDc4NzYzLC0xNj
-I0NjgxNDkwLDE2MjU3Nzk1MjgsMTc1Mjg1ODQ3LDE3NTcwMjY1
-MDAsLTM4ODYwODYxNywtMTgxMTY5NjEyMywtMTI5NDM5NTAyMi
-wxNDUyODUyNjI3LDEwMDI1MDg1ODQsMTc4MjExMDM0MCwtMTgz
-OTM0ODMzMCwyNzAzMzg3MjgsMTE5NDIyNjQwOSwxNTg1NzE0NT
-IsLTE4OTk1MDMxMzEsLTE5ODE4MTEyODYsLTEzOTkwMjEzNTMs
-MTE0OTQwNzc1M119
+eyJoaXN0b3J5IjpbMzIxOTk1NDYzLDEyMzQ3ODc2MywtMTYyND
+Y4MTQ5MCwxNjI1Nzc5NTI4LDE3NTI4NTg0NywxNzU3MDI2NTAw
+LC0zODg2MDg2MTcsLTE4MTE2OTYxMjMsLTEyOTQzOTUwMjIsMT
+Q1Mjg1MjYyNywxMDAyNTA4NTg0LDE3ODIxMTAzNDAsLTE4Mzkz
+NDgzMzAsMjcwMzM4NzI4LDExOTQyMjY0MDksMTU4NTcxNDUyLC
+0xODk5NTAzMTMxLC0xOTgxODExMjg2LC0xMzk5MDIxMzUzLDEx
+NDk0MDc3NTNdfQ==
 -->
