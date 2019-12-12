@@ -417,19 +417,20 @@ rlwrap sqlplus system/oracle@localhost/xe
 # optional
 wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-instantclient19.5-devel-19.5.0.0.0-1.x86_64.rpm
 
-
-
 ```
 
 #### migrate 이후에 table확인해보자
 
+#### scrapy from django
 
+https://blog.theodo.com/2019/01/data-scraping-scrapy-django-integration/  
+https://medium.com/@ali_oguzhan/how-to-use-scrapy-with-django-application-c16fabd0e62e  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5NTkxMDI4LC00NDU2MTU4ODMsMTE4Nz
-ExMTA1NCwtMjA2MjgwMjg4MiwxMjcyOTEzNDIwLC0yMDUwNjY3
-ODkyLDkzOTIxNDE4MiwtNzg0Njg4ODgwLDQ2MDExNzQxMCwxMj
-M0Nzg3NjMsLTE2MjQ2ODE0OTAsMTYyNTc3OTUyOCwxNzUyODU4
-NDcsMTc1NzAyNjUwMCwtMzg4NjA4NjE3LC0xODExNjk2MTIzLC
-0xMjk0Mzk1MDIyLDE0NTI4NTI2MjcsMTAwMjUwODU4NCwxNzgy
-MTEwMzQwXX0=
+eyJoaXN0b3J5IjpbMTU0MTcwMDMzNiwyNTk1OTEwMjgsLTQ0NT
+YxNTg4MywxMTg3MTExMDU0LC0yMDYyODAyODgyLDEyNzI5MTM0
+MjAsLTIwNTA2Njc4OTIsOTM5MjE0MTgyLC03ODQ2ODg4ODAsND
+YwMTE3NDEwLDEyMzQ3ODc2MywtMTYyNDY4MTQ5MCwxNjI1Nzc5
+NTI4LDE3NTI4NTg0NywxNzU3MDI2NTAwLC0zODg2MDg2MTcsLT
+E4MTE2OTYxMjMsLTEyOTQzOTUwMjIsMTQ1Mjg1MjYyNywxMDAy
+NTA4NTg0XX0=
 -->
