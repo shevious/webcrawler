@@ -216,6 +216,8 @@ select distinct tablespace_name from user_tables;
 ```bash
 
 wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-instantclient19.5-basic-19.5.0.0.0-1.x86_64.rpm
+
+# optional
 wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-instantclient19.5-devel-19.5.0.0.0-1.x86_64.rpm
 sudo apt install alien -y
 sudo alien --scripts oracle-instantclient19.5-basic-19.5.0.0.0-1.x86_64.rpm
@@ -347,11 +349,11 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDYzOTc2MTksMTYyNTc3OTUyOCwxNz
-UyODU4NDcsMTc1NzAyNjUwMCwtMzg4NjA4NjE3LC0xODExNjk2
-MTIzLC0xMjk0Mzk1MDIyLDE0NTI4NTI2MjcsMTAwMjUwODU4NC
-wxNzgyMTEwMzQwLC0xODM5MzQ4MzMwLDI3MDMzODcyOCwxMTk0
-MjI2NDA5LDE1ODU3MTQ1MiwtMTg5OTUwMzEzMSwtMTk4MTgxMT
-I4NiwtMTM5OTAyMTM1MywxMTQ5NDA3NzUzLC0xMTUzODIzMTcy
-LC0xOTE1MTQ5OTE1XX0=
+eyJoaXN0b3J5IjpbMTU3MTY4MTAzNiwxNjI1Nzc5NTI4LDE3NT
+I4NTg0NywxNzU3MDI2NTAwLC0zODg2MDg2MTcsLTE4MTE2OTYx
+MjMsLTEyOTQzOTUwMjIsMTQ1Mjg1MjYyNywxMDAyNTA4NTg0LD
+E3ODIxMTAzNDAsLTE4MzkzNDgzMzAsMjcwMzM4NzI4LDExOTQy
+MjY0MDksMTU4NTcxNDUyLC0xODk5NTAzMTMxLC0xOTgxODExMj
+g2LC0xMzk5MDIxMzUzLDExNDk0MDc3NTMsLTExNTM4MjMxNzIs
+LTE5MTUxNDk5MTVdfQ==
 -->
