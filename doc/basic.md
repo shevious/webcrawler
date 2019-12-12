@@ -215,6 +215,12 @@ select distinct tablespace_name from user_tables;
 # 테이블 목록
 SELECT * FROM USER_OBJECTS WHERE OBJECT_TYPE='TABLE' ORDER BY CREATED asc;
 describe django_session;
+
+# hr 유저 사용하기
+alter user hr account unlock;
+alter user hr identified by hr; /* 비밀번호: hr */
+connect hr;
+
 ```
 
 
@@ -388,11 +394,11 @@ wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTA2Njc4OTIsOTM5MjE0MTgyLC03OD
-Q2ODg4ODAsNDYwMTE3NDEwLDEyMzQ3ODc2MywtMTYyNDY4MTQ5
-MCwxNjI1Nzc5NTI4LDE3NTI4NTg0NywxNzU3MDI2NTAwLC0zOD
-g2MDg2MTcsLTE4MTE2OTYxMjMsLTEyOTQzOTUwMjIsMTQ1Mjg1
-MjYyNywxMDAyNTA4NTg0LDE3ODIxMTAzNDAsLTE4MzkzNDgzMz
-AsMjcwMzM4NzI4LDExOTQyMjY0MDksMTU4NTcxNDUyLC0xODk5
-NTAzMTMxXX0=
+eyJoaXN0b3J5IjpbMTI3MjkxMzQyMCwtMjA1MDY2Nzg5Miw5Mz
+kyMTQxODIsLTc4NDY4ODg4MCw0NjAxMTc0MTAsMTIzNDc4NzYz
+LC0xNjI0NjgxNDkwLDE2MjU3Nzk1MjgsMTc1Mjg1ODQ3LDE3NT
+cwMjY1MDAsLTM4ODYwODYxNywtMTgxMTY5NjEyMywtMTI5NDM5
+NTAyMiwxNDUyODUyNjI3LDEwMDI1MDg1ODQsMTc4MjExMDM0MC
+wtMTgzOTM0ODMzMCwyNzAzMzg3MjgsMTE5NDIyNjQwOSwxNTg1
+NzE0NTJdfQ==
 -->
