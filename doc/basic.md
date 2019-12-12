@@ -213,8 +213,8 @@ DEFAULT_TABLESPACE = 'DEV_DB';
 select distinct tablespace_name from user_tables;
 ```
 
+https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html  
 ```bash
-
 wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-instantclient19.5-basic-19.5.0.0.0-1.x86_64.rpm
 
 # optional
@@ -364,7 +364,7 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxODQ3ODcxMCwxMjM0Nzg3NjMsLTE2Mj
+eyJoaXN0b3J5IjpbLTk0OTEzNDcyMiwxMjM0Nzg3NjMsLTE2Mj
 Q2ODE0OTAsMTYyNTc3OTUyOCwxNzUyODU4NDcsMTc1NzAyNjUw
 MCwtMzg4NjA4NjE3LC0xODExNjk2MTIzLC0xMjk0Mzk1MDIyLD
 E0NTI4NTI2MjcsMTAwMjUwODU4NCwxNzgyMTEwMzQwLC0xODM5
