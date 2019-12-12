@@ -227,11 +227,16 @@ brew install libaio
 
 ## python
 
+https://code.djangoproject.com/ticket/29759
+
 ```
 pip install django==1.11.26
-pip install cx_oracle
+pip install cx_oracle==6.4.1
 django-admin.py startproject myproj
 cd myproj
+./manage.py migrate
+# ⇒ migrate 성공
+
 ./manage.py startapp myapp
 ```
 https://developer.oracle.com/dsl/vasiliev-django.html  
@@ -355,11 +360,11 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzNDc4NzYzLC0xNjI0NjgxNDkwLDE2Mj
-U3Nzk1MjgsMTc1Mjg1ODQ3LDE3NTcwMjY1MDAsLTM4ODYwODYx
-NywtMTgxMTY5NjEyMywtMTI5NDM5NTAyMiwxNDUyODUyNjI3LD
-EwMDI1MDg1ODQsMTc4MjExMDM0MCwtMTgzOTM0ODMzMCwyNzAz
-Mzg3MjgsMTE5NDIyNjQwOSwxNTg1NzE0NTIsLTE4OTk1MDMxMz
-EsLTE5ODE4MTEyODYsLTEzOTkwMjEzNTMsMTE0OTQwNzc1Mywt
-MTE1MzgyMzE3Ml19
+eyJoaXN0b3J5IjpbLTEyMjAwMTIzNjUsMTIzNDc4NzYzLC0xNj
+I0NjgxNDkwLDE2MjU3Nzk1MjgsMTc1Mjg1ODQ3LDE3NTcwMjY1
+MDAsLTM4ODYwODYxNywtMTgxMTY5NjEyMywtMTI5NDM5NTAyMi
+wxNDUyODUyNjI3LDEwMDI1MDg1ODQsMTc4MjExMDM0MCwtMTgz
+OTM0ODMzMCwyNzAzMzg3MjgsMTE5NDIyNjQwOSwxNTg1NzE0NT
+IsLTE4OTk1MDMxMzEsLTE5ODE4MTEyODYsLTEzOTkwMjEzNTMs
+MTE0OTQwNzc1M119
 -->
