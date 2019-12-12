@@ -244,6 +244,34 @@ celery -A myproj beat -l info --scheduler django_celery_beat.schedulers:Database
 ```
 https://developer.oracle.com/dsl/vasiliev-django.html  
 
+`myproj/settings.py`
+```py
+USE_TZ = True
+TIME_ZONE = 'Asia/Seoul'
+CELERY_RESULT_BACKEND = 'django-db'
+
+
+INSTALLED_APPS = [
+    ...,
+    'django_celery_results',
+    'django_celery_beat',
+    'myapp.apps.MyappConfig',
+]
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.oracle',
+        'NAME': 'xe',
+        'USER': 'hr',
+        'PASSWORD': 'hr',
+        'HOST': 'localhost',
+        'PORT': '1521',
+    }
+}
+```
+
+
+
 
 ## django 3 (oracle 11g안됨)
 `myproj/settings.py`
@@ -397,11 +425,11 @@ wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NTYxNTg4MywxMTg3MTExMDU0LC0yMD
-YyODAyODgyLDEyNzI5MTM0MjAsLTIwNTA2Njc4OTIsOTM5MjE0
-MTgyLC03ODQ2ODg4ODAsNDYwMTE3NDEwLDEyMzQ3ODc2MywtMT
-YyNDY4MTQ5MCwxNjI1Nzc5NTI4LDE3NTI4NTg0NywxNzU3MDI2
-NTAwLC0zODg2MDg2MTcsLTE4MTE2OTYxMjMsLTEyOTQzOTUwMj
-IsMTQ1Mjg1MjYyNywxMDAyNTA4NTg0LDE3ODIxMTAzNDAsLTE4
-MzkzNDgzMzBdfQ==
+eyJoaXN0b3J5IjpbMjU5NTkxMDI4LC00NDU2MTU4ODMsMTE4Nz
+ExMTA1NCwtMjA2MjgwMjg4MiwxMjcyOTEzNDIwLC0yMDUwNjY3
+ODkyLDkzOTIxNDE4MiwtNzg0Njg4ODgwLDQ2MDExNzQxMCwxMj
+M0Nzg3NjMsLTE2MjQ2ODE0OTAsMTYyNTc3OTUyOCwxNzUyODU4
+NDcsMTc1NzAyNjUwMCwtMzg4NjA4NjE3LC0xODExNjk2MTIzLC
+0xMjk0Mzk1MDIyLDE0NTI4NTI2MjcsMTAwMjUwODU4NCwxNzgy
+MTEwMzQwXX0=
 -->
