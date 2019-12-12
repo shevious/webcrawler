@@ -425,12 +425,14 @@ wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-
 
 https://blog.theodo.com/2019/01/data-scraping-scrapy-django-integration/  
 https://medium.com/@ali_oguzhan/how-to-use-scrapy-with-django-application-c16fabd0e62e  
+djangoItem:  
+https://docs.scrapy.org/en/0.24/topics/djangoitem.html  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0MTcwMDMzNiwyNTk1OTEwMjgsLTQ0NT
-YxNTg4MywxMTg3MTExMDU0LC0yMDYyODAyODgyLDEyNzI5MTM0
-MjAsLTIwNTA2Njc4OTIsOTM5MjE0MTgyLC03ODQ2ODg4ODAsND
-YwMTE3NDEwLDEyMzQ3ODc2MywtMTYyNDY4MTQ5MCwxNjI1Nzc5
-NTI4LDE3NTI4NTg0NywxNzU3MDI2NTAwLC0zODg2MDg2MTcsLT
-E4MTE2OTYxMjMsLTEyOTQzOTUwMjIsMTQ1Mjg1MjYyNywxMDAy
-NTA4NTg0XX0=
+eyJoaXN0b3J5IjpbMTIxNjgwNTg1OCwxNTQxNzAwMzM2LDI1OT
+U5MTAyOCwtNDQ1NjE1ODgzLDExODcxMTEwNTQsLTIwNjI4MDI4
+ODIsMTI3MjkxMzQyMCwtMjA1MDY2Nzg5Miw5MzkyMTQxODIsLT
+c4NDY4ODg4MCw0NjAxMTc0MTAsMTIzNDc4NzYzLC0xNjI0Njgx
+NDkwLDE2MjU3Nzk1MjgsMTc1Mjg1ODQ3LDE3NTcwMjY1MDAsLT
+M4ODYwODYxNywtMTgxMTY5NjEyMywtMTI5NDM5NTAyMiwxNDUy
+ODUyNjI3XX0=
 -->
