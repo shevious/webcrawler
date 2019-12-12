@@ -367,7 +367,7 @@ sudo alien --scripts oracle-instantclient19.5-sqlplus-19.5.0.0.0-1.x86_64.rpm
 sudo dpkg -i oracle-instantclient19.5-sqlplus_19.5.0.0.0-2_amd64.deb
 sudo apt install libaio1 -y
 
-
+sqlplus system/oracle@localhost/xe
 
 # optional
 wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-instantclient19.5-devel-19.5.0.0.0-1.x86_64.rpm
@@ -380,7 +380,7 @@ wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzOTc4ODM2NSw0NjAxMTc0MTAsMTIzND
+eyJoaXN0b3J5IjpbLTc4NDY4ODg4MCw0NjAxMTc0MTAsMTIzND
 c4NzYzLC0xNjI0NjgxNDkwLDE2MjU3Nzk1MjgsMTc1Mjg1ODQ3
 LDE3NTcwMjY1MDAsLTM4ODYwODYxNywtMTgxMTY5NjEyMywtMT
 I5NDM5NTAyMiwxNDUyODUyNjI3LDEwMDI1MDg1ODQsMTc4MjEx
