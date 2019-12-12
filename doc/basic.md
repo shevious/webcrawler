@@ -222,6 +222,7 @@ wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-
 sudo apt install alien -y
 sudo alien --scripts oracle-instantclient19.5-basic-19.5.0.0.0-1.x86_64.rpm
 sudo dpkg -i oracle-instantclient19.5-basic_19.5.0.0.0-2_amd64.deb
+brew install libaio
 ```
 
 ## python
@@ -354,11 +355,11 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MjQ2ODE0OTAsMTYyNTc3OTUyOCwxNz
-UyODU4NDcsMTc1NzAyNjUwMCwtMzg4NjA4NjE3LC0xODExNjk2
-MTIzLC0xMjk0Mzk1MDIyLDE0NTI4NTI2MjcsMTAwMjUwODU4NC
-wxNzgyMTEwMzQwLC0xODM5MzQ4MzMwLDI3MDMzODcyOCwxMTk0
-MjI2NDA5LDE1ODU3MTQ1MiwtMTg5OTUwMzEzMSwtMTk4MTgxMT
-I4NiwtMTM5OTAyMTM1MywxMTQ5NDA3NzUzLC0xMTUzODIzMTcy
-LC0xOTE1MTQ5OTE1XX0=
+eyJoaXN0b3J5IjpbMTIzNDc4NzYzLC0xNjI0NjgxNDkwLDE2Mj
+U3Nzk1MjgsMTc1Mjg1ODQ3LDE3NTcwMjY1MDAsLTM4ODYwODYx
+NywtMTgxMTY5NjEyMywtMTI5NDM5NTAyMiwxNDUyODUyNjI3LD
+EwMDI1MDg1ODQsMTc4MjExMDM0MCwtMTgzOTM0ODMzMCwyNzAz
+Mzg3MjgsMTE5NDIyNjQwOSwxNTg1NzE0NTIsLTE4OTk1MDMxMz
+EsLTE5ODE4MTEyODYsLTEzOTkwMjEzNTMsMTE0OTQwNzc1Mywt
+MTE1MzgyMzE3Ml19
 -->
