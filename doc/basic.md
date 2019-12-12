@@ -228,7 +228,7 @@ connect hr;
 
 cx_oracle 버전 문제:  
 https://code.djangoproject.com/ticket/29759  
-```
+```bash
 pip install django==1.11.26
 pip install cx_oracle==6.4.1
 django-admin.py startproject myproj
@@ -237,6 +237,10 @@ cd myproj
 # ⇒ migrate 성공
 
 ./manage.py startapp myapp
+
+
+celery -A myproj beat -l info --scheduler django_celery_beat.schedulers:DatabaseScheduler
+
 ```
 https://developer.oracle.com/dsl/vasiliev-django.html  
 
@@ -245,7 +249,6 @@ https://developer.oracle.com/dsl/vasiliev-django.html
 `myproj/settings.py`
 ```py
 INSTALLED_APPS = [
-    'myapp.apps.MyappConfig', # add this line
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -394,11 +397,11 @@ wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjI4MDI4ODIsMTI3MjkxMzQyMCwtMj
-A1MDY2Nzg5Miw5MzkyMTQxODIsLTc4NDY4ODg4MCw0NjAxMTc0
-MTAsMTIzNDc4NzYzLC0xNjI0NjgxNDkwLDE2MjU3Nzk1MjgsMT
-c1Mjg1ODQ3LDE3NTcwMjY1MDAsLTM4ODYwODYxNywtMTgxMTY5
-NjEyMywtMTI5NDM5NTAyMiwxNDUyODUyNjI3LDEwMDI1MDg1OD
-QsMTc4MjExMDM0MCwtMTgzOTM0ODMzMCwyNzAzMzg3MjgsMTE5
-NDIyNjQwOV19
+eyJoaXN0b3J5IjpbMTE4NzExMTA1NCwtMjA2MjgwMjg4MiwxMj
+cyOTEzNDIwLC0yMDUwNjY3ODkyLDkzOTIxNDE4MiwtNzg0Njg4
+ODgwLDQ2MDExNzQxMCwxMjM0Nzg3NjMsLTE2MjQ2ODE0OTAsMT
+YyNTc3OTUyOCwxNzUyODU4NDcsMTc1NzAyNjUwMCwtMzg4NjA4
+NjE3LC0xODExNjk2MTIzLC0xMjk0Mzk1MDIyLDE0NTI4NTI2Mj
+csMTAwMjUwODU4NCwxNzgyMTEwMzQwLC0xODM5MzQ4MzMwLDI3
+MDMzODcyOF19
 -->
