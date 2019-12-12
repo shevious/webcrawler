@@ -226,8 +226,8 @@ connect hr;
 
 ## django 1.11
 
-https://code.djangoproject.com/ticket/29759
-
+cx_oracle 버전 문제:  
+https://code.djangoproject.com/ticket/29759  
 ```
 pip install django==1.11.26
 pip install cx_oracle==6.4.1
@@ -394,11 +394,11 @@ wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3MjkxMzQyMCwtMjA1MDY2Nzg5Miw5Mz
-kyMTQxODIsLTc4NDY4ODg4MCw0NjAxMTc0MTAsMTIzNDc4NzYz
-LC0xNjI0NjgxNDkwLDE2MjU3Nzk1MjgsMTc1Mjg1ODQ3LDE3NT
-cwMjY1MDAsLTM4ODYwODYxNywtMTgxMTY5NjEyMywtMTI5NDM5
-NTAyMiwxNDUyODUyNjI3LDEwMDI1MDg1ODQsMTc4MjExMDM0MC
-wtMTgzOTM0ODMzMCwyNzAzMzg3MjgsMTE5NDIyNjQwOSwxNTg1
-NzE0NTJdfQ==
+eyJoaXN0b3J5IjpbLTIwNjI4MDI4ODIsMTI3MjkxMzQyMCwtMj
+A1MDY2Nzg5Miw5MzkyMTQxODIsLTc4NDY4ODg4MCw0NjAxMTc0
+MTAsMTIzNDc4NzYzLC0xNjI0NjgxNDkwLDE2MjU3Nzk1MjgsMT
+c1Mjg1ODQ3LDE3NTcwMjY1MDAsLTM4ODYwODYxNywtMTgxMTY5
+NjEyMywtMTI5NDM5NTAyMiwxNDUyODUyNjI3LDEwMDI1MDg1OD
+QsMTc4MjExMDM0MCwtMTgzOTM0ODMzMCwyNzAzMzg3MjgsMTE5
+NDIyNjQwOV19
 -->
