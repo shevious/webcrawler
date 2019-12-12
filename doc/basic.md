@@ -220,7 +220,7 @@ wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-
 sudo apt install alien -y
 sudo alien --scripts oracle-instantclient19.5-basic-19.5.0.0.0-1.x86_64.rpm
 sudo dpkg -i oracle-instantclient19.5-basic_19.5.0.0.0-2_amd64.deb
-pip install django
+pip install django==1.11.26
 pip install cx_oracle
 django-admin.py startproject myproj
 cd myproj
@@ -228,6 +228,8 @@ cd myproj
 ```
 https://developer.oracle.com/dsl/vasiliev-django.html  
 
+
+## django 3 (oracle 11g안됨)
 `myproj/settings.py`
 ```py
 INSTALLED_APPS = [
@@ -345,11 +347,11 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYyNTc3OTUyOCwxNzUyODU4NDcsMTc1Nz
-AyNjUwMCwtMzg4NjA4NjE3LC0xODExNjk2MTIzLC0xMjk0Mzk1
-MDIyLDE0NTI4NTI2MjcsMTAwMjUwODU4NCwxNzgyMTEwMzQwLC
-0xODM5MzQ4MzMwLDI3MDMzODcyOCwxMTk0MjI2NDA5LDE1ODU3
-MTQ1MiwtMTg5OTUwMzEzMSwtMTk4MTgxMTI4NiwtMTM5OTAyMT
-M1MywxMTQ5NDA3NzUzLC0xMTUzODIzMTcyLC0xOTE1MTQ5OTE1
-LDE1MTE0NDk5MTFdfQ==
+eyJoaXN0b3J5IjpbLTIxNDYzOTc2MTksMTYyNTc3OTUyOCwxNz
+UyODU4NDcsMTc1NzAyNjUwMCwtMzg4NjA4NjE3LC0xODExNjk2
+MTIzLC0xMjk0Mzk1MDIyLDE0NTI4NTI2MjcsMTAwMjUwODU4NC
+wxNzgyMTEwMzQwLC0xODM5MzQ4MzMwLDI3MDMzODcyOCwxMTk0
+MjI2NDA5LDE1ODU3MTQ1MiwtMTg5OTUwMzEzMSwtMTk4MTgxMT
+I4NiwtMTM5OTAyMTM1MywxMTQ5NDA3NzUzLC0xMTUzODIzMTcy
+LC0xOTE1MTQ5OTE1XX0=
 -->
