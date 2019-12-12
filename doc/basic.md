@@ -238,7 +238,7 @@ cd myproj
 
 ./manage.py startapp myapp
 
-
+./manage.py createsuperuser
 celery -A myproj beat -l info --scheduler django_celery_beat.schedulers:DatabaseScheduler
 
 ```
@@ -397,11 +397,11 @@ wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NzExMTA1NCwtMjA2MjgwMjg4MiwxMj
-cyOTEzNDIwLC0yMDUwNjY3ODkyLDkzOTIxNDE4MiwtNzg0Njg4
-ODgwLDQ2MDExNzQxMCwxMjM0Nzg3NjMsLTE2MjQ2ODE0OTAsMT
-YyNTc3OTUyOCwxNzUyODU4NDcsMTc1NzAyNjUwMCwtMzg4NjA4
-NjE3LC0xODExNjk2MTIzLC0xMjk0Mzk1MDIyLDE0NTI4NTI2Mj
-csMTAwMjUwODU4NCwxNzgyMTEwMzQwLC0xODM5MzQ4MzMwLDI3
-MDMzODcyOF19
+eyJoaXN0b3J5IjpbLTQ0NTYxNTg4MywxMTg3MTExMDU0LC0yMD
+YyODAyODgyLDEyNzI5MTM0MjAsLTIwNTA2Njc4OTIsOTM5MjE0
+MTgyLC03ODQ2ODg4ODAsNDYwMTE3NDEwLDEyMzQ3ODc2MywtMT
+YyNDY4MTQ5MCwxNjI1Nzc5NTI4LDE3NTI4NTg0NywxNzU3MDI2
+NTAwLC0zODg2MDg2MTcsLTE4MTE2OTYxMjMsLTEyOTQzOTUwMj
+IsMTQ1Mjg1MjYyNywxMDAyNTA4NTg0LDE3ODIxMTAzNDAsLTE4
+MzkzNDgzMzBdfQ==
 -->
