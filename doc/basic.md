@@ -110,6 +110,9 @@ python -m venv venv
 
 # virtualenv 진입
 # git bash
+vi ~/venv/Scripts/activate
+#VIRTUAL_ENV="C:\Users\shevious\venv"
+VIRTUAL_ENV="/c/Users/shevious/venv"
 source venv/Scripts/activate
 # command
 venv\Scripts\activate.bat
@@ -463,11 +466,11 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzM3OTkyMDAsMjk4MDA1OTI2LDE0MT
-kwNTA5NzQsLTIwMDU4NjAxOTIsLTE3MTk4MTMzNjksMTIxNjgw
-NTg1OCwxNTQxNzAwMzM2LDI1OTU5MTAyOCwtNDQ1NjE1ODgzLD
-ExODcxMTEwNTQsLTIwNjI4MDI4ODIsMTI3MjkxMzQyMCwtMjA1
-MDY2Nzg5Miw5MzkyMTQxODIsLTc4NDY4ODg4MCw0NjAxMTc0MT
-AsMTIzNDc4NzYzLC0xNjI0NjgxNDkwLDE2MjU3Nzk1MjgsMTc1
-Mjg1ODQ3XX0=
+eyJoaXN0b3J5IjpbLTM2MTE4NjA4MSwtMTczMzc5OTIwMCwyOT
+gwMDU5MjYsMTQxOTA1MDk3NCwtMjAwNTg2MDE5MiwtMTcxOTgx
+MzM2OSwxMjE2ODA1ODU4LDE1NDE3MDAzMzYsMjU5NTkxMDI4LC
+00NDU2MTU4ODMsMTE4NzExMTA1NCwtMjA2MjgwMjg4MiwxMjcy
+OTEzNDIwLC0yMDUwNjY3ODkyLDkzOTIxNDE4MiwtNzg0Njg4OD
+gwLDQ2MDExNzQxMCwxMjM0Nzg3NjMsLTE2MjQ2ODE0OTAsMTYy
+NTc3OTUyOF19
 -->
