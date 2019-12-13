@@ -545,6 +545,7 @@ for f in [CELERY_BROKER_TRANSPORT_OPTIONS['data_folder_in'], CELERY_BROKER_TRANS
 [Hack: 2 Ways to make Celery 4 run on Windows](https://www.distributedpython.com/2018/08/21/celery-4-windows/)  
 Celery 4 does no longer support Windows. Here are two workarounds  
 
+
 #### oracle instant client on ubuntu
 
 https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html  
@@ -587,11 +588,11 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNDQwMTY0MjgsLTEyNTEyMTMxODEsLT
-E4MDc3Njc5NjMsMTU4NjM4NDAxNiw0OTU5ODY1MTgsLTE2NDgx
-Nzc0NDcsLTkxNTIwMTE3NywtMTg3NjU3NjMyNywtMjgyMTk5Nj
-czLC02MDg3MjA0NzYsLTEzMDYxNjA2NDIsLTIzODI4MTIwMiwt
-MTczMzc5OTIwMCwyOTgwMDU5MjYsMTQxOTA1MDk3NCwtMjAwNT
-g2MDE5MiwtMTcxOTgxMzM2OSwxMjE2ODA1ODU4LDE1NDE3MDAz
-MzYsMjU5NTkxMDI4XX0=
+eyJoaXN0b3J5IjpbLTc5MjgzODgxMCwtMTI1MTIxMzE4MSwtMT
+gwNzc2Nzk2MywxNTg2Mzg0MDE2LDQ5NTk4NjUxOCwtMTY0ODE3
+NzQ0NywtOTE1MjAxMTc3LC0xODc2NTc2MzI3LC0yODIxOTk2Nz
+MsLTYwODcyMDQ3NiwtMTMwNjE2MDY0MiwtMjM4MjgxMjAyLC0x
+NzMzNzk5MjAwLDI5ODAwNTkyNiwxNDE5MDUwOTc0LC0yMDA1OD
+YwMTkyLC0xNzE5ODEzMzY5LDEyMTY4MDU4NTgsMTU0MTcwMDMz
+NiwyNTk1OTEwMjhdfQ==
 -->
