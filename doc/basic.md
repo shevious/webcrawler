@@ -240,9 +240,18 @@ cd myproj
 
 ./manage.py createsuperuser
 
-
 ```
 https://developer.oracle.com/dsl/vasiliev-django.html  
+
+`myproj/requirements.txt`
+```
+django==1.11.26
+django-timezone-field==2.1
+celery==4.3.0
+cx-oracle==6.4.1
+django-celery-results==1.1.2
+django-celery-beat==1.5.0
+```
 
 `myproj/settings.py`
 ```py
@@ -455,11 +464,11 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNDYzNDc4NSwxNDE5MDUwOTc0LC0yMD
-A1ODYwMTkyLC0xNzE5ODEzMzY5LDEyMTY4MDU4NTgsMTU0MTcw
-MDMzNiwyNTk1OTEwMjgsLTQ0NTYxNTg4MywxMTg3MTExMDU0LC
-0yMDYyODAyODgyLDEyNzI5MTM0MjAsLTIwNTA2Njc4OTIsOTM5
-MjE0MTgyLC03ODQ2ODg4ODAsNDYwMTE3NDEwLDEyMzQ3ODc2My
-wtMTYyNDY4MTQ5MCwxNjI1Nzc5NTI4LDE3NTI4NTg0NywxNzU3
-MDI2NTAwXX0=
+eyJoaXN0b3J5IjpbMjk4MDA1OTI2LDE0MTkwNTA5NzQsLTIwMD
+U4NjAxOTIsLTE3MTk4MTMzNjksMTIxNjgwNTg1OCwxNTQxNzAw
+MzM2LDI1OTU5MTAyOCwtNDQ1NjE1ODgzLDExODcxMTEwNTQsLT
+IwNjI4MDI4ODIsMTI3MjkxMzQyMCwtMjA1MDY2Nzg5Miw5Mzky
+MTQxODIsLTc4NDY4ODg4MCw0NjAxMTc0MTAsMTIzNDc4NzYzLC
+0xNjI0NjgxNDkwLDE2MjU3Nzk1MjgsMTc1Mjg1ODQ3LDE3NTcw
+MjY1MDBdfQ==
 -->
