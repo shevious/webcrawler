@@ -424,6 +424,7 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 
 ## rabbitmq
 
+기본 포트: 15672  ==> 방화벽 등록
 ```bash
 #celery broker 서버 기동
 RABBITMQ_CONFIG_FILE=/home/vagrant/rabbitmq.conf rabbitmq-server
@@ -476,7 +477,7 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTQ5MjAzMzcsLTIzODI4MTIwMiwtMT
+eyJoaXN0b3J5IjpbLTEzMDYxNjA2NDIsLTIzODI4MTIwMiwtMT
 czMzc5OTIwMCwyOTgwMDU5MjYsMTQxOTA1MDk3NCwtMjAwNTg2
 MDE5MiwtMTcxOTgxMzM2OSwxMjE2ODA1ODU4LDE1NDE3MDAzMz
 YsMjU5NTkxMDI4LC00NDU2MTU4ODMsMTE4NzExMTA1NCwtMjA2
