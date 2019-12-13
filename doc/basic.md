@@ -37,8 +37,6 @@ https://gitforwindows.org/
  - [x] Use Window's default console window
  - [x] Enable Symbolic links
 
-
-
 ## pycharm
 
 https://www.jetbrains.com/ko-kr/pycharm/download/#section=mac  
@@ -560,8 +558,38 @@ urlpatterns = [
 ]
 ```
 https://stackoverflow.com/questions/49229664/configure-the-django-with-oracle-11g-data-base-issue  
+
+## openssh server windows
+
+[Windows Server 2019 및 Windows 10용 OpenSSH 설치](https://docs.microsoft.com/ko-kr/windows-server/administration/openssh/openssh_install_firstuse)  
+
+[Setting to use git-bash as default shell when connecting remotely via OpenSSH to Windows Server 2016](https://superuser.com/questions/1332346/setting-to-use-git-bash-as-default-shell-when-connecting-remotely-via-openssh-to)  
+
+powershell:
+
+```bash
+#check
+Get-WindowsCapability -Online | ? Name -like 'OpenSSH*'
+
+
+# Install the OpenSSH Server
+Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
+
+Start-Service sshd
+# OPTIONAL but recommended:
+Set-Service -Name sshd -StartupType 'Automatic'
+# Confirm the Firewall rule is configured. It should be created automatically by setup. 
+Get-NetFirewallRule -Name *ssh*
+# There should be a firewall rule named "OpenSSH-Server-In-TCP", which should be enabled
+# If the firewall does not exist, create one
+New-NetFirewallRule -Name sshd -DisplayName 'OpenSSH Server (sshd)' -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22
+
+# git bash를 default 값으로
+New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Program Files\Git\bin\bash.exe" -PropertyType String -Force
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNzY5NDk3MCw3NTA1OTA1ODEsLTk5NT
+eyJoaXN0b3J5IjpbMTg0MTc3NjkzMSw3NTA1OTA1ODEsLTk5NT
 Q2ODgwOSwyMTI2MDU5MzIzLDkyNTk0MTU0OCw4OTI4ODE5NDYs
 LTcyNDQ0MDUzNCwtMTU2NzQ0ODYyNywtNzkyODM4ODEwLC0xMj
 UxMjEzMTgxLC0xODA3NzY3OTYzLDE1ODYzODQwMTYsNDk1OTg2
