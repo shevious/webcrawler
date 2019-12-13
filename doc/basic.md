@@ -127,6 +127,14 @@ https://visualstudio.microsoft.com/ko/downloads/
 커뮤니티 에디션 설치  
 설치시 C++ desktop만 선택  
 
+## ocacle client
+
+[Instant Client Downloads for Microsoft Windows (x64) 64-bit](https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html#ic_winx64_inst)  
+zip압ㅊ
+```
+
+```
+
 ## pip 사용방법
 
 ```
@@ -482,11 +490,11 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzY1NzYzMjcsLTI4MjE5OTY3MywtNj
-A4NzIwNDc2LC0xMzA2MTYwNjQyLC0yMzgyODEyMDIsLTE3MzM3
-OTkyMDAsMjk4MDA1OTI2LDE0MTkwNTA5NzQsLTIwMDU4NjAxOT
-IsLTE3MTk4MTMzNjksMTIxNjgwNTg1OCwxNTQxNzAwMzM2LDI1
-OTU5MTAyOCwtNDQ1NjE1ODgzLDExODcxMTEwNTQsLTIwNjI4MD
-I4ODIsMTI3MjkxMzQyMCwtMjA1MDY2Nzg5Miw5MzkyMTQxODIs
-LTc4NDY4ODg4MF19
+eyJoaXN0b3J5IjpbLTY4NjQ5MzgxNiwtMTg3NjU3NjMyNywtMj
+gyMTk5NjczLC02MDg3MjA0NzYsLTEzMDYxNjA2NDIsLTIzODI4
+MTIwMiwtMTczMzc5OTIwMCwyOTgwMDU5MjYsMTQxOTA1MDk3NC
+wtMjAwNTg2MDE5MiwtMTcxOTgxMzM2OSwxMjE2ODA1ODU4LDE1
+NDE3MDAzMzYsMjU5NTkxMDI4LC00NDU2MTU4ODMsMTE4NzExMT
+A1NCwtMjA2MjgwMjg4MiwxMjcyOTEzNDIwLC0yMDUwNjY3ODky
+LDkzOTIxNDE4Ml19
 -->
