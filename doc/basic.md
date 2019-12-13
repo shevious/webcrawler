@@ -483,7 +483,6 @@ https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-fil
 https://bluese05.tistory.com/31  
 
 
-
 # 참고용
 
 #### django 3 (oracle 11g안됨)
@@ -592,11 +591,11 @@ urlpatterns = [
 ```
 https://stackoverflow.com/questions/49229664/configure-the-django-with-oracle-11g-data-base-issue  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkyODgxOTQ2LC03MjQ0NDA1MzQsLTE1Nj
-c0NDg2MjcsLTc5MjgzODgxMCwtMTI1MTIxMzE4MSwtMTgwNzc2
-Nzk2MywxNTg2Mzg0MDE2LDQ5NTk4NjUxOCwtMTY0ODE3NzQ0Ny
-wtOTE1MjAxMTc3LC0xODc2NTc2MzI3LC0yODIxOTk2NzMsLTYw
-ODcyMDQ3NiwtMTMwNjE2MDY0MiwtMjM4MjgxMjAyLC0xNzMzNz
-k5MjAwLDI5ODAwNTkyNiwxNDE5MDUwOTc0LC0yMDA1ODYwMTky
-LC0xNzE5ODEzMzY5XX0=
+eyJoaXN0b3J5IjpbOTI1OTQxNTQ4LDg5Mjg4MTk0NiwtNzI0ND
+QwNTM0LC0xNTY3NDQ4NjI3LC03OTI4Mzg4MTAsLTEyNTEyMTMx
+ODEsLTE4MDc3Njc5NjMsMTU4NjM4NDAxNiw0OTU5ODY1MTgsLT
+E2NDgxNzc0NDcsLTkxNTIwMTE3NywtMTg3NjU3NjMyNywtMjgy
+MTk5NjczLC02MDg3MjA0NzYsLTEzMDYxNjA2NDIsLTIzODI4MT
+IwMiwtMTczMzc5OTIwMCwyOTgwMDU5MjYsMTQxOTA1MDk3NCwt
+MjAwNTg2MDE5Ml19
 -->
