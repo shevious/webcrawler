@@ -141,6 +141,8 @@ pip list
 
 ## scrapy 설치
 
+https://www.lfd.uci.edu/~gohlke/pythonlibs/  
+
 virtualenv에서  
 ```bash
 pip install Twisted[windows_
@@ -592,11 +594,11 @@ urlpatterns = [
 ```
 https://stackoverflow.com/questions/49229664/configure-the-django-with-oracle-11g-data-base-issue  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEyNjA1OTMyMyw5MjU5NDE1NDgsODkyOD
-gxOTQ2LC03MjQ0NDA1MzQsLTE1Njc0NDg2MjcsLTc5MjgzODgx
-MCwtMTI1MTIxMzE4MSwtMTgwNzc2Nzk2MywxNTg2Mzg0MDE2LD
-Q5NTk4NjUxOCwtMTY0ODE3NzQ0NywtOTE1MjAxMTc3LC0xODc2
-NTc2MzI3LC0yODIxOTk2NzMsLTYwODcyMDQ3NiwtMTMwNjE2MD
-Y0MiwtMjM4MjgxMjAyLC0xNzMzNzk5MjAwLDI5ODAwNTkyNiwx
-NDE5MDUwOTc0XX0=
+eyJoaXN0b3J5IjpbLTk5NTQ2ODgwOSwyMTI2MDU5MzIzLDkyNT
+k0MTU0OCw4OTI4ODE5NDYsLTcyNDQ0MDUzNCwtMTU2NzQ0ODYy
+NywtNzkyODM4ODEwLC0xMjUxMjEzMTgxLC0xODA3NzY3OTYzLD
+E1ODYzODQwMTYsNDk1OTg2NTE4LC0xNjQ4MTc3NDQ3LC05MTUy
+MDExNzcsLTE4NzY1NzYzMjcsLTI4MjE5OTY3MywtNjA4NzIwND
+c2LC0xMzA2MTYwNjQyLC0yMzgyODEyMDIsLTE3MzM3OTkyMDAs
+Mjk4MDA1OTI2XX0=
 -->
