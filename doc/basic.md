@@ -287,7 +287,10 @@ TIME_ZONE = 'Asia/Seoul'
 
 ```bash
 # celery broker 서버 기동
+RABBITMQ_CONFIG_FILE=/home/vagrant/rabbitmq.conf rabbitmq-server
+# or
 rabbitmq-server
+
 # celery worker 기동
 cd myproj
 celery -A myproj worker -l info
@@ -467,11 +470,11 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzODI4MTIwMiwtMTczMzc5OTIwMCwyOT
-gwMDU5MjYsMTQxOTA1MDk3NCwtMjAwNTg2MDE5MiwtMTcxOTgx
-MzM2OSwxMjE2ODA1ODU4LDE1NDE3MDAzMzYsMjU5NTkxMDI4LC
-00NDU2MTU4ODMsMTE4NzExMTA1NCwtMjA2MjgwMjg4MiwxMjcy
-OTEzNDIwLC0yMDUwNjY3ODkyLDkzOTIxNDE4MiwtNzg0Njg4OD
-gwLDQ2MDExNzQxMCwxMjM0Nzg3NjMsLTE2MjQ2ODE0OTAsMTYy
-NTc3OTUyOF19
+eyJoaXN0b3J5IjpbLTQzNDg1ODY2MiwtMjM4MjgxMjAyLC0xNz
+MzNzk5MjAwLDI5ODAwNTkyNiwxNDE5MDUwOTc0LC0yMDA1ODYw
+MTkyLC0xNzE5ODEzMzY5LDEyMTY4MDU4NTgsMTU0MTcwMDMzNi
+wyNTk1OTEwMjgsLTQ0NTYxNTg4MywxMTg3MTExMDU0LC0yMDYy
+ODAyODgyLDEyNzI5MTM0MjAsLTIwNTA2Njc4OTIsOTM5MjE0MT
+gyLC03ODQ2ODg4ODAsNDYwMTE3NDEwLDEyMzQ3ODc2MywtMTYy
+NDY4MTQ5MF19
 -->
