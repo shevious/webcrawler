@@ -423,7 +423,7 @@ https://www.openssl.org/docs/man1.0.2/man1/ciphers.html
 `/home/vagrant/rabbitmq.conf`
 ```
 #listeners.tcp.1 = 0.0.0.0:15672 # not working for brew rabbitmq-server
-#loopback_users = none # comment out fo
+#loopback_users = none # comment out for guest/guest login
 ```
 기본 포트: 15672  ==> 방화벽 등록
 ```bash
@@ -481,7 +481,7 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMwMTY0MTM2NywtNjA4NzIwNDc2LC0xMz
+eyJoaXN0b3J5IjpbLTI4MjE5OTY3MywtNjA4NzIwNDc2LC0xMz
 A2MTYwNjQyLC0yMzgyODEyMDIsLTE3MzM3OTkyMDAsMjk4MDA1
 OTI2LDE0MTkwNTA5NzQsLTIwMDU4NjAxOTIsLTE3MTk4MTMzNj
 ksMTIxNjgwNTg1OCwxNTQxNzAwMzM2LDI1OTU5MTAyOCwtNDQ1
