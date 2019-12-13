@@ -504,6 +504,10 @@ rabbitmq-server
 
 ## 작업중
 
+#### celery broker filesystem
+
+[Using filesystem transport with Celery](https://ondergetekende.nl/using-filesystem-transport-with-celery.html)  
+
 #### oracle instant client on ubuntu
 
 https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html  
@@ -546,11 +550,11 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU4NjM4NDAxNiw0OTU5ODY1MTgsLTE2ND
-gxNzc0NDcsLTkxNTIwMTE3NywtMTg3NjU3NjMyNywtMjgyMTk5
-NjczLC02MDg3MjA0NzYsLTEzMDYxNjA2NDIsLTIzODI4MTIwMi
-wtMTczMzc5OTIwMCwyOTgwMDU5MjYsMTQxOTA1MDk3NCwtMjAw
-NTg2MDE5MiwtMTcxOTgxMzM2OSwxMjE2ODA1ODU4LDE1NDE3MD
-AzMzYsMjU5NTkxMDI4LC00NDU2MTU4ODMsMTE4NzExMTA1NCwt
-MjA2MjgwMjg4Ml19
+eyJoaXN0b3J5IjpbMTc1Mjk2NTA3MiwxNTg2Mzg0MDE2LDQ5NT
+k4NjUxOCwtMTY0ODE3NzQ0NywtOTE1MjAxMTc3LC0xODc2NTc2
+MzI3LC0yODIxOTk2NzMsLTYwODcyMDQ3NiwtMTMwNjE2MDY0Mi
+wtMjM4MjgxMjAyLC0xNzMzNzk5MjAwLDI5ODAwNTkyNiwxNDE5
+MDUwOTc0LC0yMDA1ODYwMTkyLC0xNzE5ODEzMzY5LDEyMTY4MD
+U4NTgsMTU0MTcwMDMzNiwyNTk1OTEwMjgsLTQ0NTYxNTg4Mywx
+MTg3MTExMDU0XX0=
 -->
