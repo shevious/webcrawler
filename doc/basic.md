@@ -121,11 +121,7 @@ venv\Scripts\activate.bat
 deactivate
 ```
 
-## visual studio 설치
-
-https://visualstudio.microsoft.com/ko/downloads/  
-커뮤니티 에디션 설치  
-설치시 C++ desktop만 선택  
+## ~~visual studio 설치~~ (설치 필요없음)
 
 ## ocacle client
 
@@ -142,10 +138,12 @@ pip list
 ## scrapy 설치
 
 https://www.lfd.uci.edu/~gohlke/pythonlibs/  
+download `Twisted-19.10.0-cp38-cp38-win_amd64.whl `
+https://download.lfd.uci.edu/pythonlibs/t7epjj8p/Twisted-19.10.0-cp38-cp38-win_amd64.whl  
 
 virtualenv에서  
 ```bash
-pip install Twisted[windows_
+pip install Twisted-19.10.0-cp38-cp38-win_amd64.whl
 pip install scrapy
 pip install scrapyd
 ```
@@ -594,11 +592,11 @@ urlpatterns = [
 ```
 https://stackoverflow.com/questions/49229664/configure-the-django-with-oracle-11g-data-base-issue  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5NTQ2ODgwOSwyMTI2MDU5MzIzLDkyNT
-k0MTU0OCw4OTI4ODE5NDYsLTcyNDQ0MDUzNCwtMTU2NzQ0ODYy
-NywtNzkyODM4ODEwLC0xMjUxMjEzMTgxLC0xODA3NzY3OTYzLD
-E1ODYzODQwMTYsNDk1OTg2NTE4LC0xNjQ4MTc3NDQ3LC05MTUy
-MDExNzcsLTE4NzY1NzYzMjcsLTI4MjE5OTY3MywtNjA4NzIwND
-c2LC0xMzA2MTYwNjQyLC0yMzgyODEyMDIsLTE3MzM3OTkyMDAs
-Mjk4MDA1OTI2XX0=
+eyJoaXN0b3J5IjpbNzUwNTkwNTgxLC05OTU0Njg4MDksMjEyNj
+A1OTMyMyw5MjU5NDE1NDgsODkyODgxOTQ2LC03MjQ0NDA1MzQs
+LTE1Njc0NDg2MjcsLTc5MjgzODgxMCwtMTI1MTIxMzE4MSwtMT
+gwNzc2Nzk2MywxNTg2Mzg0MDE2LDQ5NTk4NjUxOCwtMTY0ODE3
+NzQ0NywtOTE1MjAxMTc3LC0xODc2NTc2MzI3LC0yODIxOTk2Nz
+MsLTYwODcyMDQ3NiwtMTMwNjE2MDY0MiwtMjM4MjgxMjAyLC0x
+NzMzNzk5MjAwXX0=
 -->
