@@ -276,7 +276,8 @@ CELERY_BROKER_TRANSPORT_OPTIONS = {
 }
 
 import os
-for f in [CELERY_BROKER_TRANSPORT_OPTIONS['data_folder_in'], CELERY_BROKER_TRANSPORT_OPTIONS['data_folder_processed']:
+for f in [CELERY_BROKER_TRANSPORT_OPTIONS['data_folder_in'],
+          CELERY_BROKER_TRANSPORT_OPTIONS['data_folder_processed']]:
     if not os.path.exists(f):
         os.makedirs(f)
 CELERY_RESULT_BACKEND = 'django-db'
@@ -581,11 +582,11 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ4NTg2OTIyLC0xMjUxMjEzMTgxLC0xOD
-A3NzY3OTYzLDE1ODYzODQwMTYsNDk1OTg2NTE4LC0xNjQ4MTc3
-NDQ3LC05MTUyMDExNzcsLTE4NzY1NzYzMjcsLTI4MjE5OTY3My
-wtNjA4NzIwNDc2LC0xMzA2MTYwNjQyLC0yMzgyODEyMDIsLTE3
-MzM3OTkyMDAsMjk4MDA1OTI2LDE0MTkwNTA5NzQsLTIwMDU4Nj
-AxOTIsLTE3MTk4MTMzNjksMTIxNjgwNTg1OCwxNTQxNzAwMzM2
-LDI1OTU5MTAyOF19
+eyJoaXN0b3J5IjpbMTk4OTc2MDQ0MywtMTI1MTIxMzE4MSwtMT
+gwNzc2Nzk2MywxNTg2Mzg0MDE2LDQ5NTk4NjUxOCwtMTY0ODE3
+NzQ0NywtOTE1MjAxMTc3LC0xODc2NTc2MzI3LC0yODIxOTk2Nz
+MsLTYwODcyMDQ3NiwtMTMwNjE2MDY0MiwtMjM4MjgxMjAyLC0x
+NzMzNzk5MjAwLDI5ODAwNTkyNiwxNDE5MDUwOTc0LC0yMDA1OD
+YwMTkyLC0xNzE5ODEzMzY5LDEyMTY4MDU4NTgsMTU0MTcwMDMz
+NiwyNTk1OTEwMjhdfQ==
 -->
