@@ -239,15 +239,14 @@ cd myproj
 ./manage.py startapp myapp
 
 ./manage.py createsuperuser
-celery -A myproj beat -l info --scheduler django_celery_beat.schedulers:DatabaseScheduler
+
 
 ```
 https://developer.oracle.com/dsl/vasiliev-django.html  
 
 `myproj/settings.py`
 ```py
-USE_TZ = True
-TIME_ZONE = 'Asia/Seoul'
+
 CELERY_RESULT_BACKEND = 'django-db'
 
 
@@ -268,6 +267,17 @@ DATABASES = {
         'PORT': '1521',
     }
 }
+
+# 타임존 변경
+#TIME_ZONE = UTC
+TIME_ZONE = 'Asia/Seoul'
+```
+
+```bash
+# c
+rabbitmq-server
+celery -A myproj beat -l info --scheduler django_celery_beat.schedulers:DatabaseScheduler
+
 ```
 
 
@@ -432,11 +442,11 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxOTA1MDk3NCwtMjAwNTg2MDE5MiwtMT
-cxOTgxMzM2OSwxMjE2ODA1ODU4LDE1NDE3MDAzMzYsMjU5NTkx
-MDI4LC00NDU2MTU4ODMsMTE4NzExMTA1NCwtMjA2MjgwMjg4Mi
-wxMjcyOTEzNDIwLC0yMDUwNjY3ODkyLDkzOTIxNDE4MiwtNzg0
-Njg4ODgwLDQ2MDExNzQxMCwxMjM0Nzg3NjMsLTE2MjQ2ODE0OT
-AsMTYyNTc3OTUyOCwxNzUyODU4NDcsMTc1NzAyNjUwMCwtMzg4
-NjA4NjE3XX0=
+eyJoaXN0b3J5IjpbLTEzOTg0MTcwMjMsMTQxOTA1MDk3NCwtMj
+AwNTg2MDE5MiwtMTcxOTgxMzM2OSwxMjE2ODA1ODU4LDE1NDE3
+MDAzMzYsMjU5NTkxMDI4LC00NDU2MTU4ODMsMTE4NzExMTA1NC
+wtMjA2MjgwMjg4MiwxMjcyOTEzNDIwLC0yMDUwNjY3ODkyLDkz
+OTIxNDE4MiwtNzg0Njg4ODgwLDQ2MDExNzQxMCwxMjM0Nzg3Nj
+MsLTE2MjQ2ODE0OTAsMTYyNTc3OTUyOCwxNzUyODU4NDcsMTc1
+NzAyNjUwMF19
 -->
