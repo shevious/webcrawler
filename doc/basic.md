@@ -411,11 +411,7 @@ urlpatterns = [
     path(r'^(?P<emp_id>\d+)/(?P<dept_name>\w+)/(?P<dept_id>\d+)/$' , newdept),
 ]
 ```
-
-
 https://stackoverflow.com/questions/49229664/configure-the-django-with-oracle-11g-data-base-issue  
-
-
 
 ## openssl 
 
@@ -481,11 +477,11 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ0ODk3OTU2LC0xMzA2MTYwNjQyLC0yMz
-gyODEyMDIsLTE3MzM3OTkyMDAsMjk4MDA1OTI2LDE0MTkwNTA5
-NzQsLTIwMDU4NjAxOTIsLTE3MTk4MTMzNjksMTIxNjgwNTg1OC
-wxNTQxNzAwMzM2LDI1OTU5MTAyOCwtNDQ1NjE1ODgzLDExODcx
-MTEwNTQsLTIwNjI4MDI4ODIsMTI3MjkxMzQyMCwtMjA1MDY2Nz
-g5Miw5MzkyMTQxODIsLTc4NDY4ODg4MCw0NjAxMTc0MTAsMTIz
-NDc4NzYzXX0=
+eyJoaXN0b3J5IjpbLTYwODcyMDQ3NiwtMTMwNjE2MDY0MiwtMj
+M4MjgxMjAyLC0xNzMzNzk5MjAwLDI5ODAwNTkyNiwxNDE5MDUw
+OTc0LC0yMDA1ODYwMTkyLC0xNzE5ODEzMzY5LDEyMTY4MDU4NT
+gsMTU0MTcwMDMzNiwyNTk1OTEwMjgsLTQ0NTYxNTg4MywxMTg3
+MTExMDU0LC0yMDYyODAyODgyLDEyNzI5MTM0MjAsLTIwNTA2Nj
+c4OTIsOTM5MjE0MTgyLC03ODQ2ODg4ODAsNDYwMTE3NDEwLDEy
+MzQ3ODc2M119
 -->
