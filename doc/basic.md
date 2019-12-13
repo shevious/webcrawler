@@ -131,10 +131,7 @@ https://visualstudio.microsoft.com/ko/downloads/
 
 [Instant Client Downloads for Microsoft Windows (x64) 64-bit](https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html#ic_winx64_inst)  
 zip압축 해제 `C:\oracle\instantclient_19_5`  
-
-```
-
-```
+path 에 등록
 
 ## pip 사용방법
 
@@ -491,11 +488,11 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDgxNzc0NDcsLTkxNTIwMTE3NywtMT
-g3NjU3NjMyNywtMjgyMTk5NjczLC02MDg3MjA0NzYsLTEzMDYx
-NjA2NDIsLTIzODI4MTIwMiwtMTczMzc5OTIwMCwyOTgwMDU5Mj
-YsMTQxOTA1MDk3NCwtMjAwNTg2MDE5MiwtMTcxOTgxMzM2OSwx
-MjE2ODA1ODU4LDE1NDE3MDAzMzYsMjU5NTkxMDI4LC00NDU2MT
-U4ODMsMTE4NzExMTA1NCwtMjA2MjgwMjg4MiwxMjcyOTEzNDIw
-LC0yMDUwNjY3ODkyXX0=
+eyJoaXN0b3J5IjpbODAwMDMzNTU2LC0xNjQ4MTc3NDQ3LC05MT
+UyMDExNzcsLTE4NzY1NzYzMjcsLTI4MjE5OTY3MywtNjA4NzIw
+NDc2LC0xMzA2MTYwNjQyLC0yMzgyODEyMDIsLTE3MzM3OTkyMD
+AsMjk4MDA1OTI2LDE0MTkwNTA5NzQsLTIwMDU4NjAxOTIsLTE3
+MTk4MTMzNjksMTIxNjgwNTg1OCwxNTQxNzAwMzM2LDI1OTU5MT
+AyOCwtNDQ1NjE1ODgzLDExODcxMTEwNTQsLTIwNjI4MDI4ODIs
+MTI3MjkxMzQyMF19
 -->
