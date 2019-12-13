@@ -353,6 +353,8 @@ def xsum(numbers):
 # celery worker 기동
 cd myproj
 celery -A myproj worker -l info
+celery -A myproj worker -l info --pool=solo
+
 # celery beat 데몬 기동
 celery -A myproj beat -l info --scheduler django_celery_beat.schedulers:DatabaseScheduler
 
@@ -544,11 +546,11 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk1OTg2NTE4LC0xNjQ4MTc3NDQ3LC05MT
-UyMDExNzcsLTE4NzY1NzYzMjcsLTI4MjE5OTY3MywtNjA4NzIw
-NDc2LC0xMzA2MTYwNjQyLC0yMzgyODEyMDIsLTE3MzM3OTkyMD
-AsMjk4MDA1OTI2LDE0MTkwNTA5NzQsLTIwMDU4NjAxOTIsLTE3
-MTk4MTMzNjksMTIxNjgwNTg1OCwxNTQxNzAwMzM2LDI1OTU5MT
-AyOCwtNDQ1NjE1ODgzLDExODcxMTEwNTQsLTIwNjI4MDI4ODIs
-MTI3MjkxMzQyMF19
+eyJoaXN0b3J5IjpbMTU4NjM4NDAxNiw0OTU5ODY1MTgsLTE2ND
+gxNzc0NDcsLTkxNTIwMTE3NywtMTg3NjU3NjMyNywtMjgyMTk5
+NjczLC02MDg3MjA0NzYsLTEzMDYxNjA2NDIsLTIzODI4MTIwMi
+wtMTczMzc5OTIwMCwyOTgwMDU5MjYsMTQxOTA1MDk3NCwtMjAw
+NTg2MDE5MiwtMTcxOTgxMzM2OSwxMjE2ODA1ODU4LDE1NDE3MD
+AzMzYsMjU5NTkxMDI4LC00NDU2MTU4ODMsMTE4NzExMTA1NCwt
+MjA2MjgwMjg4Ml19
 -->
