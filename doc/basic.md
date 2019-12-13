@@ -274,9 +274,13 @@ TIME_ZONE = 'Asia/Seoul'
 ```
 
 ```bash
-# c
+# celery broker 서버 기동
 rabbitmq-server
+# celery worker 기동
+celery -A myproj worker -l info
+# celery beat 데몬 기동
 celery -A myproj beat -l info --scheduler django_celery_beat.schedulers:DatabaseScheduler
+
 
 ```
 
@@ -442,11 +446,11 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTg0MTcwMjMsMTQxOTA1MDk3NCwtMj
-AwNTg2MDE5MiwtMTcxOTgxMzM2OSwxMjE2ODA1ODU4LDE1NDE3
-MDAzMzYsMjU5NTkxMDI4LC00NDU2MTU4ODMsMTE4NzExMTA1NC
-wtMjA2MjgwMjg4MiwxMjcyOTEzNDIwLC0yMDUwNjY3ODkyLDkz
-OTIxNDE4MiwtNzg0Njg4ODgwLDQ2MDExNzQxMCwxMjM0Nzg3Nj
-MsLTE2MjQ2ODE0OTAsMTYyNTc3OTUyOCwxNzUyODU4NDcsMTc1
-NzAyNjUwMF19
+eyJoaXN0b3J5IjpbMTc0MzAzODQwNCwxNDE5MDUwOTc0LC0yMD
+A1ODYwMTkyLC0xNzE5ODEzMzY5LDEyMTY4MDU4NTgsMTU0MTcw
+MDMzNiwyNTk1OTEwMjgsLTQ0NTYxNTg4MywxMTg3MTExMDU0LC
+0yMDYyODAyODgyLDEyNzI5MTM0MjAsLTIwNTA2Njc4OTIsOTM5
+MjE0MTgyLC03ODQ2ODg4ODAsNDYwMTE3NDEwLDEyMzQ3ODc2My
+wtMTYyNDY4MTQ5MCwxNjI1Nzc5NTI4LDE3NTI4NTg0NywxNzU3
+MDI2NTAwXX0=
 -->
