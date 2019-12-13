@@ -261,7 +261,6 @@ django-celery-beat==1.5.0
 pip install -r requirements.txt
 pip install pypiwin32==223 # 윈도우에서만 필요함.
 ```
-
 `myproj/settings.py`
 ```py
 ALLOWED_HOSTS = ['*']
@@ -332,7 +331,6 @@ app = Celery('myproj',
 # the configuration object to child processes.
 # - namespace='CELERY' means all celery-related configuration keys
 #   should have a `CELERY_` prefix.
-#app.config_from_object('django.conf:settings', namespace='CELERY')
 app.config_from_object('django.conf:settings', namespace='CELERY')
 
 # Load task modules from all registered Django app configs.
@@ -536,7 +534,8 @@ CELERY_BROKER_TRANSPORT_OPTIONS = {
 }
 
 import os
-for f in [CELERY_BROKER_TRANSPORT_OPTIONS['data_folder_in'], CELERY_BROKER_TRANSPORT_OPTIONS['data_folder_processed']:
+for f in [CELERY_BROKER_TRANSPORT_OPTIONS['data_folder_in'],
+          CELERY_BROKER_TRANSPORT_OPTIONS['data_folder_processed']]:
     if not os.path.exists(f):
         os.makedirs(f)
 ```
@@ -589,11 +588,11 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njc0NDg2MjcsLTc5MjgzODgxMCwtMT
-I1MTIxMzE4MSwtMTgwNzc2Nzk2MywxNTg2Mzg0MDE2LDQ5NTk4
-NjUxOCwtMTY0ODE3NzQ0NywtOTE1MjAxMTc3LC0xODc2NTc2Mz
-I3LC0yODIxOTk2NzMsLTYwODcyMDQ3NiwtMTMwNjE2MDY0Miwt
-MjM4MjgxMjAyLC0xNzMzNzk5MjAwLDI5ODAwNTkyNiwxNDE5MD
-UwOTc0LC0yMDA1ODYwMTkyLC0xNzE5ODEzMzY5LDEyMTY4MDU4
-NTgsMTU0MTcwMDMzNl19
+eyJoaXN0b3J5IjpbMTcxNDk2MDQ5MCwtMTU2NzQ0ODYyNywtNz
+kyODM4ODEwLC0xMjUxMjEzMTgxLC0xODA3NzY3OTYzLDE1ODYz
+ODQwMTYsNDk1OTg2NTE4LC0xNjQ4MTc3NDQ3LC05MTUyMDExNz
+csLTE4NzY1NzYzMjcsLTI4MjE5OTY3MywtNjA4NzIwNDc2LC0x
+MzA2MTYwNjQyLC0yMzgyODEyMDIsLTE3MzM3OTkyMDAsMjk4MD
+A1OTI2LDE0MTkwNTA5NzQsLTIwMDU4NjAxOTIsLTE3MTk4MTMz
+NjksMTIxNjgwNTg1OF19
 -->
