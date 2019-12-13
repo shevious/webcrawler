@@ -519,6 +519,7 @@ rabbitmq-server
 #### celery broker filesystem
 
 [Using filesystem transport with Celery](https://ondergetekende.nl/using-filesystem-transport-with-celery.html)  
+[An incredibly simple no-frills Celery setup](https://www.distributedpython.com/2018/07/03/simple-celery-setup/)  
 
 ```py
 #CELERY_BROKER_URL = 'amqp://kotech:kotech@13.209.192.128'
@@ -538,6 +539,11 @@ for f in [CELERY_BROKER_TRANSPORT_OPTIONS['data_folder_in'], CELERY_BROKER_TRANS
     if not os.path.exists(f):
         os.makedirs(f)
 ```
+
+#### celery on windows
+
+[Hack: 2 Ways to make Celery 4 run on Windows](https://www.distributedpython.com/2018/08/21/celery-4-windows/)  
+Celery 4 does no longer support Windows. Here are two workarounds  
 
 #### oracle instant client on ubuntu
 
@@ -581,7 +587,7 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg1NDY0MTksLTEyNTEyMTMxODEsLT
+eyJoaXN0b3J5IjpbLTEwNDQwMTY0MjgsLTEyNTEyMTMxODEsLT
 E4MDc3Njc5NjMsMTU4NjM4NDAxNiw0OTU5ODY1MTgsLTE2NDgx
 Nzc0NDcsLTkxNTIwMTE3NywtMTg3NjU3NjMyNywtMjgyMTk5Nj
 czLC02MDg3MjA0NzYsLTEzMDYxNjA2NDIsLTIzODI4MTIwMiwt
