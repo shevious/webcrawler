@@ -427,7 +427,10 @@ listeners.tcp.1 = 0.0.0.0:15672
 기본 포트: 15672  ==> 방화벽 등록
 ```bash
 #celery broker 서버 기동
-RABBITMQ_CONFIG_FILE=/home/vagrant/rabbitmq.conf rabbitmq-server
+# see /home/linuxbrew/.linuxbrew/Cellar/rabbitmq/3.8.2/sbin/rabbitmq-server file
+RABBITMQ_NODE_IP_ADDRESS=0.0.0.0 \
+RABBITMQ_CONFIG_FILE=/home/vagrant/rabbitmq.conf \
+rabbitmq-server
 or
 rabbitmq-server
 ```
@@ -477,11 +480,11 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwODcyMDQ3NiwtMTMwNjE2MDY0MiwtMj
-M4MjgxMjAyLC0xNzMzNzk5MjAwLDI5ODAwNTkyNiwxNDE5MDUw
-OTc0LC0yMDA1ODYwMTkyLC0xNzE5ODEzMzY5LDEyMTY4MDU4NT
-gsMTU0MTcwMDMzNiwyNTk1OTEwMjgsLTQ0NTYxNTg4MywxMTg3
-MTExMDU0LC0yMDYyODAyODgyLDEyNzI5MTM0MjAsLTIwNTA2Nj
-c4OTIsOTM5MjE0MTgyLC03ODQ2ODg4ODAsNDYwMTE3NDEwLDEy
-MzQ3ODc2M119
+eyJoaXN0b3J5IjpbLTE1Nzk2MTI3ODIsLTYwODcyMDQ3NiwtMT
+MwNjE2MDY0MiwtMjM4MjgxMjAyLC0xNzMzNzk5MjAwLDI5ODAw
+NTkyNiwxNDE5MDUwOTc0LC0yMDA1ODYwMTkyLC0xNzE5ODEzMz
+Y5LDEyMTY4MDU4NTgsMTU0MTcwMDMzNiwyNTk1OTEwMjgsLTQ0
+NTYxNTg4MywxMTg3MTExMDU0LC0yMDYyODAyODgyLDEyNzI5MT
+M0MjAsLTIwNTA2Njc4OTIsOTM5MjE0MTgyLC03ODQ2ODg4ODAs
+NDYwMTE3NDEwXX0=
 -->
