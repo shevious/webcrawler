@@ -283,11 +283,10 @@ celery -A myproj worker -l info
 celery -A myproj beat -l info --scheduler django_celery_beat.schedulers:DatabaseScheduler
 
 # django 서버
-
-
-
-
+./manage.py runserver 0.0.0.0:8000
 ```
+
+django admin에서 
 
 
 
@@ -451,11 +450,11 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM0MjI3ODk5OCwxNDE5MDUwOTc0LC0yMD
-A1ODYwMTkyLC0xNzE5ODEzMzY5LDEyMTY4MDU4NTgsMTU0MTcw
-MDMzNiwyNTk1OTEwMjgsLTQ0NTYxNTg4MywxMTg3MTExMDU0LC
-0yMDYyODAyODgyLDEyNzI5MTM0MjAsLTIwNTA2Njc4OTIsOTM5
-MjE0MTgyLC03ODQ2ODg4ODAsNDYwMTE3NDEwLDEyMzQ3ODc2My
-wtMTYyNDY4MTQ5MCwxNjI1Nzc5NTI4LDE3NTI4NTg0NywxNzU3
-MDI2NTAwXX0=
+eyJoaXN0b3J5IjpbNjk5NDAwOTYxLDE0MTkwNTA5NzQsLTIwMD
+U4NjAxOTIsLTE3MTk4MTMzNjksMTIxNjgwNTg1OCwxNTQxNzAw
+MzM2LDI1OTU5MTAyOCwtNDQ1NjE1ODgzLDExODcxMTEwNTQsLT
+IwNjI4MDI4ODIsMTI3MjkxMzQyMCwtMjA1MDY2Nzg5Miw5Mzky
+MTQxODIsLTc4NDY4ODg4MCw0NjAxMTc0MTAsMTIzNDc4NzYzLC
+0xNjI0NjgxNDkwLDE2MjU3Nzk1MjgsMTc1Mjg1ODQ3LDE3NTcw
+MjY1MDBdfQ==
 -->
