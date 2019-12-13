@@ -289,7 +289,8 @@ celery -A myproj beat -l info --scheduler django_celery_beat.schedulers:Database
 django admin  
 http://192.168.33.10:8000/admin/  
 clocked (시작 시간 등록)  
-periodic task 
+periodic task 등록
+
 
 
 
@@ -454,7 +455,7 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzMTE5MjgyOSwxNDE5MDUwOTc0LC0yMD
+eyJoaXN0b3J5IjpbMTcwNDYzNDc4NSwxNDE5MDUwOTc0LC0yMD
 A1ODYwMTkyLC0xNzE5ODEzMzY5LDEyMTY4MDU4NTgsMTU0MTcw
 MDMzNiwyNTk1OTEwMjgsLTQ0NTYxNTg4MywxMTg3MTExMDU0LC
 0yMDYyODAyODgyLDEyNzI5MTM0MjAsLTIwNTA2Njc4OTIsOTM5
