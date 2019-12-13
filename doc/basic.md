@@ -258,8 +258,9 @@ pip install -r requirements.txt
 `myproj/settings.py`
 ```py
 
-CELERY_RESULT_BACKEND = 'django-db'
+ALLOWED_HOSTS = ['*']
 
+CELERY_RESULT_BACKEND = 'django-db'
 
 INSTALLED_APPS = [
     ...,
@@ -466,7 +467,7 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2MTE4NjA4MSwtMTczMzc5OTIwMCwyOT
+eyJoaXN0b3J5IjpbLTIzODI4MTIwMiwtMTczMzc5OTIwMCwyOT
 gwMDU5MjYsMTQxOTA1MDk3NCwtMjAwNTg2MDE5MiwtMTcxOTgx
 MzM2OSwxMjE2ODA1ODU4LDE1NDE3MDAzMzYsMjU5NTkxMDI4LC
 00NDU2MTU4ODMsMTE4NzExMTA1NCwtMjA2MjgwMjg4MiwxMjcy
