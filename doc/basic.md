@@ -291,6 +291,44 @@ DATABASES = {
 #TIME_ZONE = UTC
 TIME_ZONE = 'Asia/Seoul'
 ```
+`myproj/__init__.py`
+```py
+from __future__ import absolute_import, unicode_literals
+  
+# This will make sure the app is always imported when
+# Django starts so that shared_task will use this app.
+from .celery import app as celery_app
+
+__all__ = ('celery_app',)
+```
+`myproj/celery.py`
+```py
+from __future__ import absolute_import, unicode_literals
+import os
+from celery import Celery
+
+# set the default Django settings module for the 'celery' program.
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'myproj.settings')
+
+app = Celery('myproj',
+             #broker='amqp://',
+             #backend='amqp://',
+            )
+
+# Using a string here means the worker doesn't have to serialize
+# the configuration object to child processes.
+# - namespace='CELERY' means all celery-related configuration keys
+#   should have a `CELERY_` prefix.
+#app.config_from_object('django.conf:settings', namespace='CELERY')
+app.config_from_object('django.conf:settings', namespace='CELERY')
+
+# Load task modules from all registered Django app configs.
+app.autodiscover_tasks()
+
+@app.task(bind=True)
+def debug_task(self):
+    print('Request: {0!r}'.format(self.request))
+```
 
 ```bash
 
@@ -488,11 +526,11 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAwMDMzNTU2LC0xNjQ4MTc3NDQ3LC05MT
-UyMDExNzcsLTE4NzY1NzYzMjcsLTI4MjE5OTY3MywtNjA4NzIw
-NDc2LC0xMzA2MTYwNjQyLC0yMzgyODEyMDIsLTE3MzM3OTkyMD
-AsMjk4MDA1OTI2LDE0MTkwNTA5NzQsLTIwMDU4NjAxOTIsLTE3
-MTk4MTMzNjksMTIxNjgwNTg1OCwxNTQxNzAwMzM2LDI1OTU5MT
-AyOCwtNDQ1NjE1ODgzLDExODcxMTEwNTQsLTIwNjI4MDI4ODIs
-MTI3MjkxMzQyMF19
+eyJoaXN0b3J5IjpbMTcwMDU4MTY5NSwtMTY0ODE3NzQ0NywtOT
+E1MjAxMTc3LC0xODc2NTc2MzI3LC0yODIxOTk2NzMsLTYwODcy
+MDQ3NiwtMTMwNjE2MDY0MiwtMjM4MjgxMjAyLC0xNzMzNzk5Mj
+AwLDI5ODAwNTkyNiwxNDE5MDUwOTc0LC0yMDA1ODYwMTkyLC0x
+NzE5ODEzMzY5LDEyMTY4MDU4NTgsMTU0MTcwMDMzNiwyNTk1OT
+EwMjgsLTQ0NTYxNTg4MywxMTg3MTExMDU0LC0yMDYyODAyODgy
+LDEyNzI5MTM0MjBdfQ==
 -->
