@@ -266,7 +266,19 @@ pip install -r requirements.txt
 
 ALLOWED_HOSTS = ['*']
 
-CELERY_BROKER_URL = 'amqp://kotech:kotech@13.209.192.128'
+broker_dir = os.path.join(BASE_DIR, 'broker')
+
+CELERY_BROKER_URL = 'filesystem://'
+CELERY_BROKER_TRANSPORT_OPTIONS = {
+    "data_folder_in": os.path.join(broker_dir, "out"),
+    "data_folder_out": os.path.join(broker_dir, "out"),
+    "data_folder_processed": os.path.join(broker_dir, "processed"),
+}
+
+import os
+for f in [CELERY_BROKER_TRANSPORT_OPTIONS['data_folder_in'], CELERY_BROKER_TRANSPORT_OPTIONS['data_folder_processed']:
+    if not os.path.exists(f):
+        os.makedirs(f)
 CELERY_RESULT_BACKEND = 'django-db'
 
 INSTALLED_APPS = [
@@ -509,20 +521,20 @@ rabbitmq-server
 [Using filesystem transport with Celery](https://ondergetekende.nl/using-filesystem-transport-with-celery.html)  
 
 ```py
+#CELERY_BROKER_URL = 'amqp://kotech:kotech@13.209.192.128'
 # This assumes you have defied BASE_DIR, which is the case if you're using 
 # a generated project. If not, just set it to wherever you think
-broker_dir = os.path.join(BASE_DIR, '.broker')
+broker_dir = os.path.join(BASE_DIR, 'broker')
 
-BROKER_URL = 'filesystem://'
-BROKER_TRANSPORT_OPTIONS = {
+CELERY_BROKER_URL = 'filesystem://'
+CELERY_BROKER_TRANSPORT_OPTIONS = {
     "data_folder_in": os.path.join(broker_dir, "out"),
     "data_folder_out": os.path.join(broker_dir, "out"),
     "data_folder_processed": os.path.join(broker_dir, "processed"),
 }
-import os
 
-# setup folder for message broking
-for f in [BROKER_TRANSPORT_OPTIONS['data_folder_in'], BROKER_TRANSPORT_OPTIONS['data_folder_processed']:     
+import os
+for f in [CELERY_BROKER_TRANSPORT_OPTIONS['data_folder_in'], CELERY_BROKER_TRANSPORT_OPTIONS['data_folder_processed']:
     if not os.path.exists(f):
         os.makedirs(f)
 ```
@@ -569,11 +581,11 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTEyMTMxODEsLTE4MDc3Njc5NjMsMT
-U4NjM4NDAxNiw0OTU5ODY1MTgsLTE2NDgxNzc0NDcsLTkxNTIw
-MTE3NywtMTg3NjU3NjMyNywtMjgyMTk5NjczLC02MDg3MjA0Nz
-YsLTEzMDYxNjA2NDIsLTIzODI4MTIwMiwtMTczMzc5OTIwMCwy
-OTgwMDU5MjYsMTQxOTA1MDk3NCwtMjAwNTg2MDE5MiwtMTcxOT
-gxMzM2OSwxMjE2ODA1ODU4LDE1NDE3MDAzMzYsMjU5NTkxMDI4
-LC00NDU2MTU4ODNdfQ==
+eyJoaXN0b3J5IjpbNzQ4NTg2OTIyLC0xMjUxMjEzMTgxLC0xOD
+A3NzY3OTYzLDE1ODYzODQwMTYsNDk1OTg2NTE4LC0xNjQ4MTc3
+NDQ3LC05MTUyMDExNzcsLTE4NzY1NzYzMjcsLTI4MjE5OTY3My
+wtNjA4NzIwNDc2LC0xMzA2MTYwNjQyLC0yMzgyODEyMDIsLTE3
+MzM3OTkyMDAsMjk4MDA1OTI2LDE0MTkwNTA5NzQsLTIwMDU4Nj
+AxOTIsLTE3MTk4MTMzNjksMTIxNjgwNTg1OCwxNTQxNzAwMzM2
+LDI1OTU5MTAyOF19
 -->
