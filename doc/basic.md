@@ -383,9 +383,110 @@ periodic task 등록
 
 
 
+## openssl 
+
+cipher list
+https://www.openssl.org/docs/man1.0.2/man1/ciphers.html  
+
+## rabbitmq
+
+`/home/vagrant/rabbitmq.conf`
+```
+#listeners.tcp.1 = 0.0.0.0:15672 # not working for brew rabbitmq-server
+#loopback_users = none # comment out for guest/guest login
+```
+기본 포트: 15672  ==> 방화벽 등록
+```bash
+#celery broker 서버 기동
+# see /home/linuxbrew/.linuxbrew/Cellar/rabbitmq/3.8.2/sbin/rabbitmq-server file
+RABBITMQ_NODE_IP_ADDRESS=0.0.0.0 \
+RABBITMQ_CONFIG_FILE=/home/vagrant/rabbitmq.conf \
+rabbitmq-server -detached
+or
+rabbitmq-server
+```
 
 
-## django 3 (oracle 11g안됨)
+## 작업중
+
+#### celery broker filesystem
+
+[Using filesystem transport with Celery](https://ondergetekende.nl/using-filesystem-transport-with-celery.html)  
+[An incredibly simple no-frills Celery setup](https://www.distributedpython.com/2018/07/03/simple-celery-setup/)  
+
+```py
+#CELERY_BROKER_URL = 'amqp://kotech:kotech@13.209.192.128'
+# This assumes you have defied BASE_DIR, which is the case if you're using 
+# a generated project. If not, just set it to wherever you think
+broker_dir = os.path.join(BASE_DIR, 'broker')
+
+CELERY_BROKER_URL = 'filesystem://'
+CELERY_BROKER_TRANSPORT_OPTIONS = {
+    "data_folder_in": os.path.join(broker_dir, "out"),
+    "data_folder_out": os.path.join(broker_dir, "out"),
+    "data_folder_processed": os.path.join(broker_dir, "processed"),
+}
+
+import os
+for f in [CELERY_BROKER_TRANSPORT_OPTIONS['data_folder_in'],
+          CELERY_BROKER_TRANSPORT_OPTIONS['data_folder_processed']]:
+    if not os.path.exists(f):
+        os.makedirs(f)
+```
+
+#### celery on windows
+
+[Hack: 2 Ways to make Celery 4 run on Windows](https://www.distributedpython.com/2018/08/21/celery-4-windows/)  
+Celery 4 does no longer support Windows. Here are two workarounds  
+
+
+#### oracle instant client on ubuntu
+
+https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html  
+
+```bash
+sudo apt install alien -y
+
+wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-instantclient19.5-basic-19.5.0.0.0-1.x86_64.rpm
+sudo alien --scripts oracle-instantclient19.5-basic-19.5.0.0.0-1.x86_64.rpm
+sudo dpkg -i oracle-instantclient19.5-basic_19.5.0.0.0-2_amd64.deb
+#brew install libaio
+
+# sqlplus
+wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-instantclient19.5-sqlplus-19.5.0.0.0-1.x86_64.rpm
+sudo alien --scripts oracle-instantclient19.5-sqlplus-19.5.0.0.0-1.x86_64.rpm
+sudo dpkg -i oracle-instantclient19.5-sqlplus_19.5.0.0.0-2_amd64.deb
+sudo apt install libaio1 -y
+
+stty erase ^H
+sqlplus system/oracle@localhost/xe
+#or
+brew install rlwrap
+rlwrap sqlplus system/oracle@localhost/xe
+
+# optional
+wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-instantclient19.5-devel-19.5.0.0.0-1.x86_64.rpm
+
+```
+
+#### migrate 이후에 table확인해보자
+
+#### scrapy from django
+
+https://blog.theodo.com/2019/01/data-scraping-scrapy-django-integration/  
+https://medium.com/@ali_oguzhan/how-to-use-scrapy-with-django-application-c16fabd0e62e  
+djangoItem:  
+https://docs.scrapy.org/en/0.24/topics/djangoitem.html  
+https://github.com/scrapy-plugins/scrapy-djangoitem 
+egg
+https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
+https://bluese05.tistory.com/31  
+
+
+
+# 참고용
+
+#### django 3 (oracle 11g안됨)
 `myproj/settings.py`
 ```py
 INSTALLED_APPS = [
@@ -490,111 +591,12 @@ urlpatterns = [
 ]
 ```
 https://stackoverflow.com/questions/49229664/configure-the-django-with-oracle-11g-data-base-issue  
-
-## openssl 
-
-cipher list
-https://www.openssl.org/docs/man1.0.2/man1/ciphers.html  
-
-## rabbitmq
-
-`/home/vagrant/rabbitmq.conf`
-```
-#listeners.tcp.1 = 0.0.0.0:15672 # not working for brew rabbitmq-server
-#loopback_users = none # comment out for guest/guest login
-```
-기본 포트: 15672  ==> 방화벽 등록
-```bash
-#celery broker 서버 기동
-# see /home/linuxbrew/.linuxbrew/Cellar/rabbitmq/3.8.2/sbin/rabbitmq-server file
-RABBITMQ_NODE_IP_ADDRESS=0.0.0.0 \
-RABBITMQ_CONFIG_FILE=/home/vagrant/rabbitmq.conf \
-rabbitmq-server -detached
-or
-rabbitmq-server
-```
-
-
-## 작업중
-
-#### celery broker filesystem
-
-[Using filesystem transport with Celery](https://ondergetekende.nl/using-filesystem-transport-with-celery.html)  
-[An incredibly simple no-frills Celery setup](https://www.distributedpython.com/2018/07/03/simple-celery-setup/)  
-
-```py
-#CELERY_BROKER_URL = 'amqp://kotech:kotech@13.209.192.128'
-# This assumes you have defied BASE_DIR, which is the case if you're using 
-# a generated project. If not, just set it to wherever you think
-broker_dir = os.path.join(BASE_DIR, 'broker')
-
-CELERY_BROKER_URL = 'filesystem://'
-CELERY_BROKER_TRANSPORT_OPTIONS = {
-    "data_folder_in": os.path.join(broker_dir, "out"),
-    "data_folder_out": os.path.join(broker_dir, "out"),
-    "data_folder_processed": os.path.join(broker_dir, "processed"),
-}
-
-import os
-for f in [CELERY_BROKER_TRANSPORT_OPTIONS['data_folder_in'],
-          CELERY_BROKER_TRANSPORT_OPTIONS['data_folder_processed']]:
-    if not os.path.exists(f):
-        os.makedirs(f)
-```
-
-#### celery on windows
-
-[Hack: 2 Ways to make Celery 4 run on Windows](https://www.distributedpython.com/2018/08/21/celery-4-windows/)  
-Celery 4 does no longer support Windows. Here are two workarounds  
-
-
-#### oracle instant client on ubuntu
-
-https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html  
-
-```bash
-sudo apt install alien -y
-
-wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-instantclient19.5-basic-19.5.0.0.0-1.x86_64.rpm
-sudo alien --scripts oracle-instantclient19.5-basic-19.5.0.0.0-1.x86_64.rpm
-sudo dpkg -i oracle-instantclient19.5-basic_19.5.0.0.0-2_amd64.deb
-#brew install libaio
-
-# sqlplus
-wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-instantclient19.5-sqlplus-19.5.0.0.0-1.x86_64.rpm
-sudo alien --scripts oracle-instantclient19.5-sqlplus-19.5.0.0.0-1.x86_64.rpm
-sudo dpkg -i oracle-instantclient19.5-sqlplus_19.5.0.0.0-2_amd64.deb
-sudo apt install libaio1 -y
-
-stty erase ^H
-sqlplus system/oracle@localhost/xe
-#or
-brew install rlwrap
-rlwrap sqlplus system/oracle@localhost/xe
-
-# optional
-wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-instantclient19.5-devel-19.5.0.0.0-1.x86_64.rpm
-
-```
-
-#### migrate 이후에 table확인해보자
-
-#### scrapy from django
-
-https://blog.theodo.com/2019/01/data-scraping-scrapy-django-integration/  
-https://medium.com/@ali_oguzhan/how-to-use-scrapy-with-django-application-c16fabd0e62e  
-djangoItem:  
-https://docs.scrapy.org/en/0.24/topics/djangoitem.html  
-https://github.com/scrapy-plugins/scrapy-djangoitem 
-egg
-https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
-https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNDQ0MDUzNCwtMTU2NzQ0ODYyNywtNz
-kyODM4ODEwLC0xMjUxMjEzMTgxLC0xODA3NzY3OTYzLDE1ODYz
-ODQwMTYsNDk1OTg2NTE4LC0xNjQ4MTc3NDQ3LC05MTUyMDExNz
-csLTE4NzY1NzYzMjcsLTI4MjE5OTY3MywtNjA4NzIwNDc2LC0x
-MzA2MTYwNjQyLC0yMzgyODEyMDIsLTE3MzM3OTkyMDAsMjk4MD
-A1OTI2LDE0MTkwNTA5NzQsLTIwMDU4NjAxOTIsLTE3MTk4MTMz
-NjksMTIxNjgwNTg1OF19
+eyJoaXN0b3J5IjpbODkyODgxOTQ2LC03MjQ0NDA1MzQsLTE1Nj
+c0NDg2MjcsLTc5MjgzODgxMCwtMTI1MTIxMzE4MSwtMTgwNzc2
+Nzk2MywxNTg2Mzg0MDE2LDQ5NTk4NjUxOCwtMTY0ODE3NzQ0Ny
+wtOTE1MjAxMTc3LC0xODc2NTc2MzI3LC0yODIxOTk2NzMsLTYw
+ODcyMDQ3NiwtMTMwNjE2MDY0MiwtMjM4MjgxMjAyLC0xNzMzNz
+k5MjAwLDI5ODAwNTkyNiwxNDE5MDUwOTc0LC0yMDA1ODYwMTky
+LC0xNzE5ODEzMzY5XX0=
 -->
