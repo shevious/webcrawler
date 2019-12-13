@@ -259,6 +259,7 @@ django-celery-beat==1.5.0
 ```
 ```bash
 pip install -r requirements.txt
+pip install pypiwin32==223 # 윈도우에서만 필요함.
 ```
 
 `myproj/settings.py`
@@ -588,11 +589,11 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MjgzODgxMCwtMTI1MTIxMzE4MSwtMT
-gwNzc2Nzk2MywxNTg2Mzg0MDE2LDQ5NTk4NjUxOCwtMTY0ODE3
-NzQ0NywtOTE1MjAxMTc3LC0xODc2NTc2MzI3LC0yODIxOTk2Nz
-MsLTYwODcyMDQ3NiwtMTMwNjE2MDY0MiwtMjM4MjgxMjAyLC0x
-NzMzNzk5MjAwLDI5ODAwNTkyNiwxNDE5MDUwOTc0LC0yMDA1OD
-YwMTkyLC0xNzE5ODEzMzY5LDEyMTY4MDU4NTgsMTU0MTcwMDMz
-NiwyNTk1OTEwMjhdfQ==
+eyJoaXN0b3J5IjpbLTE1Njc0NDg2MjcsLTc5MjgzODgxMCwtMT
+I1MTIxMzE4MSwtMTgwNzc2Nzk2MywxNTg2Mzg0MDE2LDQ5NTk4
+NjUxOCwtMTY0ODE3NzQ0NywtOTE1MjAxMTc3LC0xODc2NTc2Mz
+I3LC0yODIxOTk2NzMsLTYwODcyMDQ3NiwtMTMwNjE2MDY0Miwt
+MjM4MjgxMjAyLC0xNzMzNzk5MjAwLDI5ODAwNTkyNiwxNDE5MD
+UwOTc0LC0yMDA1ODYwMTkyLC0xNzE5ODEzMzY5LDEyMTY4MDU4
+NTgsMTU0MTcwMDMzNl19
 -->
