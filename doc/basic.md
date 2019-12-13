@@ -521,8 +521,10 @@ BROKER_TRANSPORT_OPTIONS = {
 }
 import os
 
-os.makedirs(BROKER_TRANSPORT_OPTIONS['data_folder_in'])
-os.makedirs(BROKER_TRANSPORT_OPTIONS['data_folder_processed'])
+# setup folder for message broking
+for f in [BROKER_TRANSPORT_OPTIONS['data_folder_in'], BROKER_TRANSPORT_OPTIONS['data_folder_processed']:     
+    if not os.path.exists(f):
+        os.makedirs(f)
 ```
 
 #### oracle instant client on ubuntu
@@ -567,11 +569,11 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDc3Njc5NjMsMTU4NjM4NDAxNiw0OT
-U5ODY1MTgsLTE2NDgxNzc0NDcsLTkxNTIwMTE3NywtMTg3NjU3
-NjMyNywtMjgyMTk5NjczLC02MDg3MjA0NzYsLTEzMDYxNjA2ND
-IsLTIzODI4MTIwMiwtMTczMzc5OTIwMCwyOTgwMDU5MjYsMTQx
-OTA1MDk3NCwtMjAwNTg2MDE5MiwtMTcxOTgxMzM2OSwxMjE2OD
-A1ODU4LDE1NDE3MDAzMzYsMjU5NTkxMDI4LC00NDU2MTU4ODMs
-MTE4NzExMTA1NF19
+eyJoaXN0b3J5IjpbLTEyNTEyMTMxODEsLTE4MDc3Njc5NjMsMT
+U4NjM4NDAxNiw0OTU5ODY1MTgsLTE2NDgxNzc0NDcsLTkxNTIw
+MTE3NywtMTg3NjU3NjMyNywtMjgyMTk5NjczLC02MDg3MjA0Nz
+YsLTEzMDYxNjA2NDIsLTIzODI4MTIwMiwtMTczMzc5OTIwMCwy
+OTgwMDU5MjYsMTQxOTA1MDk3NCwtMjAwNTg2MDE5MiwtMTcxOT
+gxMzM2OSwxMjE2ODA1ODU4LDE1NDE3MDAzMzYsMjU5NTkxMDI4
+LC00NDU2MTU4ODNdfQ==
 -->
