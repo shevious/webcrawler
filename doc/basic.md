@@ -230,16 +230,12 @@ cx_oracle 버전 문제:
 https://code.djangoproject.com/ticket/29759  
 ```bash
 pip install django==1.11.26
-pip install cx_oracle==6.4.1
 django-admin.py startproject myproj
 cd myproj
 ./manage.py migrate
 # ⇒ migrate 성공
-
 ./manage.py startapp myapp
-
 ./manage.py createsuperuser
-
 ```
 https://developer.oracle.com/dsl/vasiliev-django.html  
 
@@ -251,6 +247,9 @@ celery==4.3.0
 cx-oracle==6.4.1
 django-celery-results==1.1.2
 django-celery-beat==1.5.0
+```
+```bash
+pip install -r requirements.txt
 ```
 
 `myproj/settings.py`
@@ -464,11 +463,11 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjk4MDA1OTI2LDE0MTkwNTA5NzQsLTIwMD
-U4NjAxOTIsLTE3MTk4MTMzNjksMTIxNjgwNTg1OCwxNTQxNzAw
-MzM2LDI1OTU5MTAyOCwtNDQ1NjE1ODgzLDExODcxMTEwNTQsLT
-IwNjI4MDI4ODIsMTI3MjkxMzQyMCwtMjA1MDY2Nzg5Miw5Mzky
-MTQxODIsLTc4NDY4ODg4MCw0NjAxMTc0MTAsMTIzNDc4NzYzLC
-0xNjI0NjgxNDkwLDE2MjU3Nzk1MjgsMTc1Mjg1ODQ3LDE3NTcw
-MjY1MDBdfQ==
+eyJoaXN0b3J5IjpbLTE3MzM3OTkyMDAsMjk4MDA1OTI2LDE0MT
+kwNTA5NzQsLTIwMDU4NjAxOTIsLTE3MTk4MTMzNjksMTIxNjgw
+NTg1OCwxNTQxNzAwMzM2LDI1OTU5MTAyOCwtNDQ1NjE1ODgzLD
+ExODcxMTEwNTQsLTIwNjI4MDI4ODIsMTI3MjkxMzQyMCwtMjA1
+MDY2Nzg5Miw5MzkyMTQxODIsLTc4NDY4ODg4MCw0NjAxMTc0MT
+AsMTIzNDc4NzYzLC0xNjI0NjgxNDkwLDE2MjU3Nzk1MjgsMTc1
+Mjg1ODQ3XX0=
 -->
