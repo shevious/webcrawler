@@ -508,6 +508,23 @@ rabbitmq-server
 
 [Using filesystem transport with Celery](https://ondergetekende.nl/using-filesystem-transport-with-celery.html)  
 
+```py
+# This assumes you have defied BASE_DIR, which is the case if you're using 
+# a generated project. If not, just set it to wherever you think
+broker_dir = os.path.join(BASE_DIR, '.broker')
+
+BROKER_URL = 'filesystem://'
+BROKER_TRANSPORT_OPTIONS = {
+    "data_folder_in": os.path.join(broker_dir, "out"),
+    "data_folder_out": os.path.join(broker_dir, "out"),
+    "data_folder_processed": os.path.join(broker_dir, "processed"),
+}
+import os
+
+os.makedirs(BROKER_TRANSPORT_OPTIONS['data_folder_in'])
+os.makedirs(BROKER_TRANSPORT_OPTIONS['data_folder_processed'])
+```
+
 #### oracle instant client on ubuntu
 
 https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html  
@@ -550,11 +567,11 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1Mjk2NTA3MiwxNTg2Mzg0MDE2LDQ5NT
-k4NjUxOCwtMTY0ODE3NzQ0NywtOTE1MjAxMTc3LC0xODc2NTc2
-MzI3LC0yODIxOTk2NzMsLTYwODcyMDQ3NiwtMTMwNjE2MDY0Mi
-wtMjM4MjgxMjAyLC0xNzMzNzk5MjAwLDI5ODAwNTkyNiwxNDE5
-MDUwOTc0LC0yMDA1ODYwMTkyLC0xNzE5ODEzMzY5LDEyMTY4MD
-U4NTgsMTU0MTcwMDMzNiwyNTk1OTEwMjgsLTQ0NTYxNTg4Mywx
-MTg3MTExMDU0XX0=
+eyJoaXN0b3J5IjpbLTE4MDc3Njc5NjMsMTU4NjM4NDAxNiw0OT
+U5ODY1MTgsLTE2NDgxNzc0NDcsLTkxNTIwMTE3NywtMTg3NjU3
+NjMyNywtMjgyMTk5NjczLC02MDg3MjA0NzYsLTEzMDYxNjA2ND
+IsLTIzODI4MTIwMiwtMTczMzc5OTIwMCwyOTgwMDU5MjYsMTQx
+OTA1MDk3NCwtMjAwNTg2MDE5MiwtMTcxOTgxMzM2OSwxMjE2OD
+A1ODU4LDE1NDE3MDAzMzYsMjU5NTkxMDI4LC00NDU2MTU4ODMs
+MTE4NzExMTA1NF19
 -->
