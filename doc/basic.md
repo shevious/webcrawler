@@ -130,7 +130,7 @@ https://visualstudio.microsoft.com/ko/downloads/
 ## ocacle client
 
 [Instant Client Downloads for Microsoft Windows (x64) 64-bit](https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html#ic_winx64_inst)  
-zip압축 해재 `C:\oracle\instantclient_19_3`  
+zip압축 해재 `C:\oracle\instantclient_19_`  
 
 ```
 
@@ -491,11 +491,11 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxNTIwMTE3NywtMTg3NjU3NjMyNywtMj
-gyMTk5NjczLC02MDg3MjA0NzYsLTEzMDYxNjA2NDIsLTIzODI4
-MTIwMiwtMTczMzc5OTIwMCwyOTgwMDU5MjYsMTQxOTA1MDk3NC
-wtMjAwNTg2MDE5MiwtMTcxOTgxMzM2OSwxMjE2ODA1ODU4LDE1
-NDE3MDAzMzYsMjU5NTkxMDI4LC00NDU2MTU4ODMsMTE4NzExMT
-A1NCwtMjA2MjgwMjg4MiwxMjcyOTEzNDIwLC0yMDUwNjY3ODky
-LDkzOTIxNDE4Ml19
+eyJoaXN0b3J5IjpbMTE4NDg0MDI4NiwtOTE1MjAxMTc3LC0xOD
+c2NTc2MzI3LC0yODIxOTk2NzMsLTYwODcyMDQ3NiwtMTMwNjE2
+MDY0MiwtMjM4MjgxMjAyLC0xNzMzNzk5MjAwLDI5ODAwNTkyNi
+wxNDE5MDUwOTc0LC0yMDA1ODYwMTkyLC0xNzE5ODEzMzY5LDEy
+MTY4MDU4NTgsMTU0MTcwMDMzNiwyNTk1OTEwMjgsLTQ0NTYxNT
+g4MywxMTg3MTExMDU0LC0yMDYyODAyODgyLDEyNzI5MTM0MjAs
+LTIwNTA2Njc4OTJdfQ==
 -->
