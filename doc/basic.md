@@ -363,8 +363,10 @@ def xsum(numbers):
 
 # celery worker 기동
 cd myproj
-celery -A myproj worker -l info
+# 윈도우용
 celery -A myproj worker -l info --pool=solo
+# linux용
+celery -A myproj worker -l info
 
 # celery beat 데몬 기동
 celery -A myproj beat -l info --scheduler django_celery_beat.schedulers:DatabaseScheduler
@@ -588,7 +590,7 @@ egg
 https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
 https://bluese05.tistory.com/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNDk2MDQ5MCwtMTU2NzQ0ODYyNywtNz
+eyJoaXN0b3J5IjpbLTcyNDQ0MDUzNCwtMTU2NzQ0ODYyNywtNz
 kyODM4ODEwLC0xMjUxMjEzMTgxLC0xODA3NzY3OTYzLDE1ODYz
 ODQwMTYsNDk1OTg2NTE4LC0xNjQ4MTc3NDQ3LC05MTUyMDExNz
 csLTE4NzY1NzYzMjcsLTI4MjE5OTY3MywtNjA4NzIwNDc2LC0x
