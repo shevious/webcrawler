@@ -117,7 +117,8 @@ virtualenv에서
 curl -LO https://download.lfd.uci.edu/pythonlibs/t7epjj8p/Twisted-19.10.0-cp38-cp38-win_amd64.whl  
 pip install Twisted-19.10.0-cp38-cp38-win_amd64.whl
 pip install scrapy
-pip install scrapyd
+pip install dateparser
+#pip install scrapyd
 ```
 
 https://docs.scrapy.org/en/latest/intro/tutorial.html  
@@ -598,11 +599,11 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Pr
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ0MDgxNDM5LC0xMTA1MzUzMTQxLDE4ND
-E3NzY5MzEsNzUwNTkwNTgxLC05OTU0Njg4MDksMjEyNjA1OTMy
-Myw5MjU5NDE1NDgsODkyODgxOTQ2LC03MjQ0NDA1MzQsLTE1Nj
-c0NDg2MjcsLTc5MjgzODgxMCwtMTI1MTIxMzE4MSwtMTgwNzc2
-Nzk2MywxNTg2Mzg0MDE2LDQ5NTk4NjUxOCwtMTY0ODE3NzQ0Ny
-wtOTE1MjAxMTc3LC0xODc2NTc2MzI3LC0yODIxOTk2NzMsLTYw
-ODcyMDQ3Nl19
+eyJoaXN0b3J5IjpbLTI0MTUyNTgwMyw4NDQwODE0MzksLTExMD
+UzNTMxNDEsMTg0MTc3NjkzMSw3NTA1OTA1ODEsLTk5NTQ2ODgw
+OSwyMTI2MDU5MzIzLDkyNTk0MTU0OCw4OTI4ODE5NDYsLTcyND
+Q0MDUzNCwtMTU2NzQ0ODYyNywtNzkyODM4ODEwLC0xMjUxMjEz
+MTgxLC0xODA3NzY3OTYzLDE1ODYzODQwMTYsNDk1OTg2NTE4LC
+0xNjQ4MTc3NDQ3LC05MTUyMDExNzcsLTE4NzY1NzYzMjcsLTI4
+MjE5OTY3M119
 -->
