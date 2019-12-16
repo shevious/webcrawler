@@ -132,6 +132,9 @@ scrapy startproject tutorial
 울산
 http://www.uill.or.kr/UR/info/lecture/list.do?rbsIdx=34&page=1  
 
+울산 작업분:  
+http://gofile.me/2P1jS/xgKiuo8al  
+
 경북  
 http://www.gile.or.kr/web/lecture/list.do?mId=72&page=1  
  
@@ -143,7 +146,7 @@ https://www.e-room.or.kr/gw/portal/org_lecture_info?mode=read&leccode=4647&page_
 기관목록:  
 
 2019-12-16작업분(강원):  
-http://gofile.me/2P1jS/3rRqhWb6V  
+http://gofile.me/2P1jS/3rRqhWb6V  
 
 
 # portia
@@ -616,11 +619,11 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Pr
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NTU4NDQsLTEwMjkzMjUyNjksLTE1Nz
-M1MDM4MzksLTkzNzExMTUxOSw5OTk5Mjg3NzQsLTI0MTUyNTgw
-Myw4NDQwODE0MzksLTExMDUzNTMxNDEsMTg0MTc3NjkzMSw3NT
-A1OTA1ODEsLTk5NTQ2ODgwOSwyMTI2MDU5MzIzLDkyNTk0MTU0
-OCw4OTI4ODE5NDYsLTcyNDQ0MDUzNCwtMTU2NzQ0ODYyNywtNz
-kyODM4ODEwLC0xMjUxMjEzMTgxLC0xODA3NzY3OTYzLDE1ODYz
-ODQwMTZdfQ==
+eyJoaXN0b3J5IjpbMjg4MzEzNDg2LC0xMDI5MzI1MjY5LC0xNT
+czNTAzODM5LC05MzcxMTE1MTksOTk5OTI4Nzc0LC0yNDE1MjU4
+MDMsODQ0MDgxNDM5LC0xMTA1MzUzMTQxLDE4NDE3NzY5MzEsNz
+UwNTkwNTgxLC05OTU0Njg4MDksMjEyNjA1OTMyMyw5MjU5NDE1
+NDgsODkyODgxOTQ2LC03MjQ0NDA1MzQsLTE1Njc0NDg2MjcsLT
+c5MjgzODgxMCwtMTI1MTIxMzE4MSwtMTgwNzc2Nzk2MywxNTg2
+Mzg0MDE2XX0=
 -->
