@@ -144,6 +144,12 @@ https://www.e-room.or.kr/gw/portal/org_lecture_info?mode=read&leccode=4647&page_
 
 # portia
 
+### portia sample site
+
+http://52.78.43.27:9001
+
+### basics
+
 project folders:
 
 /app/data/projects
@@ -599,11 +605,11 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Pr
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI0MTUyNTgwMyw4NDQwODE0MzksLTExMD
-UzNTMxNDEsMTg0MTc3NjkzMSw3NTA1OTA1ODEsLTk5NTQ2ODgw
-OSwyMTI2MDU5MzIzLDkyNTk0MTU0OCw4OTI4ODE5NDYsLTcyND
-Q0MDUzNCwtMTU2NzQ0ODYyNywtNzkyODM4ODEwLC0xMjUxMjEz
-MTgxLC0xODA3NzY3OTYzLDE1ODYzODQwMTYsNDk1OTg2NTE4LC
-0xNjQ4MTc3NDQ3LC05MTUyMDExNzcsLTE4NzY1NzYzMjcsLTI4
-MjE5OTY3M119
+eyJoaXN0b3J5IjpbOTk5OTI4Nzc0LC0yNDE1MjU4MDMsODQ0MD
+gxNDM5LC0xMTA1MzUzMTQxLDE4NDE3NzY5MzEsNzUwNTkwNTgx
+LC05OTU0Njg4MDksMjEyNjA1OTMyMyw5MjU5NDE1NDgsODkyOD
+gxOTQ2LC03MjQ0NDA1MzQsLTE1Njc0NDg2MjcsLTc5MjgzODgx
+MCwtMTI1MTIxMzE4MSwtMTgwNzc2Nzk2MywxNTg2Mzg0MDE2LD
+Q5NTk4NjUxOCwtMTY0ODE3NzQ0NywtOTE1MjAxMTc3LC0xODc2
+NTc2MzI3XX0=
 -->
