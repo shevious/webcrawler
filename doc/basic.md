@@ -142,6 +142,9 @@ https://www.e-room.or.kr/gw/portal/org_lecture_info
 https://www.e-room.or.kr/gw/portal/org_lecture_info?mode=read&leccode=4647&page_no=1&selectRegion=&gubun=&studyKind=&searchKeyWord=&searchFromDate=&searchEndDate=  
 기관목록:  
 
+2019-12-16작업분(강원):  
+http://gofile.me/2P1jS/3rRqhWb6V  
+
 
 # portia
 
@@ -613,11 +616,11 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Pr
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjkzMjUyNjksLTE1NzM1MDM4MzksLT
-kzNzExMTUxOSw5OTk5Mjg3NzQsLTI0MTUyNTgwMyw4NDQwODE0
-MzksLTExMDUzNTMxNDEsMTg0MTc3NjkzMSw3NTA1OTA1ODEsLT
-k5NTQ2ODgwOSwyMTI2MDU5MzIzLDkyNTk0MTU0OCw4OTI4ODE5
-NDYsLTcyNDQ0MDUzNCwtMTU2NzQ0ODYyNywtNzkyODM4ODEwLC
-0xMjUxMjEzMTgxLC0xODA3NzY3OTYzLDE1ODYzODQwMTYsNDk1
-OTg2NTE4XX0=
+eyJoaXN0b3J5IjpbMTM3NTU4NDQsLTEwMjkzMjUyNjksLTE1Nz
+M1MDM4MzksLTkzNzExMTUxOSw5OTk5Mjg3NzQsLTI0MTUyNTgw
+Myw4NDQwODE0MzksLTExMDUzNTMxNDEsMTg0MTc3NjkzMSw3NT
+A1OTA1ODEsLTk5NTQ2ODgwOSwyMTI2MDU5MzIzLDkyNTk0MTU0
+OCw4OTI4ODE5NDYsLTcyNDQ0MDUzNCwtMTU2NzQ0ODYyNywtNz
+kyODM4ODEwLC0xMjUxMjEzMTgxLC0xODA3NzY3OTYzLDE1ODYz
+ODQwMTZdfQ==
 -->
