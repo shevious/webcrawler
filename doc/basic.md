@@ -188,7 +188,8 @@ https://github.com/scrapy/scrapy/pull/3442
 
 ## pycharm project
 
-file⇒ settings⇒ project⇒ project interpreter
+file⇒ settings⇒ project⇒ project interpreter ⇒ existing ...
+venv안에 있는 python.exe 추가
 
 `sc.py`
 
@@ -611,11 +612,11 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Pr
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNzExMTUxOSw5OTk5Mjg3NzQsLTI0MT
-UyNTgwMyw4NDQwODE0MzksLTExMDUzNTMxNDEsMTg0MTc3Njkz
-MSw3NTA1OTA1ODEsLTk5NTQ2ODgwOSwyMTI2MDU5MzIzLDkyNT
-k0MTU0OCw4OTI4ODE5NDYsLTcyNDQ0MDUzNCwtMTU2NzQ0ODYy
-NywtNzkyODM4ODEwLC0xMjUxMjEzMTgxLC0xODA3NzY3OTYzLD
-E1ODYzODQwMTYsNDk1OTg2NTE4LC0xNjQ4MTc3NDQ3LC05MTUy
-MDExNzddfQ==
+eyJoaXN0b3J5IjpbLTE1NzM1MDM4MzksLTkzNzExMTUxOSw5OT
+k5Mjg3NzQsLTI0MTUyNTgwMyw4NDQwODE0MzksLTExMDUzNTMx
+NDEsMTg0MTc3NjkzMSw3NTA1OTA1ODEsLTk5NTQ2ODgwOSwyMT
+I2MDU5MzIzLDkyNTk0MTU0OCw4OTI4ODE5NDYsLTcyNDQ0MDUz
+NCwtMTU2NzQ0ODYyNywtNzkyODM4ODEwLC0xMjUxMjEzMTgxLC
+0xODA3NzY3OTYzLDE1ODYzODQwMTYsNDk1OTg2NTE4LC0xNjQ4
+MTc3NDQ3XX0=
 -->
