@@ -114,6 +114,7 @@ https://download.lfd.uci.edu/pythonlibs/t7epjj8p/Twisted-19.10.0-cp38-cp38-win_a
 
 virtualenv에서  
 ```bash
+curl -LO https://download.lfd.uci.edu/pythonlibs/t7epjj8p/Twisted-19.10.0-cp38-cp38-win_amd64.whl  
 pip install Twisted-19.10.0-cp38-cp38-win_amd64.whl
 pip install scrapy
 pip install scrapyd
@@ -597,11 +598,11 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Pr
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDUzNTMxNDEsMTg0MTc3NjkzMSw3NT
-A1OTA1ODEsLTk5NTQ2ODgwOSwyMTI2MDU5MzIzLDkyNTk0MTU0
-OCw4OTI4ODE5NDYsLTcyNDQ0MDUzNCwtMTU2NzQ0ODYyNywtNz
-kyODM4ODEwLC0xMjUxMjEzMTgxLC0xODA3NzY3OTYzLDE1ODYz
-ODQwMTYsNDk1OTg2NTE4LC0xNjQ4MTc3NDQ3LC05MTUyMDExNz
-csLTE4NzY1NzYzMjcsLTI4MjE5OTY3MywtNjA4NzIwNDc2LC0x
-MzA2MTYwNjQyXX0=
+eyJoaXN0b3J5IjpbODQ0MDgxNDM5LC0xMTA1MzUzMTQxLDE4ND
+E3NzY5MzEsNzUwNTkwNTgxLC05OTU0Njg4MDksMjEyNjA1OTMy
+Myw5MjU5NDE1NDgsODkyODgxOTQ2LC03MjQ0NDA1MzQsLTE1Nj
+c0NDg2MjcsLTc5MjgzODgxMCwtMTI1MTIxMzE4MSwtMTgwNzc2
+Nzk2MywxNTg2Mzg0MDE2LDQ5NTk4NjUxOCwtMTY0ODE3NzQ0Ny
+wtOTE1MjAxMTc3LC0xODc2NTc2MzI3LC0yODIxOTk2NzMsLTYw
+ODcyMDQ3Nl19
 -->
