@@ -133,14 +133,16 @@
 ## 기관 정보
 ![enter image description here](https://github.com/shevious/webcrawler/blob/master/screenshot/gyeongbug-inst.png?raw=true)
 ## 강좌 정보
-
+![enter image description here](https://github.com/shevious/webcrawler/blob/master/screenshot/gyeongbuk-course.png?raw=true)
 
 # 강원
 
 ## 기관 정보
-
+![enter image description here](https://github.com/shevious/webcrawler/blob/master/screenshot/gangwon-inst.png?raw=true)
 ## 강좌 정보
+
+![enter image description here](https://github.com/shevious/webcrawler/blob/master/screenshot/gagnwon-course.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkyODgwNTYzMCwtNzMwNDYwMTQwLC00OD
+eyJoaXN0b3J5IjpbMTcxMDE1NTU2NCwtNzMwNDYwMTQwLC00OD
 QyMTUyMDgsMTI0MzYxNzc4Nyw0NDAyMDQwMTNdfQ==
 -->
