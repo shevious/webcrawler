@@ -65,8 +65,61 @@
 
 ## 기관 설명
 
+|FIELD_NAME|COMMENT|NULL 여부|
+|----|----|----|
+|INST_ID|기관아이디|NOT NULL|
+|TOTAL_CD|토탈코드| |
+|SIDO_CD|시도코드| |
+|SIGUNGU_CD|시군구코드| |
+|INST_NM|기관명| |
+|INST_CEO_PERNM|기관대표자성명| |
+|INST_SET_UP_MAIN_AGENT_CD|기관설립주체코드| |
+|INST_OPERATION_FORM_CD|기관운영형태코드| |
+|ZIPCODE|우편번호| |
+|ADDR1|주소1| |
+|ADDR2|주소2| |
+|STREET_CD|도로코드| |
+|STREET_NM|도로명| |
+|BUILDING_NO|건물번호| |
+|DETAIL_ADDR|상세주소| |
+|MANAGER_PERNM|담당자성명| |
+|TEL_NO|전화번호| |
+|FAX_NO|팩스번호| |
+|EMAIL|이메일| |
+|HOMEPAGE_URL|홈페이지URL| |
+|INST_DESC|기관설명| |
+|ESTABLISHMENT_DT|설립일시| |
+|INST_OPERATION_STATUS_CD|기관운영상태코드| |
+|LONGITUDE_VAL|경도값| |
+|LATITUDE_VAL|위도값| |
+|INFO_MNG_INST_ID|정보관리기관코드| |
+|INFO_INP_INST_ID|정보입력기관코드| |
+|TAG|태그| |
+|LOC_LEIC_APPNT_YN|지역평생교육정보센터지정여부| |
+|LIFE_STUDY_CENTER_APPNT_CD|평생학습관지정코드| |
+|INCUMBENTTRAIN_INST_YN|직업능력개발훈련기관여부| |
+|CB_INST_YN|학점은행제평가인정기관여부| |
+|LFLLR_INST_YN|평생학습센터지정기관여부| |
+|PSDC_APPNT_INST_YN|학부모지원센터지정기관여부| |
+|BASIC_LIT_EDU_YN|기초문해교육여부| |
+|ACHV_SPPL_EDU_YN|학력보완교육여부| |
+|JOB_ABILITY_EDU_YN|직업능력교육여부| |
+|CULTURE_ART_EDU_YN|문화예술교육여부| |
+|HUMAN_RFNMNT_EDU_YN|인문교양교육여부| |
+|CITIZEN_JOIN_EDU_YN|시민참여교육여부| |
+|INST_CLASS1_CD|기관분류1코드| |
+|INST_CLASS2_CD|기관분류2코드| |
+|INST_CLASS3_CD|기관분류3코드| |
+|REG_USER_ID|등록자아이디| |
+|REG_DT|등록일시| |
+|UPD_USER_ID|수정자아이디| |
+|UPD_DT|수정일시| |
+|DEL_YN|삭제여부| |
+|PAGE_CNT|카운팅 페이지 개수| |
+|PAGE_NO|페이지 번호| |
+|TOTAL_CNT|총 기관 개수| |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NDIxNTIwOCwxMjQzNjE3Nzg3LDQ0MD
-IwNDAxM119
+eyJoaXN0b3J5IjpbOTIyMjMxMjY4LC00ODQyMTUyMDgsMTI0Mz
+YxNzc4Nyw0NDAyMDQwMTNdfQ==
 -->
