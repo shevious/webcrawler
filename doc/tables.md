@@ -71,8 +71,8 @@
 |TOTAL_CD|토탈코드| |
 |SIDO_CD|시도코드| |
 |SIGUNGU_CD|시군구코드| |
-|INST_NM|기관명| |
-|INST_CEO_PERNM|기관대표자성명| |
+|INST_NM|기관명| O |
+|INST_CEO_PERNM|기관대표자성명| O |
 |INST_SET_UP_MAIN_AGENT_CD|기관설립주체코드| |
 |INST_OPERATION_FORM_CD|기관운영형태코드| |
 |ZIPCODE|우편번호| |
@@ -143,6 +143,6 @@
 
 ![enter image description here](https://github.com/shevious/webcrawler/blob/master/screenshot/gagnwon-course.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMDE1NTU2NCwtNzMwNDYwMTQwLC00OD
-QyMTUyMDgsMTI0MzYxNzc4Nyw0NDAyMDQwMTNdfQ==
+eyJoaXN0b3J5IjpbMjc1MTAyODYyLC03MzA0NjAxNDAsLTQ4ND
+IxNTIwOCwxMjQzNjE3Nzg3LDQ0MDIwNDAxM119
 -->
