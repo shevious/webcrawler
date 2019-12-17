@@ -50,9 +50,9 @@
 |EDU_METHOD_CD|교육방법코드| |
 |EDU_LVLDFF_TYPE_CD|교육난의도구분코드| |
 |REF_BOOK_NM|참고도서명| |
-|SOURCE_DESC|출처설명| |
+|SOURCE_DESC|출처설명| X |
 |LINK_URL|링크URL| |
-|DEL_YN|삭제여부| |
+|DEL_YN|삭제여부| N |
 |COURSE_URL|강좌URL| |
 |COURSE_URL_CALL_METHOD|강좌URL호출방법코드| |
 |MOBILE_URL|모바일URL| |
@@ -62,6 +62,11 @@
 |PAGE_CNT|카운팅 페이지 개수| |
 |PAGE_NO|페이지 번호| |
 |TOTAL_CNT|총 강좌 개수| |
+
+## 기관 설명
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI0MzYxNzc4Nyw0NDAyMDQwMTNdfQ==
+eyJoaXN0b3J5IjpbLTQ4NDIxNTIwOCwxMjQzNjE3Nzg3LDQ0MD
+IwNDAxM119
 -->
