@@ -82,14 +82,14 @@
 |STREET_NM|도로명| |
 |BUILDING_NO|건물번호| |
 |DETAIL_ADDR|상세주소| |
-|MANAGER_PERNM|담당자성명| |
+|MANAGER_PERNM|담당자성명| O |
 |TEL_NO|전화번호| O |
 |FAX_NO|팩스번호| O |
-|EMAIL|이메일| |
-|HOMEPAGE_URL|홈페이지URL| |
-|INST_DESC|기관설명| |
+|EMAIL|이메일| O |
+|HOMEPAGE_URL|홈페이지URL| O |
+|INST_DESC|기관설명| O |
 |ESTABLISHMENT_DT|설립일시| |
-|INST_OPERATION_STATUS_CD|기관운영상태코드| |
+|INST_OPERATION_STATUS_CD|기관운영상태코드| ? (직영) |
 |LONGITUDE_VAL|경도값| |
 |LATITUDE_VAL|위도값| |
 |INFO_MNG_INST_ID|정보관리기관코드| |
@@ -143,6 +143,7 @@
 
 ![enter image description here](https://github.com/shevious/webcrawler/blob/master/screenshot/gagnwon-course.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNDMwMDQ5LC03MzA0NjAxNDAsLTQ4ND
-IxNTIwOCwxMjQzNjE3Nzg3LDQ0MDIwNDAxM119
+eyJoaXN0b3J5IjpbLTE1NDQ2MzQ5NzUsMjEwNDMwMDQ5LC03Mz
+A0NjAxNDAsLTQ4NDIxNTIwOCwxMjQzNjE3Nzg3LDQ0MDIwNDAx
+M119
 -->
