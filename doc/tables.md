@@ -29,8 +29,8 @@
 |INFO_MNG_INST_ID|정보관리기관아이디| X |
 |INFO_INP_INST_ID|정보입력기관아이디| X |
 |REG_USER_ID|등록회원아이디| X |
-|REG_DT|등록일시| |
-|UPD_USER_ID|수정자아이디| |
+|REG_DT|등록일시| 날짜만? 시간은? |
+|UPD_USER_ID|수정자아이디| X |
 |UPD_DT|수정일시| |
 |TAG|태그| |
 |JOB_ABILITY_COURSE_YN|직업능력강좌여부| |
@@ -63,5 +63,5 @@
 |PAGE_NO|페이지 번호| |
 |TOTAL_CNT|총 강좌 개수| |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTE4MDgxNDksNDQwMjA0MDEzXX0=
+eyJoaXN0b3J5IjpbMTI0MzYxNzc4Nyw0NDAyMDQwMTNdfQ==
 -->
