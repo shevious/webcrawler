@@ -9,26 +9,26 @@
 |------|----|-----|
 |COURSE_ID|강좌아이디| |
 |INST_ID|기관아이디| 기관명? |
-|TOTAL_CD|토탈코드| |
-|SIDO_CD|시도코드| |
-|SIGUNGU_CD|시군구코드| |
+|TOTAL_CD|토탈코드| ? |
+|SIDO_CD|시도코드| ? |
+|SIGUNGU_CD|시군구코드| ? |
 |COURSE_NM|강좌명| |
 |COURSE_DESC_URL|강좌설명URL| |
-|COURSE_PTTN_CD|강좌유형코드| |
-|EXTRA_CHARGE_CONTENT|부대비용내용| |
-|EDU_CYCLE_CONTENT|교육주기내용| |
+|COURSE_PTTN_CD|강좌유형코드| 온라인/오프라인? |
+|EXTRA_CHARGE_CONTENT|부대비용내용|X|
+|EDU_CYCLE_CONTENT|교육주기내용| 3주? |
 |EDU_QUOTA_CNT|교육인원수| |
 |COURSE_START_DT|강좌시작일시| |
 |COURSE_END_DT|강좌종료일시| |
 |RECEIVE_START_DT|접수시작일시| |
 |RECEIVE_END_DT|접수종료일시| |
-|EDU_TM|교육시간설명| |
+|EDU_TM|교육시간설명| ? |
 |EDU_LOCATION_DESC|교육장소설명| |
 |INQUIRY_TEL_NO|문의전화번호| |
-|TEACHER_PERNM|강사설명| |
-|INFO_MNG_INST_ID|정보관리기관아이디| |
-|INFO_INP_INST_ID|정보입력기관아이디| |
-|REG_USER_ID|등록회원아이디| |
+|TEACHER_PERNM|강사설명| X |
+|INFO_MNG_INST_ID|정보관리기관아이디| X |
+|INFO_INP_INST_ID|정보입력기관아이디| X |
+|REG_USER_ID|등록회원아이디| X |
 |REG_DT|등록일시| |
 |UPD_USER_ID|수정자아이디| |
 |UPD_DT|수정일시| |
@@ -63,5 +63,5 @@
 |PAGE_NO|페이지 번호| |
 |TOTAL_CNT|총 강좌 개수| |
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg0Njg3NjI5MSw0NDAyMDQwMTNdfQ==
+eyJoaXN0b3J5IjpbLTE5OTE4MDgxNDksNDQwMjA0MDEzXX0=
 -->
