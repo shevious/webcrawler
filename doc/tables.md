@@ -5,11 +5,11 @@
 
 ## 강좌 정보
 
-| 테이블 명       | 내용 | 예
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| 테이블 명       | 내용 | 예시
+| ------------- | ------------- | -- |
+| title  | 강좌명  | -- |
+| Content Cell  | Content Cell  | -- |
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgxOTg3MDc1MV19
+eyJoaXN0b3J5IjpbNDQwMjA0MDEzXX0=
 -->
