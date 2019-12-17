@@ -75,16 +75,16 @@
 |INST_CEO_PERNM|기관대표자성명| O |
 |INST_SET_UP_MAIN_AGENT_CD|기관설립주체코드| |
 |INST_OPERATION_FORM_CD|기관운영형태코드| |
-|ZIPCODE|우편번호| |
-|ADDR1|주소1| |
-|ADDR2|주소2| |
+|ZIPCODE|우편번호| O |
+|ADDR1|주소1| O |
+|ADDR2|주소2| null |
 |STREET_CD|도로코드| |
 |STREET_NM|도로명| |
 |BUILDING_NO|건물번호| |
 |DETAIL_ADDR|상세주소| |
 |MANAGER_PERNM|담당자성명| |
-|TEL_NO|전화번호| |
-|FAX_NO|팩스번호| |
+|TEL_NO|전화번호| O |
+|FAX_NO|팩스번호| O |
 |EMAIL|이메일| |
 |HOMEPAGE_URL|홈페이지URL| |
 |INST_DESC|기관설명| |
@@ -143,6 +143,6 @@
 
 ![enter image description here](https://github.com/shevious/webcrawler/blob/master/screenshot/gagnwon-course.png?raw=true)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjc1MTAyODYyLC03MzA0NjAxNDAsLTQ4ND
+eyJoaXN0b3J5IjpbMjEwNDMwMDQ5LC03MzA0NjAxNDAsLTQ4ND
 IxNTIwOCwxMjQzNjE3Nzg3LDQ0MDIwNDAxM119
 -->
