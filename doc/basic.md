@@ -231,6 +231,8 @@ describe django_session;
 alter user hr account unlock;
 alter user hr identified by hr; /* 비밀번호: hr */
 connect hr;
+# or
+# rlwrap sqlplus hr/hr@localhost/xe
 ```
 
 ## django 1.11
@@ -619,11 +621,11 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Pr
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjg4MzEzNDg2LC0xMDI5MzI1MjY5LC0xNT
-czNTAzODM5LC05MzcxMTE1MTksOTk5OTI4Nzc0LC0yNDE1MjU4
-MDMsODQ0MDgxNDM5LC0xMTA1MzUzMTQxLDE4NDE3NzY5MzEsNz
-UwNTkwNTgxLC05OTU0Njg4MDksMjEyNjA1OTMyMyw5MjU5NDE1
-NDgsODkyODgxOTQ2LC03MjQ0NDA1MzQsLTE1Njc0NDg2MjcsLT
-c5MjgzODgxMCwtMTI1MTIxMzE4MSwtMTgwNzc2Nzk2MywxNTg2
-Mzg0MDE2XX0=
+eyJoaXN0b3J5IjpbLTY0NjA1NjIwMSwyODgzMTM0ODYsLTEwMj
+kzMjUyNjksLTE1NzM1MDM4MzksLTkzNzExMTUxOSw5OTk5Mjg3
+NzQsLTI0MTUyNTgwMyw4NDQwODE0MzksLTExMDUzNTMxNDEsMT
+g0MTc3NjkzMSw3NTA1OTA1ODEsLTk5NTQ2ODgwOSwyMTI2MDU5
+MzIzLDkyNTk0MTU0OCw4OTI4ODE5NDYsLTcyNDQ0MDUzNCwtMT
+U2NzQ0ODYyNywtNzkyODM4ODEwLC0xMjUxMjEzMTgxLC0xODA3
+NzY3OTYzXX0=
 -->
