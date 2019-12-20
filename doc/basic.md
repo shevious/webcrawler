@@ -8,9 +8,12 @@ https://github.com/shevious/crawlproj/invitations
 
 ## git 사용법
 
-클론: 
 ```bash
+# 프로젝트 복사
 git clone https://github.com/shevious/crawlproj.git
+# remote origin 확인
+git remote -v
+
 ```
 
 ## stackedit
@@ -645,7 +648,7 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Pr
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwMTk4NzUzOCw1NjY3NjQ4MjYsLTc2Mz
+eyJoaXN0b3J5IjpbMjAzMTk1ODQxNCw1NjY3NjQ4MjYsLTc2Mz
 gwMjU4NCwtNDAwNzE4NTUyLC02NDYwNTYyMDEsMjg4MzEzNDg2
 LC0xMDI5MzI1MjY5LC0xNTczNTAzODM5LC05MzcxMTE1MTksOT
 k5OTI4Nzc0LC0yNDE1MjU4MDMsODQ0MDgxNDM5LC0xMTA1MzUz
