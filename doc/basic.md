@@ -6,6 +6,13 @@ id 송부
 
 https://github.com/shevious/crawlproj/invitations  
 
+## git 사용법
+
+클론: 
+```bash
+git clone https://github.com/shevious/crawlproj.git
+```
+
 ## stackedit
 
 stackedit.io
@@ -638,11 +645,11 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Pr
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDg0NzkyNzgsNTY2NzY0ODI2LC03Nj
-M4MDI1ODQsLTQwMDcxODU1MiwtNjQ2MDU2MjAxLDI4ODMxMzQ4
-NiwtMTAyOTMyNTI2OSwtMTU3MzUwMzgzOSwtOTM3MTExNTE5LD
-k5OTkyODc3NCwtMjQxNTI1ODAzLDg0NDA4MTQzOSwtMTEwNTM1
-MzE0MSwxODQxNzc2OTMxLDc1MDU5MDU4MSwtOTk1NDY4ODA5LD
-IxMjYwNTkzMjMsOTI1OTQxNTQ4LDg5Mjg4MTk0NiwtNzI0NDQw
-NTM0XX0=
+eyJoaXN0b3J5IjpbLTYwMTk4NzUzOCw1NjY3NjQ4MjYsLTc2Mz
+gwMjU4NCwtNDAwNzE4NTUyLC02NDYwNTYyMDEsMjg4MzEzNDg2
+LC0xMDI5MzI1MjY5LC0xNTczNTAzODM5LC05MzcxMTE1MTksOT
+k5OTI4Nzc0LC0yNDE1MjU4MDMsODQ0MDgxNDM5LC0xMTA1MzUz
+MTQxLDE4NDE3NzY5MzEsNzUwNTkwNTgxLC05OTU0Njg4MDksMj
+EyNjA1OTMyMyw5MjU5NDE1NDgsODkyODgxOTQ2LC03MjQ0NDA1
+MzRdfQ==
 -->
