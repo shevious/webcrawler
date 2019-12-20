@@ -14,8 +14,12 @@ git clone https://github.com/shevious/crawlproj.git
 # remote origin 확인
 git remote -v
 
-git config user.email "shevious@yahoo.com"
+# 상태
+git status
 
+# 사용자 정보 등록
+git config user.email "shevious@yahoo.com"
+git config user.name shevious
 
 ```
 
@@ -651,7 +655,7 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Pr
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3NzA0MDUwNCwyMDMxOTU4NDE0LDU2Nj
+eyJoaXN0b3J5IjpbMTE2OTgyMTI3MSwyMDMxOTU4NDE0LDU2Nj
 c2NDgyNiwtNzYzODAyNTg0LC00MDA3MTg1NTIsLTY0NjA1NjIw
 MSwyODgzMTM0ODYsLTEwMjkzMjUyNjksLTE1NzM1MDM4MzksLT
 kzNzExMTUxOSw5OTk5Mjg3NzQsLTI0MTUyNTgwMyw4NDQwODE0
