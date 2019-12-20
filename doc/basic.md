@@ -14,6 +14,9 @@ git clone https://github.com/shevious/crawlproj.git
 # remote origin 확인
 git remote -v
 
+git config user.email "shevious@yahoo.com"
+
+
 ```
 
 ## stackedit
@@ -648,11 +651,11 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Pr
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAzMTk1ODQxNCw1NjY3NjQ4MjYsLTc2Mz
-gwMjU4NCwtNDAwNzE4NTUyLC02NDYwNTYyMDEsMjg4MzEzNDg2
-LC0xMDI5MzI1MjY5LC0xNTczNTAzODM5LC05MzcxMTE1MTksOT
-k5OTI4Nzc0LC0yNDE1MjU4MDMsODQ0MDgxNDM5LC0xMTA1MzUz
-MTQxLDE4NDE3NzY5MzEsNzUwNTkwNTgxLC05OTU0Njg4MDksMj
-EyNjA1OTMyMyw5MjU5NDE1NDgsODkyODgxOTQ2LC03MjQ0NDA1
-MzRdfQ==
+eyJoaXN0b3J5IjpbMTg3NzA0MDUwNCwyMDMxOTU4NDE0LDU2Nj
+c2NDgyNiwtNzYzODAyNTg0LC00MDA3MTg1NTIsLTY0NjA1NjIw
+MSwyODgzMTM0ODYsLTEwMjkzMjUyNjksLTE1NzM1MDM4MzksLT
+kzNzExMTUxOSw5OTk5Mjg3NzQsLTI0MTUyNTgwMyw4NDQwODE0
+MzksLTExMDUzNTMxNDEsMTg0MTc3NjkzMSw3NTA1OTA1ODEsLT
+k5NTQ2ODgwOSwyMTI2MDU5MzIzLDkyNTk0MTU0OCw4OTI4ODE5
+NDZdfQ==
 -->
