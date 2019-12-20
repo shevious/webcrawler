@@ -122,6 +122,12 @@ deactivate
 
 [Instant Client Downloads for Microsoft Windows (x64) 64-bit](https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html#ic_winx64_inst)  
 zip압축 해제 `C:\oracle\instantclient_19_5`  
+
+또는  
+```bash
+wget https://download.oracle.com/otn_software/nt/instantclient/19500/instantclient-basic-windows.x64-19.5.0.0.0dbru.zip
+```
+
 path 에 등록
 
 ## pip 사용방법
@@ -663,11 +669,11 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Pr
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4NjcxMDAzMSwxMTY5ODIxMjcxLDIwMz
-E5NTg0MTQsNTY2NzY0ODI2LC03NjM4MDI1ODQsLTQwMDcxODU1
-MiwtNjQ2MDU2MjAxLDI4ODMxMzQ4NiwtMTAyOTMyNTI2OSwtMT
-U3MzUwMzgzOSwtOTM3MTExNTE5LDk5OTkyODc3NCwtMjQxNTI1
-ODAzLDg0NDA4MTQzOSwtMTEwNTM1MzE0MSwxODQxNzc2OTMxLD
-c1MDU5MDU4MSwtOTk1NDY4ODA5LDIxMjYwNTkzMjMsOTI1OTQx
-NTQ4XX0=
+eyJoaXN0b3J5IjpbLTEzNDI2NjUxMzYsLTM4NjcxMDAzMSwxMT
+Y5ODIxMjcxLDIwMzE5NTg0MTQsNTY2NzY0ODI2LC03NjM4MDI1
+ODQsLTQwMDcxODU1MiwtNjQ2MDU2MjAxLDI4ODMxMzQ4NiwtMT
+AyOTMyNTI2OSwtMTU3MzUwMzgzOSwtOTM3MTExNTE5LDk5OTky
+ODc3NCwtMjQxNTI1ODAzLDg0NDA4MTQzOSwtMTEwNTM1MzE0MS
+wxODQxNzc2OTMxLDc1MDU5MDU4MSwtOTk1NDY4ODA5LDIxMjYw
+NTkzMjNdfQ==
 -->
