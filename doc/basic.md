@@ -21,6 +21,14 @@ git status
 git config user.email "shevious@yahoo.com"
 git config user.name shevious
 
+git add <filename>
+git commit -m "커밋 내용"
+
+# 서버에 업로드
+git push
+
+# 서버의 update 다운로드
+git pull
 ```
 
 ## stackedit
@@ -655,11 +663,11 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Pr
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2OTgyMTI3MSwyMDMxOTU4NDE0LDU2Nj
-c2NDgyNiwtNzYzODAyNTg0LC00MDA3MTg1NTIsLTY0NjA1NjIw
-MSwyODgzMTM0ODYsLTEwMjkzMjUyNjksLTE1NzM1MDM4MzksLT
-kzNzExMTUxOSw5OTk5Mjg3NzQsLTI0MTUyNTgwMyw4NDQwODE0
-MzksLTExMDUzNTMxNDEsMTg0MTc3NjkzMSw3NTA1OTA1ODEsLT
-k5NTQ2ODgwOSwyMTI2MDU5MzIzLDkyNTk0MTU0OCw4OTI4ODE5
-NDZdfQ==
+eyJoaXN0b3J5IjpbLTM4NjcxMDAzMSwxMTY5ODIxMjcxLDIwMz
+E5NTg0MTQsNTY2NzY0ODI2LC03NjM4MDI1ODQsLTQwMDcxODU1
+MiwtNjQ2MDU2MjAxLDI4ODMxMzQ4NiwtMTAyOTMyNTI2OSwtMT
+U3MzUwMzgzOSwtOTM3MTExNTE5LDk5OTkyODc3NCwtMjQxNTI1
+ODAzLDg0NDA4MTQzOSwtMTEwNTM1MzE0MSwxODQxNzc2OTMxLD
+c1MDU5MDU4MSwtOTk1NDY4ODA5LDIxMjYwNTkzMjMsOTI1OTQx
+NTQ4XX0=
 -->
