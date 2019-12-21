@@ -668,19 +668,17 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Pr
 ```bash
 git clone https://github.com/shevious/crawlproj.git
 cd crawlproj
-django-admin.py startproject crawl
-cd myproj
-./manage.py migrate
-# ⇒ migrate 성공
-./manage.py startapp myapp
+django-admin.py startproject crawlproj
+cd crawlproj
+./manage.py startapp crawler
 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjM4NDkwNTEsLTg2OTIzNjI4NSwtMz
-g2NzEwMDMxLDExNjk4MjEyNzEsMjAzMTk1ODQxNCw1NjY3NjQ4
-MjYsLTc2MzgwMjU4NCwtNDAwNzE4NTUyLC02NDYwNTYyMDEsMj
-g4MzEzNDg2LC0xMDI5MzI1MjY5LC0xNTczNTAzODM5LC05Mzcx
-MTE1MTksOTk5OTI4Nzc0LC0yNDE1MjU4MDMsODQ0MDgxNDM5LC
-0xMTA1MzUzMTQxLDE4NDE3NzY5MzEsNzUwNTkwNTgxLC05OTU0
-Njg4MDldfQ==
+eyJoaXN0b3J5IjpbOTU2MTA3NTk4LC04NjkyMzYyODUsLTM4Nj
+cxMDAzMSwxMTY5ODIxMjcxLDIwMzE5NTg0MTQsNTY2NzY0ODI2
+LC03NjM4MDI1ODQsLTQwMDcxODU1MiwtNjQ2MDU2MjAxLDI4OD
+MxMzQ4NiwtMTAyOTMyNTI2OSwtMTU3MzUwMzgzOSwtOTM3MTEx
+NTE5LDk5OTkyODc3NCwtMjQxNTI1ODAzLDg0NDA4MTQzOSwtMT
+EwNTM1MzE0MSwxODQxNzc2OTMxLDc1MDU5MDU4MSwtOTk1NDY4
+ODA5XX0=
 -->
