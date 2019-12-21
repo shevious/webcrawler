@@ -20,7 +20,6 @@ pip install -r requirements.txt
 
 # db 생성 (oracle)
 ./manage.py migrate --database=oracle crawler
-./manage.py migrate --datebase=oracle django_celery_result
 # local file db 생성
 ./manage.py migrate
 
@@ -720,7 +719,7 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2MDY5MTQ4NiwtMzk5NDg3NjY5LC05OD
+eyJoaXN0b3J5IjpbMTI3NzAyMzI0NiwtMzk5NDg3NjY5LC05OD
 A1NzY0MTgsNDE5MDIwNDQ0LDE5MTI2MTIwMzQsMTEwMzU0NzY1
 OSwxOTkzNTg3NTA5LC0xMjM3MTgyNTIwLDE2ODk1MzI4NzMsMj
 I2NTY3OTQyLDk1NjEwNzU5OCwtODY5MjM2Mjg1LC0zODY3MTAw
