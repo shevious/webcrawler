@@ -674,17 +674,18 @@ cd crawlproj
 ./manage.py startapp crawler
 cp -r ~/workspace/webstudy/django/djangocelery/crawler .
 cp ~/workspace/webstudy/django/djangocelery/djangocelery/settings.py crawlproj/settings.py
-change djangocelery => crawlproj
+# change djangocelery => crawlproj
 cp ~/workspace/webstudy/django/djangocelery/djangocelery/celery.py crawlproj
-
- 
+cp ~/workspace/webstudy/django/djangocelery/scrapy.cfg .
+cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
+# change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5MzU4NzUwOSwtMTIzNzE4MjUyMCwxNj
-g5NTMyODczLDIyNjU2Nzk0Miw5NTYxMDc1OTgsLTg2OTIzNjI4
-NSwtMzg2NzEwMDMxLDExNjk4MjEyNzEsMjAzMTk1ODQxNCw1Nj
-Y3NjQ4MjYsLTc2MzgwMjU4NCwtNDAwNzE4NTUyLC02NDYwNTYy
-MDEsMjg4MzEzNDg2LC0xMDI5MzI1MjY5LC0xNTczNTAzODM5LC
-05MzcxMTE1MTksOTk5OTI4Nzc0LC0yNDE1MjU4MDMsODQ0MDgx
-NDM5XX0=
+eyJoaXN0b3J5IjpbMTEwMzU0NzY1OSwxOTkzNTg3NTA5LC0xMj
+M3MTgyNTIwLDE2ODk1MzI4NzMsMjI2NTY3OTQyLDk1NjEwNzU5
+OCwtODY5MjM2Mjg1LC0zODY3MTAwMzEsMTE2OTgyMTI3MSwyMD
+MxOTU4NDE0LDU2Njc2NDgyNiwtNzYzODAyNTg0LC00MDA3MTg1
+NTIsLTY0NjA1NjIwMSwyODgzMTM0ODYsLTEwMjkzMjUyNjksLT
+E1NzM1MDM4MzksLTkzNzExMTUxOSw5OTk5Mjg3NzQsLTI0MTUy
+NTgwM119
 -->
