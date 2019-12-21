@@ -15,6 +15,9 @@ cd crawlproj/crawlproj
 # 필요한 python 패키지 설치
 pip install -r requirements.txt
 
+# db ip 주소/id/password 설정
+crawproj/settings.py
+
 # db 생성 script 만들기
 ./manage.py makemigrations crawler
 
@@ -719,11 +722,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3NzAyMzI0NiwtMzk5NDg3NjY5LC05OD
-A1NzY0MTgsNDE5MDIwNDQ0LDE5MTI2MTIwMzQsMTEwMzU0NzY1
-OSwxOTkzNTg3NTA5LC0xMjM3MTgyNTIwLDE2ODk1MzI4NzMsMj
-I2NTY3OTQyLDk1NjEwNzU5OCwtODY5MjM2Mjg1LC0zODY3MTAw
-MzEsMTE2OTgyMTI3MSwyMDMxOTU4NDE0LDU2Njc2NDgyNiwtNz
-YzODAyNTg0LC00MDA3MTg1NTIsLTY0NjA1NjIwMSwyODgzMTM0
-ODZdfQ==
+eyJoaXN0b3J5IjpbODA3NTkwNDU4LDEyNzcwMjMyNDYsLTM5OT
+Q4NzY2OSwtOTgwNTc2NDE4LDQxOTAyMDQ0NCwxOTEyNjEyMDM0
+LDExMDM1NDc2NTksMTk5MzU4NzUwOSwtMTIzNzE4MjUyMCwxNj
+g5NTMyODczLDIyNjU2Nzk0Miw5NTYxMDc1OTgsLTg2OTIzNjI4
+NSwtMzg2NzEwMDMxLDExNjk4MjEyNzEsMjAzMTk1ODQxNCw1Nj
+Y3NjQ4MjYsLTc2MzgwMjU4NCwtNDAwNzE4NTUyLC02NDYwNTYy
+MDFdfQ==
 -->
