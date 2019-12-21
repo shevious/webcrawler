@@ -1,5 +1,18 @@
 
-#
+# crawlproj
+
+```bash
+# virtualenv 사용
+(venv)
+# 작업 폴더 이동
+cd workspace
+# 프로젝트 복사
+git clone https://github.com/shevious/crawlproj.git
+cd crawlproj/crawlproj
+# 필요한 python 패키지 설치
+pip install -r requirements.txt
+
+```
 
 
 # GIT
@@ -687,11 +700,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTM1MDk3NDIsMTEwMzU0NzY1OSwxOT
-kzNTg3NTA5LC0xMjM3MTgyNTIwLDE2ODk1MzI4NzMsMjI2NTY3
-OTQyLDk1NjEwNzU5OCwtODY5MjM2Mjg1LC0zODY3MTAwMzEsMT
-E2OTgyMTI3MSwyMDMxOTU4NDE0LDU2Njc2NDgyNiwtNzYzODAy
-NTg0LC00MDA3MTg1NTIsLTY0NjA1NjIwMSwyODgzMTM0ODYsLT
-EwMjkzMjUyNjksLTE1NzM1MDM4MzksLTkzNzExMTUxOSw5OTk5
-Mjg3NzRdfQ==
+eyJoaXN0b3J5IjpbMjEzNTM5MzE4MywxMTAzNTQ3NjU5LDE5OT
+M1ODc1MDksLTEyMzcxODI1MjAsMTY4OTUzMjg3MywyMjY1Njc5
+NDIsOTU2MTA3NTk4LC04NjkyMzYyODUsLTM4NjcxMDAzMSwxMT
+Y5ODIxMjcxLDIwMzE5NTg0MTQsNTY2NzY0ODI2LC03NjM4MDI1
+ODQsLTQwMDcxODU1MiwtNjQ2MDU2MjAxLDI4ODMxMzQ4NiwtMT
+AyOTMyNTI2OSwtMTU3MzUwMzgzOSwtOTM3MTExNTE5LDk5OTky
+ODc3NF19
 -->
