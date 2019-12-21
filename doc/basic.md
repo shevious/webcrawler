@@ -1,4 +1,7 @@
 
+#
+
+
 # GIT
 
 github 계정 생성  
@@ -676,16 +679,19 @@ cp -r ~/workspace/webstudy/django/djangocelery/crawler .
 cp ~/workspace/webstudy/django/djangocelery/djangocelery/settings.py crawlproj/settings.py
 # change djangocelery => crawlproj
 cp ~/workspace/webstudy/django/djangocelery/djangocelery/celery.py crawlproj
+cp ~/workspace/webstudy/django/djangocelery/djangocelery/dbrouter.py crawlproj
+
+# for test and running
 cp ~/workspace/webstudy/django/djangocelery/scrapy.cfg .
 cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMzU0NzY1OSwxOTkzNTg3NTA5LC0xMj
-M3MTgyNTIwLDE2ODk1MzI4NzMsMjI2NTY3OTQyLDk1NjEwNzU5
-OCwtODY5MjM2Mjg1LC0zODY3MTAwMzEsMTE2OTgyMTI3MSwyMD
-MxOTU4NDE0LDU2Njc2NDgyNiwtNzYzODAyNTg0LC00MDA3MTg1
-NTIsLTY0NjA1NjIwMSwyODgzMTM0ODYsLTEwMjkzMjUyNjksLT
-E1NzM1MDM4MzksLTkzNzExMTUxOSw5OTk5Mjg3NzQsLTI0MTUy
-NTgwM119
+eyJoaXN0b3J5IjpbLTEzOTM1MDk3NDIsMTEwMzU0NzY1OSwxOT
+kzNTg3NTA5LC0xMjM3MTgyNTIwLDE2ODk1MzI4NzMsMjI2NTY3
+OTQyLDk1NjEwNzU5OCwtODY5MjM2Mjg1LC0zODY3MTAwMzEsMT
+E2OTgyMTI3MSwyMDMxOTU4NDE0LDU2Njc2NDgyNiwtNzYzODAy
+NTg0LC00MDA3MTg1NTIsLTY0NjA1NjIwMSwyODgzMTM0ODYsLT
+EwMjkzMjUyNjksLTE1NzM1MDM4MzksLTkzNzExMTUxOSw5OTk5
+Mjg3NzRdfQ==
 -->
