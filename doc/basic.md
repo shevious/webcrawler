@@ -663,12 +663,24 @@ New-NetFirewallRule -Name sshd -DisplayName 'OpenSSH Server (sshd)' -Enabled Tru
 New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Program Files\Git\bin\bash.exe" -PropertyType String -Force
 ```
 
+# crawlproj creation
+
+```bash
+git clone https://github.com/shevious/crawlproj.git
+cd crawlproj
+django-admin.py startproject crawl
+cd myproj
+./manage.py migrate
+# ⇒ migrate 성공
+./manage.py startapp myapp
+
+```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg2OTIzNjI4NSwtMzg2NzEwMDMxLDExNj
-k4MjEyNzEsMjAzMTk1ODQxNCw1NjY3NjQ4MjYsLTc2MzgwMjU4
-NCwtNDAwNzE4NTUyLC02NDYwNTYyMDEsMjg4MzEzNDg2LC0xMD
-I5MzI1MjY5LC0xNTczNTAzODM5LC05MzcxMTE1MTksOTk5OTI4
-Nzc0LC0yNDE1MjU4MDMsODQ0MDgxNDM5LC0xMTA1MzUzMTQxLD
-E4NDE3NzY5MzEsNzUwNTkwNTgxLC05OTU0Njg4MDksMjEyNjA1
-OTMyM119
+eyJoaXN0b3J5IjpbLTE3NjM4NDkwNTEsLTg2OTIzNjI4NSwtMz
+g2NzEwMDMxLDExNjk4MjEyNzEsMjAzMTk1ODQxNCw1NjY3NjQ4
+MjYsLTc2MzgwMjU4NCwtNDAwNzE4NTUyLC02NDYwNTYyMDEsMj
+g4MzEzNDg2LC0xMDI5MzI1MjY5LC0xNTczNTAzODM5LC05Mzcx
+MTE1MTksOTk5OTI4Nzc0LC0yNDE1MjU4MDMsODQ0MDgxNDM5LC
+0xMTA1MzUzMTQxLDE4NDE3NzY5MzEsNzUwNTkwNTgxLC05OTU0
+Njg4MDldfQ==
 -->
