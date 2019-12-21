@@ -1,6 +1,8 @@
 
 # crawlproj
 
+## 설치
+
 ```bash
 # oracle instant client basic 설치(아래 내용 참고)
 # virtualenv 사용
@@ -16,8 +18,14 @@ pip install -r requirements.txt
 # db 생성 script 만들기
 ./manage.py makemigrations crawler
 # db 생성
+./manage.py migrate crawle
+```
 
+## database 초기화
 
+```sql
+drop table django_migrations
+drop table 
 ```
 
 
@@ -706,11 +714,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5OTQ4NzY2OSwtOTgwNTc2NDE4LDQxOT
-AyMDQ0NCwxOTEyNjEyMDM0LDExMDM1NDc2NTksMTk5MzU4NzUw
-OSwtMTIzNzE4MjUyMCwxNjg5NTMyODczLDIyNjU2Nzk0Miw5NT
-YxMDc1OTgsLTg2OTIzNjI4NSwtMzg2NzEwMDMxLDExNjk4MjEy
-NzEsMjAzMTk1ODQxNCw1NjY3NjQ4MjYsLTc2MzgwMjU4NCwtND
-AwNzE4NTUyLC02NDYwNTYyMDEsMjg4MzEzNDg2LC0xMDI5MzI1
-MjY5XX0=
+eyJoaXN0b3J5IjpbMTQyMDQ2MTM0MywtMzk5NDg3NjY5LC05OD
+A1NzY0MTgsNDE5MDIwNDQ0LDE5MTI2MTIwMzQsMTEwMzU0NzY1
+OSwxOTkzNTg3NTA5LC0xMjM3MTgyNTIwLDE2ODk1MzI4NzMsMj
+I2NTY3OTQyLDk1NjEwNzU5OCwtODY5MjM2Mjg1LC0zODY3MTAw
+MzEsMTE2OTgyMTI3MSwyMDMxOTU4NDE0LDU2Njc2NDgyNiwtNz
+YzODAyNTg0LC00MDA3MTg1NTIsLTY0NjA1NjIwMSwyODgzMTM0
+ODZdfQ==
 -->
