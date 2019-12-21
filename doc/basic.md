@@ -669,16 +669,17 @@ New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Pr
 git clone https://github.com/shevious/crawlproj.git
 cd crawlproj
 django-admin.py startproject crawlproj
+cp ~/workspace/webstudy/django/.gitignore .
 cd crawlproj
 ./manage.py startapp crawler
-cp ~/workspace/webstudy/django/.gitignore .
+cp -r 
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjI2NTY3OTQyLDk1NjEwNzU5OCwtODY5Mj
-M2Mjg1LC0zODY3MTAwMzEsMTE2OTgyMTI3MSwyMDMxOTU4NDE0
-LDU2Njc2NDgyNiwtNzYzODAyNTg0LC00MDA3MTg1NTIsLTY0Nj
-A1NjIwMSwyODgzMTM0ODYsLTEwMjkzMjUyNjksLTE1NzM1MDM4
-MzksLTkzNzExMTUxOSw5OTk5Mjg3NzQsLTI0MTUyNTgwMyw4ND
-QwODE0MzksLTExMDUzNTMxNDEsMTg0MTc3NjkzMSw3NTA1OTA1
-ODFdfQ==
+eyJoaXN0b3J5IjpbLTE4MjkwMTk0MDIsMjI2NTY3OTQyLDk1Nj
+EwNzU5OCwtODY5MjM2Mjg1LC0zODY3MTAwMzEsMTE2OTgyMTI3
+MSwyMDMxOTU4NDE0LDU2Njc2NDgyNiwtNzYzODAyNTg0LC00MD
+A3MTg1NTIsLTY0NjA1NjIwMSwyODgzMTM0ODYsLTEwMjkzMjUy
+NjksLTE1NzM1MDM4MzksLTkzNzExMTUxOSw5OTk5Mjg3NzQsLT
+I0MTUyNTgwMyw4NDQwODE0MzksLTExMDUzNTMxNDEsMTg0MTc3
+NjkzMV19
 -->
