@@ -718,6 +718,7 @@ cp ~/workspace/webstudy/django/djangocelery/djangocelery/settings.py crawlproj/s
 # change djangocelery => crawlproj
 cp ~/workspace/webstudy/django/djangocelery/djangocelery/celery.py crawlproj
 cp ~/workspace/webstudy/django/djangocelery/djangocelery/dbrouter.py crawlproj
+cp -r ~/workspace/webstudy/django/djangocelery/Ulsan .
 
 # for test and running
 cp ~/workspace/webstudy/django/djangocelery/scrapy.cfg .
@@ -725,11 +726,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNjExODc0MTIsODA3NTkwNDU4LDEyNz
-cwMjMyNDYsLTM5OTQ4NzY2OSwtOTgwNTc2NDE4LDQxOTAyMDQ0
-NCwxOTEyNjEyMDM0LDExMDM1NDc2NTksMTk5MzU4NzUwOSwtMT
-IzNzE4MjUyMCwxNjg5NTMyODczLDIyNjU2Nzk0Miw5NTYxMDc1
-OTgsLTg2OTIzNjI4NSwtMzg2NzEwMDMxLDExNjk4MjEyNzEsMj
-AzMTk1ODQxNCw1NjY3NjQ4MjYsLTc2MzgwMjU4NCwtNDAwNzE4
-NTUyXX0=
+eyJoaXN0b3J5IjpbLTQ2ODE0NTQyNCwtMTE2MTE4NzQxMiw4MD
+c1OTA0NTgsMTI3NzAyMzI0NiwtMzk5NDg3NjY5LC05ODA1NzY0
+MTgsNDE5MDIwNDQ0LDE5MTI2MTIwMzQsMTEwMzU0NzY1OSwxOT
+kzNTg3NTA5LC0xMjM3MTgyNTIwLDE2ODk1MzI4NzMsMjI2NTY3
+OTQyLDk1NjEwNzU5OCwtODY5MjM2Mjg1LC0zODY3MTAwMzEsMT
+E2OTgyMTI3MSwyMDMxOTU4NDE0LDU2Njc2NDgyNiwtNzYzODAy
+NTg0XX0=
 -->
