@@ -1,4 +1,10 @@
 
+# To-do list
+
+1. crawlproj 테스트
+2. `crawler/models.py`에 inst용 db 추가
+3. url에서 강좌id 기관 id추출 및 저장
+
 # crawlproj
 
 ## 설치
@@ -728,11 +734,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjc1NTIwNjIsLTQ2ODE0NTQyNCwtMTE2MT
-E4NzQxMiw4MDc1OTA0NTgsMTI3NzAyMzI0NiwtMzk5NDg3NjY5
-LC05ODA1NzY0MTgsNDE5MDIwNDQ0LDE5MTI2MTIwMzQsMTEwMz
-U0NzY1OSwxOTkzNTg3NTA5LC0xMjM3MTgyNTIwLDE2ODk1MzI4
-NzMsMjI2NTY3OTQyLDk1NjEwNzU5OCwtODY5MjM2Mjg1LC0zOD
-Y3MTAwMzEsMTE2OTgyMTI3MSwyMDMxOTU4NDE0LDU2Njc2NDgy
-Nl19
+eyJoaXN0b3J5IjpbLTYwMDg4NTEyMSwtNDY4MTQ1NDI0LC0xMT
+YxMTg3NDEyLDgwNzU5MDQ1OCwxMjc3MDIzMjQ2LC0zOTk0ODc2
+NjksLTk4MDU3NjQxOCw0MTkwMjA0NDQsMTkxMjYxMjAzNCwxMT
+AzNTQ3NjU5LDE5OTM1ODc1MDksLTEyMzcxODI1MjAsMTY4OTUz
+Mjg3MywyMjY1Njc5NDIsOTU2MTA3NTk4LC04NjkyMzYyODUsLT
+M4NjcxMDAzMSwxMTY5ODIxMjcxLDIwMzE5NTg0MTQsNTY2NzY0
+ODI2XX0=
 -->
