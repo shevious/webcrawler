@@ -2,7 +2,7 @@
 # crawlproj
 
 ```bash
-# oracle client basic 설치(아래 내용 참고)
+# oracle instant client basic 설치(아래 내용 참고)
 # virtualenv 사용
 (venv)
 # 작업 폴더 이동
@@ -701,11 +701,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk5ODM1NTgzLDExMDM1NDc2NTksMTk5Mz
-U4NzUwOSwtMTIzNzE4MjUyMCwxNjg5NTMyODczLDIyNjU2Nzk0
-Miw5NTYxMDc1OTgsLTg2OTIzNjI4NSwtMzg2NzEwMDMxLDExNj
-k4MjEyNzEsMjAzMTk1ODQxNCw1NjY3NjQ4MjYsLTc2MzgwMjU4
-NCwtNDAwNzE4NTUyLC02NDYwNTYyMDEsMjg4MzEzNDg2LC0xMD
-I5MzI1MjY5LC0xNTczNTAzODM5LC05MzcxMTE1MTksOTk5OTI4
-Nzc0XX0=
+eyJoaXN0b3J5IjpbMTkxMjYxMjAzNCwxMTAzNTQ3NjU5LDE5OT
+M1ODc1MDksLTEyMzcxODI1MjAsMTY4OTUzMjg3MywyMjY1Njc5
+NDIsOTU2MTA3NTk4LC04NjkyMzYyODUsLTM4NjcxMDAzMSwxMT
+Y5ODIxMjcxLDIwMzE5NTg0MTQsNTY2NzY0ODI2LC03NjM4MDI1
+ODQsLTQwMDcxODU1MiwtNjQ2MDU2MjAxLDI4ODMxMzQ4NiwtMT
+AyOTMyNTI2OSwtMTU3MzUwMzgzOSwtOTM3MTExNTE5LDk5OTky
+ODc3NF19
 -->
