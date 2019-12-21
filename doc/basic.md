@@ -17,8 +17,9 @@ pip install -r requirements.txt
 
 # db 생성 script 만들기
 ./manage.py makemigrations crawler
-# db 생성
-./manage.py migrate crawle
+# db 생성 (oracle)
+./manage.py migrate --database=oracle crawler
+./manage.py migrate --datebase=oracle 
 ```
 
 ## database 초기화
@@ -714,7 +715,7 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyMDQ2MTM0MywtMzk5NDg3NjY5LC05OD
+eyJoaXN0b3J5IjpbLTQzNDM5MzY2NCwtMzk5NDg3NjY5LC05OD
 A1NzY0MTgsNDE5MDIwNDQ0LDE5MTI2MTIwMzQsMTEwMzU0NzY1
 OSwxOTkzNTg3NTA5LC0xMjM3MTgyNTIwLDE2ODk1MzI4NzMsMj
 I2NTY3OTQyLDk1NjEwNzU5OCwtODY5MjM2Mjg1LC0zODY3MTAw
