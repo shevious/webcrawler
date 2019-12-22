@@ -28,7 +28,7 @@ crawproj/settings.py
 
 # db 생성 (oracle)
 ./manage.py migrate --database=oracle crawler
-# local file db 생성
+# local file db 생성 (db.sqlite3 파일)
 ./manage.py migrate
 
 
@@ -48,7 +48,7 @@ drop table CRAWL_COURSE_INFO
 drop table crawl_task_log
 ```
 local db:
-`db.sqllite`파일 삭제
+`db.sqllite3`파일 삭제
 
 makemigration부터 재실행
 
@@ -738,11 +738,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEwNzI2NzQ0OCwxNzk2OTY0ODI1LC02MD
-A4ODUxMjEsLTQ2ODE0NTQyNCwtMTE2MTE4NzQxMiw4MDc1OTA0
-NTgsMTI3NzAyMzI0NiwtMzk5NDg3NjY5LC05ODA1NzY0MTgsND
-E5MDIwNDQ0LDE5MTI2MTIwMzQsMTEwMzU0NzY1OSwxOTkzNTg3
-NTA5LC0xMjM3MTgyNTIwLDE2ODk1MzI4NzMsMjI2NTY3OTQyLD
-k1NjEwNzU5OCwtODY5MjM2Mjg1LC0zODY3MTAwMzEsMTE2OTgy
-MTI3MV19
+eyJoaXN0b3J5IjpbODUzNzc1MzExLDE3OTY5NjQ4MjUsLTYwMD
+g4NTEyMSwtNDY4MTQ1NDI0LC0xMTYxMTg3NDEyLDgwNzU5MDQ1
+OCwxMjc3MDIzMjQ2LC0zOTk0ODc2NjksLTk4MDU3NjQxOCw0MT
+kwMjA0NDQsMTkxMjYxMjAzNCwxMTAzNTQ3NjU5LDE5OTM1ODc1
+MDksLTEyMzcxODI1MjAsMTY4OTUzMjg3MywyMjY1Njc5NDIsOT
+U2MTA3NTk4LC04NjkyMzYyODUsLTM4NjcxMDAzMSwxMTY5ODIx
+MjcxXX0=
 -->
