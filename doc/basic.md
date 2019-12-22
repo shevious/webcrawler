@@ -1,4 +1,3 @@
-
 # To-do list
 
 1. crawlproj 테스트
@@ -46,6 +45,7 @@ oracle:
 ```sql
 drop table django_migrations
 drop table CRAWL_COURSE_INFO
+drop table crawl_task_log
 ```
 local db:
 `db.sqllite`파일 삭제
@@ -738,11 +738,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5Njk2NDgyNSwtNjAwODg1MTIxLC00Nj
-gxNDU0MjQsLTExNjExODc0MTIsODA3NTkwNDU4LDEyNzcwMjMy
-NDYsLTM5OTQ4NzY2OSwtOTgwNTc2NDE4LDQxOTAyMDQ0NCwxOT
-EyNjEyMDM0LDExMDM1NDc2NTksMTk5MzU4NzUwOSwtMTIzNzE4
-MjUyMCwxNjg5NTMyODczLDIyNjU2Nzk0Miw5NTYxMDc1OTgsLT
-g2OTIzNjI4NSwtMzg2NzEwMDMxLDExNjk4MjEyNzEsMjAzMTk1
-ODQxNF19
+eyJoaXN0b3J5IjpbMjEwNzI2NzQ0OCwxNzk2OTY0ODI1LC02MD
+A4ODUxMjEsLTQ2ODE0NTQyNCwtMTE2MTE4NzQxMiw4MDc1OTA0
+NTgsMTI3NzAyMzI0NiwtMzk5NDg3NjY5LC05ODA1NzY0MTgsND
+E5MDIwNDQ0LDE5MTI2MTIwMzQsMTEwMzU0NzY1OSwxOTkzNTg3
+NTA5LC0xMjM3MTgyNTIwLDE2ODk1MzI4NzMsMjI2NTY3OTQyLD
+k1NjEwNzU5OCwtODY5MjM2Mjg1LC0zODY3MTAwMzEsMTE2OTgy
+MTI3MV19
 -->
