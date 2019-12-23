@@ -557,7 +557,7 @@ mkdir -p $HOME/local/oracle
 cd $HOME/local/oracle
 unzip ~/instantclient-basic-linux.x64-19.5.0.0.0dbru.zip
 
-export LD_LIBRARY_PATH=$HOME/local/oracle/instantclient_19_3:$LD_LIBRARY_PATH`
+export LD_LIBRARY_PATH=$HOME/local/oracle/instantclient_19_3:$LD_LIBRARY_PATH
 
 ```
 
@@ -809,11 +809,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4Mjk5MDE4NDMsLTc3MTk2NTk2LC0xMj
-Y5OTA2MDczLDEyNDMwMzUyNTEsODUzNzc1MzExLDE3OTY5NjQ4
-MjUsLTYwMDg4NTEyMSwtNDY4MTQ1NDI0LC0xMTYxMTg3NDEyLD
-gwNzU5MDQ1OCwxMjc3MDIzMjQ2LC0zOTk0ODc2NjksLTk4MDU3
-NjQxOCw0MTkwMjA0NDQsMTkxMjYxMjAzNCwxMTAzNTQ3NjU5LD
-E5OTM1ODc1MDksLTEyMzcxODI1MjAsMTY4OTUzMjg3MywyMjY1
-Njc5NDJdfQ==
+eyJoaXN0b3J5IjpbMTMyMDcwMzI1NSwtNzcxOTY1OTYsLTEyNj
+k5MDYwNzMsMTI0MzAzNTI1MSw4NTM3NzUzMTEsMTc5Njk2NDgy
+NSwtNjAwODg1MTIxLC00NjgxNDU0MjQsLTExNjExODc0MTIsOD
+A3NTkwNDU4LDEyNzcwMjMyNDYsLTM5OTQ4NzY2OSwtOTgwNTc2
+NDE4LDQxOTAyMDQ0NCwxOTEyNjEyMDM0LDExMDM1NDc2NTksMT
+k5MzU4NzUwOSwtMTIzNzE4MjUyMCwxNjg5NTMyODczLDIyNjU2
+Nzk0Ml19
 -->
