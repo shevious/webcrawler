@@ -176,7 +176,10 @@ deactivate
 [Instant Client Downloads for Microsoft Windows (x64) 64-bit](https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html#ic_winx64_inst)  
 zip압축 해제 `C:\oracle\instantclient_19_5`  
 
-제어판 => 시스템 및 보안 => 시스템 => 고급 설정
+PATH에 등록  
+제어판 => 시스템 및 보안 => 시스템 => 고급 시스템 설정  =>  
+환경변수 => 사용자 환경변수 => PATH에 `C:\oracle\instantclient_19_5` 추가
+저장후 `cmd`나 `git bash` 재시작
 
 ## pip 사용방법
 
@@ -809,11 +812,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2Njg0MDYyNSw3MTc1MDQ5ODAsMTMyMD
-cwMzI1NSwtNzcxOTY1OTYsLTEyNjk5MDYwNzMsMTI0MzAzNTI1
-MSw4NTM3NzUzMTEsMTc5Njk2NDgyNSwtNjAwODg1MTIxLC00Nj
-gxNDU0MjQsLTExNjExODc0MTIsODA3NTkwNDU4LDEyNzcwMjMy
-NDYsLTM5OTQ4NzY2OSwtOTgwNTc2NDE4LDQxOTAyMDQ0NCwxOT
-EyNjEyMDM0LDExMDM1NDc2NTksMTk5MzU4NzUwOSwtMTIzNzE4
-MjUyMF19
+eyJoaXN0b3J5IjpbLTE1Njk3Mjc2MTUsNzE3NTA0OTgwLDEzMj
+A3MDMyNTUsLTc3MTk2NTk2LC0xMjY5OTA2MDczLDEyNDMwMzUy
+NTEsODUzNzc1MzExLDE3OTY5NjQ4MjUsLTYwMDg4NTEyMSwtND
+Y4MTQ1NDI0LC0xMTYxMTg3NDEyLDgwNzU5MDQ1OCwxMjc3MDIz
+MjQ2LC0zOTk0ODc2NjksLTk4MDU3NjQxOCw0MTkwMjA0NDQsMT
+kxMjYxMjAzNCwxMTAzNTQ3NjU5LDE5OTM1ODc1MDksLTEyMzcx
+ODI1MjBdfQ==
 -->
