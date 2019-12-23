@@ -9,7 +9,7 @@
 ## 설치
 
 ```bash
-# oracle instant client basic 설치(아래 내용 참고)
+# ocacle client windows 설치(아래 내용 참고)
 # virtualenv 사용
 (venv)
 # 작업 폴더 이동
@@ -174,6 +174,7 @@ deactivate
 ## ocacle client windows
 
 [Instant Client Downloads for Microsoft Windows (x64) 64-bit](https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html#ic_winx64_inst)  
+Basic Package 다운로드  
 zip압축 해제 `C:\oracle\instantclient_19_5`  
 
 PATH에 등록  
@@ -812,11 +813,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Njk3Mjc2MTUsNzE3NTA0OTgwLDEzMj
-A3MDMyNTUsLTc3MTk2NTk2LC0xMjY5OTA2MDczLDEyNDMwMzUy
-NTEsODUzNzc1MzExLDE3OTY5NjQ4MjUsLTYwMDg4NTEyMSwtND
-Y4MTQ1NDI0LC0xMTYxMTg3NDEyLDgwNzU5MDQ1OCwxMjc3MDIz
-MjQ2LC0zOTk0ODc2NjksLTk4MDU3NjQxOCw0MTkwMjA0NDQsMT
-kxMjYxMjAzNCwxMTAzNTQ3NjU5LDE5OTM1ODc1MDksLTEyMzcx
-ODI1MjBdfQ==
+eyJoaXN0b3J5IjpbMTgyMTYxMzM5MCw3MTc1MDQ5ODAsMTMyMD
+cwMzI1NSwtNzcxOTY1OTYsLTEyNjk5MDYwNzMsMTI0MzAzNTI1
+MSw4NTM3NzUzMTEsMTc5Njk2NDgyNSwtNjAwODg1MTIxLC00Nj
+gxNDU0MjQsLTExNjExODc0MTIsODA3NTkwNDU4LDEyNzcwMjMy
+NDYsLTM5OTQ4NzY2OSwtOTgwNTc2NDE4LDQxOTAyMDQ0NCwxOT
+EyNjEyMDM0LDExMDM1NDc2NTksMTk5MzU4NzUwOSwtMTIzNzE4
+MjUyMF19
 -->
