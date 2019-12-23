@@ -142,8 +142,12 @@
 ## 강좌 정보
 
 ![enter image description here](https://github.com/shevious/webcrawler/blob/master/screenshot/gagnwon-course.png?raw=true)
+# 테이블 생성
+```sql
+```
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NDQ2MzQ5NzUsMjEwNDMwMDQ5LC03Mz
-A0NjAxNDAsLTQ4NDIxNTIwOCwxMjQzNjE3Nzg3LDQ0MDIwNDAx
-M119
+eyJoaXN0b3J5IjpbLTEzNTk5MzM1NTgsLTE1NDQ2MzQ5NzUsMj
+EwNDMwMDQ5LC03MzA0NjAxNDAsLTQ4NDIxNTIwOCwxMjQzNjE3
+Nzg3LDQ0MDIwNDAxM119
 -->
