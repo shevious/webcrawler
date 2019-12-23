@@ -553,6 +553,63 @@ brew install libaio
 
 wget https://download.oracle.com/otn_software/linux/instantclient/195000/instantclient-basic-linux.x64-19.5.0.0.0dbru.zip
 
+```
+
+**Installation of ZIP files:**
+
+1.  Download the desired Instant Client ZIP files. All installations require a Basic or Basic Light package.
+2.  Unzip the packages into a single directory such as `/opt/oracle/instantclient_19_3` that is accessible to your application. For example:
+
+```undefined
+cd /opt/oracle      
+unzip instantclient-basic-linux.x64-19.3.0.0.0dbru.zip
+```
+
+The various packages install into subdirectories of `/usr/lib/oracle`, `/usr/include/oracle`, and `/usr/share/oracle`.
+
+5.  Prior to version 18.3, create the appropriate links for the version of Instant Client. For example:
+
+```undefined
+cd /opt/oracle/instantclient_12_2
+ln -s libclntsh.so.12.1 libclntsh.so
+ln -s libocci.so.12.1 libocci.so
+```
+
+7.  Install the operating system `libaio` package. This is called `libaio1` on some Linux distributions.
+
+For example, on Oracle Linux, run:
+
+`sudo yum install libaio`
+
+10.  If Instant Client is the only Oracle Software installed on this system then update the runtime link path, for example:
+
+```undefined
+sudo sh -c "echo /opt/oracle/instantclient_19_3 > \
+      /etc/ld.so.conf.d/oracle-instantclient.conf"
+  sudo ldconfig
+```
+
+Alternatively, set the `LD_LIBRARY_PATH` environment variable prior to running applications. For example:
+
+`export LD_LIBRARY_PATH=/opt/oracle/instantclient_19_3:$LD_LIBRARY_PATH`
+
+The variable can optionally be added to configuration files such as `~/.bash_profile` and to application configuration files such as `/etc/sysconfig/httpd`.
+
+15.  If you intend to co-locate optional Oracle configuration files such as `tnsnames.ora`, `sqlnet.ora`, `ldap.ora`, or `oraaccess.xml` with Instant Client, put them in the `network/admin` subdirectory. This needs to be created for 12.2 and earlier, for example:
+
+`mkdir -p /opt/oracle/instantclient_12_2/network/admin`
+
+This is the default Oracle configuration directory for applications linked with this Instant Client.
+
+Alternatively, Oracle configuration files can be put in another, accessible directory. Then set the environment variable `TNS_ADMIN` to that directory name.
+
+19.  To use binaries such as sqlplus from the SQL*Plus package, unzip the package to the same directory as the Basic package and then update your `PATH` environment variable, for example:
+
+`export PATH=/opt/oracle/instantclient_19_3:$PATH`
+
+21.  Start your application.
+```bash
+
 # sqlplus
 wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-instantclient19.5-sqlplus-19.5.0.0.0-1.x86_64.rpm
 sudo alien --scripts oracle-instantclient19.5-sqlplus-19.5.0.0.0-1.x86_64.rpm
@@ -748,11 +805,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjk5MDYwNzMsMTI0MzAzNTI1MSw4NT
-M3NzUzMTEsMTc5Njk2NDgyNSwtNjAwODg1MTIxLC00NjgxNDU0
-MjQsLTExNjExODc0MTIsODA3NTkwNDU4LDEyNzcwMjMyNDYsLT
-M5OTQ4NzY2OSwtOTgwNTc2NDE4LDQxOTAyMDQ0NCwxOTEyNjEy
-MDM0LDExMDM1NDc2NTksMTk5MzU4NzUwOSwtMTIzNzE4MjUyMC
-wxNjg5NTMyODczLDIyNjU2Nzk0Miw5NTYxMDc1OTgsLTg2OTIz
-NjI4NV19
+eyJoaXN0b3J5IjpbLTE5NjIwNzkxNjEsLTEyNjk5MDYwNzMsMT
+I0MzAzNTI1MSw4NTM3NzUzMTEsMTc5Njk2NDgyNSwtNjAwODg1
+MTIxLC00NjgxNDU0MjQsLTExNjExODc0MTIsODA3NTkwNDU4LD
+EyNzcwMjMyNDYsLTM5OTQ4NzY2OSwtOTgwNTc2NDE4LDQxOTAy
+MDQ0NCwxOTEyNjEyMDM0LDExMDM1NDc2NTksMTk5MzU4NzUwOS
+wtMTIzNzE4MjUyMCwxNjg5NTMyODczLDIyNjU2Nzk0Miw5NTYx
+MDc1OThdfQ==
 -->
