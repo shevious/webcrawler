@@ -572,7 +572,10 @@ sudo dpkg -i oracle-instantclient19.5-sqlplus_19.5.0.0.0-2_amd64.deb
 # sqlplus zip
 wget https://download.oracle.com/otn_software/linux/instantclient/195000/instantclient-sqlplus-linux.x64-19.5.0.0.0dbru.zip
 
-# centos 6.5에서 
+# centos 6.5에서 GLIBC_2.14 없음 오류가 남.
+# glibc_2.14 설치
+wget http://ftp.gnu.org/gnu/glibc/glibc-2.14.tar.gz
+
 
 
 stty erase ^H
@@ -759,11 +762,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQ4NTkwNTg2LDQ5OTY4MjQxMiwxODIxNj
-EzMzkwLDcxNzUwNDk4MCwxMzIwNzAzMjU1LC03NzE5NjU5Niwt
-MTI2OTkwNjA3MywxMjQzMDM1MjUxLDg1Mzc3NTMxMSwxNzk2OT
-Y0ODI1LC02MDA4ODUxMjEsLTQ2ODE0NTQyNCwtMTE2MTE4NzQx
-Miw4MDc1OTA0NTgsMTI3NzAyMzI0NiwtMzk5NDg3NjY5LC05OD
-A1NzY0MTgsNDE5MDIwNDQ0LDE5MTI2MTIwMzQsMTEwMzU0NzY1
-OV19
+eyJoaXN0b3J5IjpbMTc2MjkwMjc5Myw0OTk2ODI0MTIsMTgyMT
+YxMzM5MCw3MTc1MDQ5ODAsMTMyMDcwMzI1NSwtNzcxOTY1OTYs
+LTEyNjk5MDYwNzMsMTI0MzAzNTI1MSw4NTM3NzUzMTEsMTc5Nj
+k2NDgyNSwtNjAwODg1MTIxLC00NjgxNDU0MjQsLTExNjExODc0
+MTIsODA3NTkwNDU4LDEyNzcwMjMyNDYsLTM5OTQ4NzY2OSwtOT
+gwNTc2NDE4LDQxOTAyMDQ0NCwxOTEyNjEyMDM0LDExMDM1NDc2
+NTldfQ==
 -->
