@@ -619,7 +619,6 @@ sudo dpkg -i oracle-instantclient19.5-sqlplus_19.5.0.0.0-2_amd64.deb
 # sqlplus zip
 wget https://download.oracle.com/otn_software/linux/instantclient/195000/instantclient-sqlplus-linux.x64-19.5.0.0.0dbru.zip
 
-wget 
 
 stty erase ^H
 sqlplus system/oracle@localhost/xe
@@ -805,11 +804,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjIwNzkxNjEsLTEyNjk5MDYwNzMsMT
-I0MzAzNTI1MSw4NTM3NzUzMTEsMTc5Njk2NDgyNSwtNjAwODg1
-MTIxLC00NjgxNDU0MjQsLTExNjExODc0MTIsODA3NTkwNDU4LD
-EyNzcwMjMyNDYsLTM5OTQ4NzY2OSwtOTgwNTc2NDE4LDQxOTAy
-MDQ0NCwxOTEyNjEyMDM0LDExMDM1NDc2NTksMTk5MzU4NzUwOS
-wtMTIzNzE4MjUyMCwxNjg5NTMyODczLDIyNjU2Nzk0Miw5NTYx
-MDc1OThdfQ==
+eyJoaXN0b3J5IjpbLTc3MTk2NTk2LC0xMjY5OTA2MDczLDEyND
+MwMzUyNTEsODUzNzc1MzExLDE3OTY5NjQ4MjUsLTYwMDg4NTEy
+MSwtNDY4MTQ1NDI0LC0xMTYxMTg3NDEyLDgwNzU5MDQ1OCwxMj
+c3MDIzMjQ2LC0zOTk0ODc2NjksLTk4MDU3NjQxOCw0MTkwMjA0
+NDQsMTkxMjYxMjAzNCwxMTAzNTQ3NjU5LDE5OTM1ODc1MDksLT
+EyMzcxODI1MjAsMTY4OTUzMjg3MywyMjY1Njc5NDIsOTU2MTA3
+NTk4XX0=
 -->
