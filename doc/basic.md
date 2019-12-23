@@ -574,7 +574,15 @@ wget https://download.oracle.com/otn_software/linux/instantclient/195000/instant
 
 # centos 6.5에서 GLIBC_2.14 없음 오류가 남.
 # glibc_2.14 설치
-wget http://ftp.gnu.org/gnu/glibc/glibc-2.14.tar.gz
+  874  wget http://ftp.gnu.org/gnu/glibc/glibc-2.14.tar.gz
+  875  tar zxvf glibc-2.14.tar.gz
+  876  cd glibc-2.14
+  877  mkdir build
+  878  cd build
+  879  ls
+  880  ../configure --prefix=$HOME/local/glibc-2.14
+  881  make -j4
+  882  make install
 
 
 
@@ -762,11 +770,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2MjkwMjc5Myw0OTk2ODI0MTIsMTgyMT
-YxMzM5MCw3MTc1MDQ5ODAsMTMyMDcwMzI1NSwtNzcxOTY1OTYs
-LTEyNjk5MDYwNzMsMTI0MzAzNTI1MSw4NTM3NzUzMTEsMTc5Nj
-k2NDgyNSwtNjAwODg1MTIxLC00NjgxNDU0MjQsLTExNjExODc0
-MTIsODA3NTkwNDU4LDEyNzcwMjMyNDYsLTM5OTQ4NzY2OSwtOT
-gwNTc2NDE4LDQxOTAyMDQ0NCwxOTEyNjEyMDM0LDExMDM1NDc2
-NTldfQ==
+eyJoaXN0b3J5IjpbLTI1NDM0MTY4NSwxNzYyOTAyNzkzLDQ5OT
+Y4MjQxMiwxODIxNjEzMzkwLDcxNzUwNDk4MCwxMzIwNzAzMjU1
+LC03NzE5NjU5NiwtMTI2OTkwNjA3MywxMjQzMDM1MjUxLDg1Mz
+c3NTMxMSwxNzk2OTY0ODI1LC02MDA4ODUxMjEsLTQ2ODE0NTQy
+NCwtMTE2MTE4NzQxMiw4MDc1OTA0NTgsMTI3NzAyMzI0NiwtMz
+k5NDg3NjY5LC05ODA1NzY0MTgsNDE5MDIwNDQ0LDE5MTI2MTIw
+MzRdfQ==
 -->
