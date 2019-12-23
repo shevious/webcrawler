@@ -553,6 +553,12 @@ brew install libaio
 
 wget https://download.oracle.com/otn_software/linux/instantclient/195000/instantclient-basic-linux.x64-19.5.0.0.0dbru.zip
 
+mkdir -p $HOME/local/oracle
+cd $HOME/local/oracle
+unzip ~/instantclient-basic-linux.x64-19.5.0.0.0dbru.zip
+
+export LD_LIBRARY_PATH=$HOME/local/oracle/instantclient_19_3:$LD_LIBRARY_PATH`
+
 ```
 
 **Installation of ZIP files:**
@@ -618,7 +624,6 @@ sudo dpkg -i oracle-instantclient19.5-sqlplus_19.5.0.0.0-2_amd64.deb
 
 # sqlplus zip
 wget https://download.oracle.com/otn_software/linux/instantclient/195000/instantclient-sqlplus-linux.x64-19.5.0.0.0dbru.zip
-
 
 stty erase ^H
 sqlplus system/oracle@localhost/xe
@@ -804,11 +809,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3MTk2NTk2LC0xMjY5OTA2MDczLDEyND
-MwMzUyNTEsODUzNzc1MzExLDE3OTY5NjQ4MjUsLTYwMDg4NTEy
-MSwtNDY4MTQ1NDI0LC0xMTYxMTg3NDEyLDgwNzU5MDQ1OCwxMj
-c3MDIzMjQ2LC0zOTk0ODc2NjksLTk4MDU3NjQxOCw0MTkwMjA0
-NDQsMTkxMjYxMjAzNCwxMTAzNTQ3NjU5LDE5OTM1ODc1MDksLT
-EyMzcxODI1MjAsMTY4OTUzMjg3MywyMjY1Njc5NDIsOTU2MTA3
-NTk4XX0=
+eyJoaXN0b3J5IjpbLTE4Mjk5MDE4NDMsLTc3MTk2NTk2LC0xMj
+Y5OTA2MDczLDEyNDMwMzUyNTEsODUzNzc1MzExLDE3OTY5NjQ4
+MjUsLTYwMDg4NTEyMSwtNDY4MTQ1NDI0LC0xMTYxMTg3NDEyLD
+gwNzU5MDQ1OCwxMjc3MDIzMjQ2LC0zOTk0ODc2NjksLTk4MDU3
+NjQxOCw0MTkwMjA0NDQsMTkxMjYxMjAzNCwxMTAzNTQ3NjU5LD
+E5OTM1ODc1MDksLTEyMzcxODI1MjAsMTY4OTUzMjg3MywyMjY1
+Njc5NDJdfQ==
 -->
