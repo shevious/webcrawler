@@ -171,7 +171,7 @@ deactivate
 
 ## ~~visual studio 설치~~ (설치 필요없음)
 
-## ocacle client
+## ocacle client windows
 
 [Instant Client Downloads for Microsoft Windows (x64) 64-bit](https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html#ic_winx64_inst)  
 zip압축 해제 `C:\oracle\instantclient_19_5`  
@@ -809,11 +809,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMyMDcwMzI1NSwtNzcxOTY1OTYsLTEyNj
-k5MDYwNzMsMTI0MzAzNTI1MSw4NTM3NzUzMTEsMTc5Njk2NDgy
-NSwtNjAwODg1MTIxLC00NjgxNDU0MjQsLTExNjExODc0MTIsOD
-A3NTkwNDU4LDEyNzcwMjMyNDYsLTM5OTQ4NzY2OSwtOTgwNTc2
-NDE4LDQxOTAyMDQ0NCwxOTEyNjEyMDM0LDExMDM1NDc2NTksMT
-k5MzU4NzUwOSwtMTIzNzE4MjUyMCwxNjg5NTMyODczLDIyNjU2
-Nzk0Ml19
+eyJoaXN0b3J5IjpbNzE3NTA0OTgwLDEzMjA3MDMyNTUsLTc3MT
+k2NTk2LC0xMjY5OTA2MDczLDEyNDMwMzUyNTEsODUzNzc1MzEx
+LDE3OTY5NjQ4MjUsLTYwMDg4NTEyMSwtNDY4MTQ1NDI0LC0xMT
+YxMTg3NDEyLDgwNzU5MDQ1OCwxMjc3MDIzMjQ2LC0zOTk0ODc2
+NjksLTk4MDU3NjQxOCw0MTkwMjA0NDQsMTkxMjYxMjAzNCwxMT
+AzNTQ3NjU5LDE5OTM1ODc1MDksLTEyMzcxODI1MjAsMTY4OTUz
+Mjg3M119
 -->
