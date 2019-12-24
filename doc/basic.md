@@ -8,7 +8,7 @@ drop table crawl_inst_info;
 drop table crawl_course_info;
 drop table django_migrations;
 ```
-신규 테이블 생성  
+신규 테이블 생성  스크립트:
 `course_table.sql`  
 `inst_table.sql`  
 `con_log_table.sql`  
@@ -23,7 +23,7 @@ drop table django_migrations;
 기존에 course_id가 있는 경우 update하도록 변경됨.  
 기존에 inst_id가 있는 경우 update하도록 변경됨.  
 
-mkmigration과 migration 필요 없음.  
+makemigration과 migration 필요 없음.  
 
 # To-do list
 
@@ -794,11 +794,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMTM2MTk4OTIsMTc2NzM5MzEwNywtMj
-AwODEzMDA5NCwxNTcxNzQ4NTkwLDE3NjI5MDI3OTMsNDk5Njgy
-NDEyLDE4MjE2MTMzOTAsNzE3NTA0OTgwLDEzMjA3MDMyNTUsLT
-c3MTk2NTk2LC0xMjY5OTA2MDczLDEyNDMwMzUyNTEsODUzNzc1
-MzExLDE3OTY5NjQ4MjUsLTYwMDg4NTEyMSwtNDY4MTQ1NDI0LC
-0xMTYxMTg3NDEyLDgwNzU5MDQ1OCwxMjc3MDIzMjQ2LC0zOTk0
-ODc2NjldfQ==
+eyJoaXN0b3J5IjpbLTQ5MjEyMTE2NywtMTIxMzYxOTg5MiwxNz
+Y3MzkzMTA3LC0yMDA4MTMwMDk0LDE1NzE3NDg1OTAsMTc2Mjkw
+Mjc5Myw0OTk2ODI0MTIsMTgyMTYxMzM5MCw3MTc1MDQ5ODAsMT
+MyMDcwMzI1NSwtNzcxOTY1OTYsLTEyNjk5MDYwNzMsMTI0MzAz
+NTI1MSw4NTM3NzUzMTEsMTc5Njk2NDgyNSwtNjAwODg1MTIxLC
+00NjgxNDU0MjQsLTExNjExODc0MTIsODA3NTkwNDU4LDEyNzcw
+MjMyNDZdfQ==
 -->
