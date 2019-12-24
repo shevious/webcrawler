@@ -26,7 +26,8 @@ mkmigration과 migration 필요 없음.
 1. crawlproj 테스트 (완료)
 2. `crawler/models.py`에 inst용 db 추가 (완료)
 3. url에서 강좌id 기관 id추출 및 저장 (진행중)
-4. 강
+4. 강좌정보 메타데이터 db저장
+5. 기관정보 메타데이터 db저장
 
 # crawlproj
 
@@ -794,11 +795,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAyMzEzODcyLC0yMDA4MTMwMDk0LDE1Nz
-E3NDg1OTAsMTc2MjkwMjc5Myw0OTk2ODI0MTIsMTgyMTYxMzM5
-MCw3MTc1MDQ5ODAsMTMyMDcwMzI1NSwtNzcxOTY1OTYsLTEyNj
-k5MDYwNzMsMTI0MzAzNTI1MSw4NTM3NzUzMTEsMTc5Njk2NDgy
-NSwtNjAwODg1MTIxLC00NjgxNDU0MjQsLTExNjExODc0MTIsOD
-A3NTkwNDU4LDEyNzcwMjMyNDYsLTM5OTQ4NzY2OSwtOTgwNTc2
-NDE4XX0=
+eyJoaXN0b3J5IjpbMTc1MzIwNDc5MywtMjAwODEzMDA5NCwxNT
+cxNzQ4NTkwLDE3NjI5MDI3OTMsNDk5NjgyNDEyLDE4MjE2MTMz
+OTAsNzE3NTA0OTgwLDEzMjA3MDMyNTUsLTc3MTk2NTk2LC0xMj
+Y5OTA2MDczLDEyNDMwMzUyNTEsODUzNzc1MzExLDE3OTY5NjQ4
+MjUsLTYwMDg4NTEyMSwtNDY4MTQ1NDI0LC0xMTYxMTg3NDEyLD
+gwNzU5MDQ1OCwxMjc3MDIzMjQ2LC0zOTk0ODc2NjksLTk4MDU3
+NjQxOF19
 -->
