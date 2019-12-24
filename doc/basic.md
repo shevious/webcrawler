@@ -9,8 +9,11 @@ drop table crawl_course_info;
 drop table django_migrations;
 ```
 신규 테이블 생성  
+`course_table.sql`  
+`inst_table.sql`  
+`con_log_table.sql`  
 
-
+mkmigration과 migration 필요 없음.
 
 # To-do list
 
@@ -37,7 +40,7 @@ pip install -r requirements.txt
 # db ip 주소/id/password 설정
 crawproj/settings.py
 
-# db 생성 script 만들기
+# db 생성 script 만들기 (
 ./manage.py makemigrations crawler
 
 # db 생성 (oracle)
@@ -784,11 +787,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjIxNTUyMDE0LC0yMDA4MTMwMDk0LDE1Nz
-E3NDg1OTAsMTc2MjkwMjc5Myw0OTk2ODI0MTIsMTgyMTYxMzM5
-MCw3MTc1MDQ5ODAsMTMyMDcwMzI1NSwtNzcxOTY1OTYsLTEyNj
-k5MDYwNzMsMTI0MzAzNTI1MSw4NTM3NzUzMTEsMTc5Njk2NDgy
-NSwtNjAwODg1MTIxLC00NjgxNDU0MjQsLTExNjExODc0MTIsOD
-A3NTkwNDU4LDEyNzcwMjMyNDYsLTM5OTQ4NzY2OSwtOTgwNTc2
-NDE4XX0=
+eyJoaXN0b3J5IjpbLTE3ODYwNDEzNzMsLTIwMDgxMzAwOTQsMT
+U3MTc0ODU5MCwxNzYyOTAyNzkzLDQ5OTY4MjQxMiwxODIxNjEz
+MzkwLDcxNzUwNDk4MCwxMzIwNzAzMjU1LC03NzE5NjU5NiwtMT
+I2OTkwNjA3MywxMjQzMDM1MjUxLDg1Mzc3NTMxMSwxNzk2OTY0
+ODI1LC02MDA4ODUxMjEsLTQ2ODE0NTQyNCwtMTE2MTE4NzQxMi
+w4MDc1OTA0NTgsMTI3NzAyMzI0NiwtMzk5NDg3NjY5LC05ODA1
+NzY0MThdfQ==
 -->
