@@ -1,3 +1,15 @@
+# 변경사항
+
+## 2019-12-24
+
+1. table 변경
+```sql
+drop table crawl_inst_info;
+drop table crawl_course_info;
+drop table django_migrations;
+```
+
+
 # To-do list
 
 1. crawlproj 테스트
@@ -770,11 +782,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3MTc0ODU5MCwxNzYyOTAyNzkzLDQ5OT
-Y4MjQxMiwxODIxNjEzMzkwLDcxNzUwNDk4MCwxMzIwNzAzMjU1
-LC03NzE5NjU5NiwtMTI2OTkwNjA3MywxMjQzMDM1MjUxLDg1Mz
-c3NTMxMSwxNzk2OTY0ODI1LC02MDA4ODUxMjEsLTQ2ODE0NTQy
-NCwtMTE2MTE4NzQxMiw4MDc1OTA0NTgsMTI3NzAyMzI0NiwtMz
-k5NDg3NjY5LC05ODA1NzY0MTgsNDE5MDIwNDQ0LDE5MTI2MTIw
-MzRdfQ==
+eyJoaXN0b3J5IjpbLTIwMDgxMzAwOTQsMTU3MTc0ODU5MCwxNz
+YyOTAyNzkzLDQ5OTY4MjQxMiwxODIxNjEzMzkwLDcxNzUwNDk4
+MCwxMzIwNzAzMjU1LC03NzE5NjU5NiwtMTI2OTkwNjA3MywxMj
+QzMDM1MjUxLDg1Mzc3NTMxMSwxNzk2OTY0ODI1LC02MDA4ODUx
+MjEsLTQ2ODE0NTQyNCwtMTE2MTE4NzQxMiw4MDc1OTA0NTgsMT
+I3NzAyMzI0NiwtMzk5NDg3NjY5LC05ODA1NzY0MTgsNDE5MDIw
+NDQ0XX0=
 -->
