@@ -19,6 +19,10 @@ drop table django_migrations;
     configure_logging({'LOG_LEVEL': 'DEBUG'}) # scrapy 로그 레벨 설정
 ```
 
+3. db에 update방식으로 변경  
+기존에 course_id가 있는 경우 update하도록 변경됨.
+기존에 inst_id가 있는 경우 update하도록 변경됨.
+
 mkmigration과 migration 필요 없음.
 
 # To-do list
@@ -795,7 +799,7 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MzIwNDc5MywtMjAwODEzMDA5NCwxNT
+eyJoaXN0b3J5IjpbMTc2NzM5MzEwNywtMjAwODEzMDA5NCwxNT
 cxNzQ4NTkwLDE3NjI5MDI3OTMsNDk5NjgyNDEyLDE4MjE2MTMz
 OTAsNzE3NTA0OTgwLDEzMjA3MDMyNTUsLTc3MTk2NTk2LC0xMj
 Y5OTA2MDczLDEyNDMwMzUyNTEsODUzNzc1MzExLDE3OTY5NjQ4
