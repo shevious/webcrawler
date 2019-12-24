@@ -67,19 +67,14 @@ crawproj/settings.py
 
 ## database 초기화
 
-소스:
-`crawler/migrations` 폴더 삭제
-
 oracle:
 ```sql
-drop table django_migrations
-drop table CRAWL_COURSE_INFO
-drop table crawl_task_log
+drop table TBTNS_COURSE_INFO_TRANS;
+drop table TBTNS_INSTITUTE_INFO_TRANS;
+drop table TBTNS_CON_LOG;
 ```
 local db:
 `db.sqllite3`파일 삭제
-
-makemigration부터 재실행
 
 # GIT
 
@@ -799,11 +794,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NzM5MzEwNywtMjAwODEzMDA5NCwxNT
-cxNzQ4NTkwLDE3NjI5MDI3OTMsNDk5NjgyNDEyLDE4MjE2MTMz
-OTAsNzE3NTA0OTgwLDEzMjA3MDMyNTUsLTc3MTk2NTk2LC0xMj
-Y5OTA2MDczLDEyNDMwMzUyNTEsODUzNzc1MzExLDE3OTY5NjQ4
-MjUsLTYwMDg4NTEyMSwtNDY4MTQ1NDI0LC0xMTYxMTg3NDEyLD
-gwNzU5MDQ1OCwxMjc3MDIzMjQ2LC0zOTk0ODc2NjksLTk4MDU3
-NjQxOF19
+eyJoaXN0b3J5IjpbMzAzMTk0MzYsMTc2NzM5MzEwNywtMjAwOD
+EzMDA5NCwxNTcxNzQ4NTkwLDE3NjI5MDI3OTMsNDk5NjgyNDEy
+LDE4MjE2MTMzOTAsNzE3NTA0OTgwLDEzMjA3MDMyNTUsLTc3MT
+k2NTk2LC0xMjY5OTA2MDczLDEyNDMwMzUyNTEsODUzNzc1MzEx
+LDE3OTY5NjQ4MjUsLTYwMDg4NTEyMSwtNDY4MTQ1NDI0LC0xMT
+YxMTg3NDEyLDgwNzU5MDQ1OCwxMjc3MDIzMjQ2LC0zOTk0ODc2
+NjldfQ==
 -->
