@@ -12,6 +12,7 @@ drop table django_migrations;
 `course_table.sql`  
 `inst_table.sql`  
 `con_log_table.sql`  
+makemigration과 migration 필요 없음.   
 
 2. task loglevel 변경됨 
 `celery.py`   
@@ -23,7 +24,6 @@ drop table django_migrations;
 기존에 course_id가 있는 경우 update하도록 변경됨.  
 기존에 inst_id가 있는 경우 update하도록 변경됨.  
 
-makemigration과 migration 필요 없음.  
 
 # To-do list
 
@@ -794,7 +794,7 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MjEyMTE2NywtMTIxMzYxOTg5MiwxNz
+eyJoaXN0b3J5IjpbMTg2Nzg0NDE5NSwtMTIxMzYxOTg5MiwxNz
 Y3MzkzMTA3LC0yMDA4MTMwMDk0LDE1NzE3NDg1OTAsMTc2Mjkw
 Mjc5Myw0OTk2ODI0MTIsMTgyMTYxMzM5MCw3MTc1MDQ5ODAsMT
 MyMDcwMzI1NSwtNzcxOTY1OTYsLTEyNjk5MDYwNzMsMTI0MzAz
