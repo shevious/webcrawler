@@ -8,6 +8,8 @@ drop table crawl_inst_info;
 drop table crawl_course_info;
 drop table django_migrations;
 ```
+신규 테이블 생성  
+
 
 
 # To-do list
@@ -782,11 +784,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDgxMzAwOTQsMTU3MTc0ODU5MCwxNz
-YyOTAyNzkzLDQ5OTY4MjQxMiwxODIxNjEzMzkwLDcxNzUwNDk4
-MCwxMzIwNzAzMjU1LC03NzE5NjU5NiwtMTI2OTkwNjA3MywxMj
-QzMDM1MjUxLDg1Mzc3NTMxMSwxNzk2OTY0ODI1LC02MDA4ODUx
-MjEsLTQ2ODE0NTQyNCwtMTE2MTE4NzQxMiw4MDc1OTA0NTgsMT
-I3NzAyMzI0NiwtMzk5NDg3NjY5LC05ODA1NzY0MTgsNDE5MDIw
-NDQ0XX0=
+eyJoaXN0b3J5IjpbNjIxNTUyMDE0LC0yMDA4MTMwMDk0LDE1Nz
+E3NDg1OTAsMTc2MjkwMjc5Myw0OTk2ODI0MTIsMTgyMTYxMzM5
+MCw3MTc1MDQ5ODAsMTMyMDcwMzI1NSwtNzcxOTY1OTYsLTEyNj
+k5MDYwNzMsMTI0MzAzNTI1MSw4NTM3NzUzMTEsMTc5Njk2NDgy
+NSwtNjAwODg1MTIxLC00NjgxNDU0MjQsLTExNjExODc0MTIsOD
+A3NTkwNDU4LDEyNzcwMjMyNDYsLTM5OTQ4NzY2OSwtOTgwNTc2
+NDE4XX0=
 -->
