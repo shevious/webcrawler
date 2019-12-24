@@ -20,10 +20,10 @@ drop table django_migrations;
 ```
 
 3. db에 update방식으로 변경  
-기존에 course_id가 있는 경우 update하도록 변경됨.
-기존에 inst_id가 있는 경우 update하도록 변경됨.
+기존에 course_id가 있는 경우 update하도록 변경됨.  
+기존에 inst_id가 있는 경우 update하도록 변경됨.  
 
-mkmigration과 migration 필요 없음.
+mkmigration과 migration 필요 없음.  
 
 # To-do list
 
@@ -794,11 +794,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAzMTk0MzYsMTc2NzM5MzEwNywtMjAwOD
-EzMDA5NCwxNTcxNzQ4NTkwLDE3NjI5MDI3OTMsNDk5NjgyNDEy
-LDE4MjE2MTMzOTAsNzE3NTA0OTgwLDEzMjA3MDMyNTUsLTc3MT
-k2NTk2LC0xMjY5OTA2MDczLDEyNDMwMzUyNTEsODUzNzc1MzEx
-LDE3OTY5NjQ4MjUsLTYwMDg4NTEyMSwtNDY4MTQ1NDI0LC0xMT
-YxMTg3NDEyLDgwNzU5MDQ1OCwxMjc3MDIzMjQ2LC0zOTk0ODc2
-NjldfQ==
+eyJoaXN0b3J5IjpbLTEyMTM2MTk4OTIsMTc2NzM5MzEwNywtMj
+AwODEzMDA5NCwxNTcxNzQ4NTkwLDE3NjI5MDI3OTMsNDk5Njgy
+NDEyLDE4MjE2MTMzOTAsNzE3NTA0OTgwLDEzMjA3MDMyNTUsLT
+c3MTk2NTk2LC0xMjY5OTA2MDczLDEyNDMwMzUyNTEsODUzNzc1
+MzExLDE3OTY5NjQ4MjUsLTYwMDg4NTEyMSwtNDY4MTQ1NDI0LC
+0xMTYxMTg3NDEyLDgwNzU5MDQ1OCwxMjc3MDIzMjQ2LC0zOTk0
+ODc2NjldfQ==
 -->
