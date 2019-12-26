@@ -363,6 +363,10 @@ drop table DJANGO_MIGRATIONS;
 # timezone
 alter database set time_zone='+09:00';
 ALTER SESSION SET NLS_DATE_FORMAT = 'DD-MON-YYYY HH:MI:SS PM';  
+/* docker 재기동 */
+select dbtimezone from dual;
+
+
 ```
 
 ## django 1.11
@@ -800,11 +804,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0NTA3MDA4NSwtMTI3MTEyNjY3OSwxOD
-Y3ODQ0MTk1LC0xMjEzNjE5ODkyLDE3NjczOTMxMDcsLTIwMDgx
-MzAwOTQsMTU3MTc0ODU5MCwxNzYyOTAyNzkzLDQ5OTY4MjQxMi
-wxODIxNjEzMzkwLDcxNzUwNDk4MCwxMzIwNzAzMjU1LC03NzE5
-NjU5NiwtMTI2OTkwNjA3MywxMjQzMDM1MjUxLDg1Mzc3NTMxMS
-wxNzk2OTY0ODI1LC02MDA4ODUxMjEsLTQ2ODE0NTQyNCwtMTE2
-MTE4NzQxMl19
+eyJoaXN0b3J5IjpbMTk2MzAwMjgyMCwxMDQ1MDcwMDg1LC0xMj
+cxMTI2Njc5LDE4Njc4NDQxOTUsLTEyMTM2MTk4OTIsMTc2NzM5
+MzEwNywtMjAwODEzMDA5NCwxNTcxNzQ4NTkwLDE3NjI5MDI3OT
+MsNDk5NjgyNDEyLDE4MjE2MTMzOTAsNzE3NTA0OTgwLDEzMjA3
+MDMyNTUsLTc3MTk2NTk2LC0xMjY5OTA2MDczLDEyNDMwMzUyNT
+EsODUzNzc1MzExLDE3OTY5NjQ4MjUsLTYwMDg4NTEyMSwtNDY4
+MTQ1NDI0XX0=
 -->
