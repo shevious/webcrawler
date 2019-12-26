@@ -32,6 +32,7 @@ makemigration과 migration 필요 없음.
 3. url에서 강좌id 기관 id추출 및 저장 (진행중)
 4. 강좌정보 메타데이터 db저장
 5. 기관정보 메타데이터 db저장
+6. 강좌유형 코드
 
 # crawlproj
 
@@ -794,11 +795,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2Nzg0NDE5NSwtMTIxMzYxOTg5MiwxNz
-Y3MzkzMTA3LC0yMDA4MTMwMDk0LDE1NzE3NDg1OTAsMTc2Mjkw
-Mjc5Myw0OTk2ODI0MTIsMTgyMTYxMzM5MCw3MTc1MDQ5ODAsMT
-MyMDcwMzI1NSwtNzcxOTY1OTYsLTEyNjk5MDYwNzMsMTI0MzAz
-NTI1MSw4NTM3NzUzMTEsMTc5Njk2NDgyNSwtNjAwODg1MTIxLC
-00NjgxNDU0MjQsLTExNjExODc0MTIsODA3NTkwNDU4LDEyNzcw
-MjMyNDZdfQ==
+eyJoaXN0b3J5IjpbLTEyNzExMjY2NzksMTg2Nzg0NDE5NSwtMT
+IxMzYxOTg5MiwxNzY3MzkzMTA3LC0yMDA4MTMwMDk0LDE1NzE3
+NDg1OTAsMTc2MjkwMjc5Myw0OTk2ODI0MTIsMTgyMTYxMzM5MC
+w3MTc1MDQ5ODAsMTMyMDcwMzI1NSwtNzcxOTY1OTYsLTEyNjk5
+MDYwNzMsMTI0MzAzNTI1MSw4NTM3NzUzMTEsMTc5Njk2NDgyNS
+wtNjAwODg1MTIxLC00NjgxNDU0MjQsLTExNjExODc0MTIsODA3
+NTkwNDU4XX0=
 -->
