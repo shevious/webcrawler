@@ -59,7 +59,7 @@ crawproj/settings.py
 # db 생성 (oracle) (필요없음)
 #./manage.py migrate --database=oracle crawler
 # local file db 생성 (db.sqlite3 파일)
-# ./manage.py migrate (필요없음)
+./manage.py migrate
 
 
 # sample ulsan taks실행
@@ -74,8 +74,9 @@ drop table TBTNS_COURSE_INFO_TRANS;
 drop table TBTNS_INSTITUTE_INFO_TRANS;
 drop table TBTNS_CON_LOG;
 ```
-local db:
-`db.sqllite3`파일 삭제
+local db: (optional)  
+`db.sqllite3`파일 삭제  
+`./manage.py migrate`  실행
 
 # GIT
 
@@ -805,11 +806,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjEyMzcyMzEyLDE5NjMwMDI4MjAsMTA0NT
-A3MDA4NSwtMTI3MTEyNjY3OSwxODY3ODQ0MTk1LC0xMjEzNjE5
-ODkyLDE3NjczOTMxMDcsLTIwMDgxMzAwOTQsMTU3MTc0ODU5MC
-wxNzYyOTAyNzkzLDQ5OTY4MjQxMiwxODIxNjEzMzkwLDcxNzUw
-NDk4MCwxMzIwNzAzMjU1LC03NzE5NjU5NiwtMTI2OTkwNjA3My
-wxMjQzMDM1MjUxLDg1Mzc3NTMxMSwxNzk2OTY0ODI1LC02MDA4
-ODUxMjFdfQ==
+eyJoaXN0b3J5IjpbMTE0MzYxNjcxNiw2MTIzNzIzMTIsMTk2Mz
+AwMjgyMCwxMDQ1MDcwMDg1LC0xMjcxMTI2Njc5LDE4Njc4NDQx
+OTUsLTEyMTM2MTk4OTIsMTc2NzM5MzEwNywtMjAwODEzMDA5NC
+wxNTcxNzQ4NTkwLDE3NjI5MDI3OTMsNDk5NjgyNDEyLDE4MjE2
+MTMzOTAsNzE3NTA0OTgwLDEzMjA3MDMyNTUsLTc3MTk2NTk2LC
+0xMjY5OTA2MDczLDEyNDMwMzUyNTEsODUzNzc1MzExLDE3OTY5
+NjQ4MjVdfQ==
 -->
