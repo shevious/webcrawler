@@ -30,7 +30,7 @@ makemigration과 migration 필요 없음.
 1. 경북 course_id 길이 문제
 
 	예) http://www.gile.or.kr/web/lecture/view.do?mId=72&page=1&organIdx=2019111800000001&lecIdx=2019120900000002  
-	leclid만 강좌id로  
+	leclid만 강좌id로 보내주세요. 
 
 # To-do list
 
@@ -813,11 +813,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMzg0NjQ1NTIsMTE0MzYxNjcxNiw2MT
-IzNzIzMTIsMTk2MzAwMjgyMCwxMDQ1MDcwMDg1LC0xMjcxMTI2
-Njc5LDE4Njc4NDQxOTUsLTEyMTM2MTk4OTIsMTc2NzM5MzEwNy
-wtMjAwODEzMDA5NCwxNTcxNzQ4NTkwLDE3NjI5MDI3OTMsNDk5
-NjgyNDEyLDE4MjE2MTMzOTAsNzE3NTA0OTgwLDEzMjA3MDMyNT
-UsLTc3MTk2NTk2LC0xMjY5OTA2MDczLDEyNDMwMzUyNTEsODUz
-Nzc1MzExXX0=
+eyJoaXN0b3J5IjpbLTYzNzY0NDg4MiwxMTQzNjE2NzE2LDYxMj
+M3MjMxMiwxOTYzMDAyODIwLDEwNDUwNzAwODUsLTEyNzExMjY2
+NzksMTg2Nzg0NDE5NSwtMTIxMzYxOTg5MiwxNzY3MzkzMTA3LC
+0yMDA4MTMwMDk0LDE1NzE3NDg1OTAsMTc2MjkwMjc5Myw0OTk2
+ODI0MTIsMTgyMTYxMzM5MCw3MTc1MDQ5ODAsMTMyMDcwMzI1NS
+wtNzcxOTY1OTYsLTEyNjk5MDYwNzMsMTI0MzAzNTI1MSw4NTM3
+NzUzMTFdfQ==
 -->
