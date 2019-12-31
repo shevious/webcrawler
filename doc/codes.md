@@ -18,7 +18,7 @@ COURSE_PTTN_CD 강좌 유형코드 온라인/오프라인
 |SIGUNGU_CD|시군구코드| |  
 
 INST_SET_UP_MAIN_AGENT_CD기관설립주체코드 
-: 01:법인, 02:개인,  03:국가/지자체, 04: 기타
+| 01:법인, 02:개인,  03:국가/지자체, 04: 기타
 
 ## con log
 
@@ -28,6 +28,6 @@ CON_KIND_CD
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwMTg1NjczMywxMzQ0MDA4NDgsMTg1OD
-cxNDA0Nl19
+eyJoaXN0b3J5IjpbMjc1NDIwNDcsMTM0NDAwODQ4LDE4NTg3MT
+QwNDZdfQ==
 -->
