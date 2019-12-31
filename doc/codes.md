@@ -21,7 +21,7 @@ INST_SET_UP_MAIN_AGENT_CD 기관설립주체코드
 (01:법인, 02:개인,  03:국가/지자체, 04: 기타)
 INST_OPERATION_STATUS_CD 기관운영상태코드
 (01:운영중, 02:연락두절, 03:폐원)
-
+INST_OPERATION_FORM_CD 기관운영형태코드
 ## con log
 
 **TBTNS_CON_LOG**  
@@ -30,6 +30,6 @@ CON_KIND_CD
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzc1ODM0MzMsMjc1NDIwNDcsMTM0ND
-AwODQ4LDE4NTg3MTQwNDZdfQ==
+eyJoaXN0b3J5IjpbODg0MzI4NzMyLC0xMTc3NTgzNDMzLDI3NT
+QyMDQ3LDEzNDQwMDg0OCwxODU4NzE0MDQ2XX0=
 -->
