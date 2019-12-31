@@ -1,3 +1,6 @@
+# 전달사항
+경북_기관정보 INST_ID길이
+http://www.gile.or.kr/web/organ/view.do?mId=71&organIdx=2019032800000178
 # 변경사항
 
 ## 2019-12-24
@@ -819,11 +822,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMTUzNTkyMSwtNjM3NjQ0ODgyLDExND
-M2MTY3MTYsNjEyMzcyMzEyLDE5NjMwMDI4MjAsMTA0NTA3MDA4
-NSwtMTI3MTEyNjY3OSwxODY3ODQ0MTk1LC0xMjEzNjE5ODkyLD
-E3NjczOTMxMDcsLTIwMDgxMzAwOTQsMTU3MTc0ODU5MCwxNzYy
-OTAyNzkzLDQ5OTY4MjQxMiwxODIxNjEzMzkwLDcxNzUwNDk4MC
-wxMzIwNzAzMjU1LC03NzE5NjU5NiwtMTI2OTkwNjA3MywxMjQz
-MDM1MjUxXX0=
+eyJoaXN0b3J5IjpbLTg5MTE5NzkxLDE0MzE1MzU5MjEsLTYzNz
+Y0NDg4MiwxMTQzNjE2NzE2LDYxMjM3MjMxMiwxOTYzMDAyODIw
+LDEwNDUwNzAwODUsLTEyNzExMjY2NzksMTg2Nzg0NDE5NSwtMT
+IxMzYxOTg5MiwxNzY3MzkzMTA3LC0yMDA4MTMwMDk0LDE1NzE3
+NDg1OTAsMTc2MjkwMjc5Myw0OTk2ODI0MTIsMTgyMTYxMzM5MC
+w3MTc1MDQ5ODAsMTMyMDcwMzI1NSwtNzcxOTY1OTYsLTEyNjk5
+MDYwNzNdfQ==
 -->
