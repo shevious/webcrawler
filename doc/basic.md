@@ -1,5 +1,5 @@
 # 전달사항
-경북_기관정보 INST_ID길이
+경북_기관정보 INST_ID길이가 GB들어가면 16BYTE초과
 http://www.gile.or.kr/web/organ/view.do?mId=71&organIdx=2019032800000178
 
 # 변경사항
@@ -823,11 +823,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MzIyNzM5MywxNDMxNTM1OTIxLC02Mz
-c2NDQ4ODIsMTE0MzYxNjcxNiw2MTIzNzIzMTIsMTk2MzAwMjgy
-MCwxMDQ1MDcwMDg1LC0xMjcxMTI2Njc5LDE4Njc4NDQxOTUsLT
-EyMTM2MTk4OTIsMTc2NzM5MzEwNywtMjAwODEzMDA5NCwxNTcx
-NzQ4NTkwLDE3NjI5MDI3OTMsNDk5NjgyNDEyLDE4MjE2MTMzOT
-AsNzE3NTA0OTgwLDEzMjA3MDMyNTUsLTc3MTk2NTk2LC0xMjY5
-OTA2MDczXX0=
+eyJoaXN0b3J5IjpbNTA0NjQ2MzA5LDE0MzE1MzU5MjEsLTYzNz
+Y0NDg4MiwxMTQzNjE2NzE2LDYxMjM3MjMxMiwxOTYzMDAyODIw
+LDEwNDUwNzAwODUsLTEyNzExMjY2NzksMTg2Nzg0NDE5NSwtMT
+IxMzYxOTg5MiwxNzY3MzkzMTA3LC0yMDA4MTMwMDk0LDE1NzE3
+NDg1OTAsMTc2MjkwMjc5Myw0OTk2ODI0MTIsMTgyMTYxMzM5MC
+w3MTc1MDQ5ODAsMTMyMDcwMzI1NSwtNzcxOTY1OTYsLTEyNjk5
+MDYwNzNdfQ==
 -->
