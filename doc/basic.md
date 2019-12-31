@@ -1,9 +1,11 @@
 # 전달사항
+## 2019-12-31
 경북_기관정보 INST_ID길이가 GB들어가면 16BYTE초과
 http://www.gile.or.kr/web/organ/view.do?mId=71&organIdx=2019032800000178
 
 강원_기관정보 기관소개에 FUNCTION들어가있는부분
 https://www.e-room.or.kr/gw/portal/org_info?mode=read&orgcode=2199&page_no=24&selectRegion=&keyword=
+
 # 변경사항
 
 ## 2019-12-24
@@ -825,7 +827,7 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3ODE1MjE1NCw1MDQ2NDYzMDksMTQzMT
+eyJoaXN0b3J5IjpbMTM3NjY4OTgwOSw1MDQ2NDYzMDksMTQzMT
 UzNTkyMSwtNjM3NjQ0ODgyLDExNDM2MTY3MTYsNjEyMzcyMzEy
 LDE5NjMwMDI4MjAsMTA0NTA3MDA4NSwtMTI3MTEyNjY3OSwxOD
 Y3ODQ0MTk1LC0xMjEzNjE5ODkyLDE3NjczOTMxMDcsLTIwMDgx
