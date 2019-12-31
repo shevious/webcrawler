@@ -6,6 +6,9 @@ http://www.gile.or.kr/web/organ/view.do?mId=71&organIdx=2019032800000178
 강원_기관정보 기관소개에 FUNCTION들어가있는부분
 https://www.e-room.or.kr/gw/portal/org_info?mode=read&orgcode=2199&page_no=24&selectRegion=&keyword=
 
+울산_기관정보 화면안나오는 페이지
+http://www.uill.or.kr/UR/info/organ/info.do?rbsIdx=35&organIdx=3258
+
 # 변경사항
 
 ## 2019-12-24
@@ -827,11 +830,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3NjY4OTgwOSw1MDQ2NDYzMDksMTQzMT
-UzNTkyMSwtNjM3NjQ0ODgyLDExNDM2MTY3MTYsNjEyMzcyMzEy
-LDE5NjMwMDI4MjAsMTA0NTA3MDA4NSwtMTI3MTEyNjY3OSwxOD
-Y3ODQ0MTk1LC0xMjEzNjE5ODkyLDE3NjczOTMxMDcsLTIwMDgx
-MzAwOTQsMTU3MTc0ODU5MCwxNzYyOTAyNzkzLDQ5OTY4MjQxMi
-wxODIxNjEzMzkwLDcxNzUwNDk4MCwxMzIwNzAzMjU1LC03NzE5
-NjU5Nl19
+eyJoaXN0b3J5IjpbMTUyNTQ0MjY2MiwxMzc2Njg5ODA5LDUwND
+Y0NjMwOSwxNDMxNTM1OTIxLC02Mzc2NDQ4ODIsMTE0MzYxNjcx
+Niw2MTIzNzIzMTIsMTk2MzAwMjgyMCwxMDQ1MDcwMDg1LC0xMj
+cxMTI2Njc5LDE4Njc4NDQxOTUsLTEyMTM2MTk4OTIsMTc2NzM5
+MzEwNywtMjAwODEzMDA5NCwxNTcxNzQ4NTkwLDE3NjI5MDI3OT
+MsNDk5NjgyNDEyLDE4MjE2MTMzOTAsNzE3NTA0OTgwLDEzMjA3
+MDMyNTVdfQ==
 -->
