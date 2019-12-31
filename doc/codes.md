@@ -17,6 +17,7 @@ COURSE_PTTN_CD 강좌 유형코드 온라인/오프라인
 |SIDO_CD|시도코드| |  
 |SIGUNGU_CD|시군구코드| |  
 
+inst_set_up_main_agent
 
 ## con log
 
@@ -26,5 +27,6 @@ CON_KIND_CD
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0NDAwODQ4LDE4NTg3MTQwNDZdfQ==
+eyJoaXN0b3J5IjpbNjE5Mzg5OTY5LDEzNDQwMDg0OCwxODU4Nz
+E0MDQ2XX0=
 -->
