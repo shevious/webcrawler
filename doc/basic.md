@@ -116,6 +116,13 @@ git push
 # 서버의 update 다운로드
 git pull
 ```
+# GIT
+
+github 계정 생성  
+id 송부 
+
+공통 작업자 승낙  
+https://github.com/shevious/webcrawler/invitations  
 
 ## stackedit
 
@@ -206,14 +213,14 @@ deactivate
 
 ## ocacle client windows
 
-[Instant Client Downloads for Microsoft Windows (x64) 64-bit](https://www.oracle.com/database/technologies/instant-client/winx64-64-downloads.html#ic_winx64_inst)  
+[Instant Client Downloads for Microsoft Windows (x64) 64-bit](https://ww.oracle.com/database/technologies/instant-client/winx64-64-downloads.html#ic_winx64_inst)  
 Basic Package 다운로드  
-zip압축 해제 `C:\oracle\instantclient_19_5`  
+zip압축 해제 `C:\oracleistantclient_19_5`  
 
 PATH에 등록  
 제어판 => 시스템 및 보안 => 시스템 => 고급 시스템 설정  =>  
 환경변수 => 사용자 환경변수 => PATH에 `C:\oracle\instantclient_19_5` 추가
-저장후 `cmd`나 `git bash` 재시작
+저장후 `cmd`나 `git bash` 재시작path 에 등록
 
 ## pip 사용방법
 
@@ -223,7 +230,7 @@ pip list
 
 ## scrapy 설치
 
-https://www.lfd.uci.edu/~gohlke/pythonlibs/  
+tswwtdod.uci.edu/~gohlke/pythonlibs/  
 download `Twisted-19.10.0-cp38-cp38-win_amd64.whl `
 https://download.lfd.uci.edu/pythonlibs/t7epjj8p/Twisted-19.10.0-cp38-cp38-win_amd64.whl  
 
@@ -231,7 +238,7 @@ virtualenv에서
 ```bash
 curl -LO https://download.lfd.uci.edu/pythonlibs/t7epjj8p/Twisted-19.10.0-cp38-cp38-win_amd64.whl  
 pip install Twisted-19.10.0-cp38-cp38-win_amd64.whl
-pip install scrapy
+p install apy
 pip install dateparser
 #pip install scrapyd
 ```
@@ -279,7 +286,6 @@ project folders:
 ```html
 <a href="#" onclick="fn_applCheck2(\'view.do?rbsIdx=34&page=1&organIdx=3175&idx=EX18645\');return false;" onkeypress="this.onclick;" style="color:#ff8c23;">(\xec\xa3\xbc\xea\xb0\x84)\xeb\xb0\x94\xeb\x94\x94\xeb\x9d\xbc\xec\x9d\xb8 \xec\x9a\x94\xea\xb0\x80&\xed\x95\x84\xeb\x9d\xbc\xed\x85\x8c\xec\x8a\xa4</a>
 ```
-
 https://stackoverflow.com/questions/42989774/scrapy-spider-cant-find-urls-that-load-on-click  
 
 response.x를 사용해 보자
@@ -391,7 +397,7 @@ cd myproj
 ./manage.py startapp myapp
 ./manage.py createsuperuser
 ```
-https://developer.oracle.com/dsl/vasiliev-django.html  
+https://deelp.oralcom/sl/siie-dangohtl  
 
 `myproj/requirements.txt`
 ```
@@ -594,7 +600,7 @@ wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-
 sudo alien --scripts oracle-instantclient19.5-basic-19.5.0.0.0-1.x86_64.rpm
 sudo dpkg -i oracle-instantclient19.5-basic_19.5.0.0.0-2_amd64.deb
 
-brew install libaio
+#brew install libaio
 
 # client zip
 
@@ -813,11 +819,11 @@ cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
 # change djangocelery => crawlproj
 ```
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYzNzY0NDg4MiwxMTQzNjE2NzE2LDYxMj
-M3MjMxMiwxOTYzMDAyODIwLDEwNDUwNzAwODUsLTEyNzExMjY2
-NzksMTg2Nzg0NDE5NSwtMTIxMzYxOTg5MiwxNzY3MzkzMTA3LC
-0yMDA4MTMwMDk0LDE1NzE3NDg1OTAsMTc2MjkwMjc5Myw0OTk2
-ODI0MTIsMTgyMTYxMzM5MCw3MTc1MDQ5ODAsMTMyMDcwMzI1NS
-wtNzcxOTY1OTYsLTEyNjk5MDYwNzMsMTI0MzAzNTI1MSw4NTM3
-NzUzMTFdfQ==
+eyJoaXN0b3J5IjpbMTQzMTUzNTkyMSwtNjM3NjQ0ODgyLDExND
+M2MTY3MTYsNjEyMzcyMzEyLDE5NjMwMDI4MjAsMTA0NTA3MDA4
+NSwtMTI3MTEyNjY3OSwxODY3ODQ0MTk1LC0xMjEzNjE5ODkyLD
+E3NjczOTMxMDcsLTIwMDgxMzAwOTQsMTU3MTc0ODU5MCwxNzYy
+OTAyNzkzLDQ5OTY4MjQxMiwxODIxNjEzMzkwLDcxNzUwNDk4MC
+wxMzIwNzAzMjU1LC03NzE5NjU5NiwtMTI2OTkwNjA3MywxMjQz
+MDM1MjUxXX0=
 -->
