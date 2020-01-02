@@ -7,7 +7,7 @@ http://www.gile.or.kr/web/organ/view.do?mId=71&organIdx=2019032800000178
 https://www.e-room.or.kr/gw/portal/org_info?mode=read&orgcode=2199&page_no=24&selectRegion=&keyword=
 
 울산_기관정보 화면안나오는 페이지
-http://www.uill.or.kr/UR/info/organ/info.do?rbsIdx=35&organIdx=3258
+https://www.uill.or.kr/UR/info/organ/info.do?rbsIdx=35&organIdx=3258
 
 # 변경사항
 
@@ -34,13 +34,23 @@ makemigration과 migration 필요 없음.
 3. db에 update방식으로 변경  
 기존에 course_id가 있는 경우 update하도록 변경됨.  
 기존에 inst_id가 있는 경우 update하도록 변경됨.  
+github.com/shev
 
+# http://ownloads/windows/  
+[Windows x86-64 executable installer](https://www.python.org/ftp/python/3.8.0/python-3.8.0-amd64.exe)  
 
-# 이슈사항
+설치 시:  
+Install now  
+ - [x] Add Python 3.8 to Path
+ - Disable Path Length LImit 버튼 클릭
+
+## 이슈사항
 
 1. 경북 course_id 길이 문제
 
-	예) http://www.gile.or.kr/web/lecture/view.do?mId=72&page=1&organIdx=2019111800000001&lecIdx=2019120900000002  
+	예) git bash
+
+https://www.gile.or.kr/web/lecture/view.do?mId=72&page=1&organIdx=2019111800000001&lecIdx=2019120900000002  
 	leclid만 강좌id로 보내주세요. 
 
 # To-do list
@@ -63,7 +73,7 @@ makemigration과 migration 필요 없음.
 # 작업 폴더 이동
 cd workspace
 # 프로젝트 복사
-git clone https://github.com/shevious/crawlproj.git
+git clone http://ious/crawlproj.git
 cd crawlproj/crawlproj
 # 필요한 python 패키지 설치
 pip install -r requirements.txt
@@ -86,7 +96,24 @@ crawproj/settings.py
 
 ## database 초기화
 
-oracle:
+oraclegitforwindows.org/  
+
+설치 시:
+ - [x] checkout as-is, commit as-is
+ - [x] Use Window's default console window
+ - [x] Enable Symbolic links sh
+# 
+
+# git bash
+
+## openssh server windows
+
+[Windows Server 2019 및 Windows 10용 OpenSSH 설치](https://docs.microsoft.com/ko-kr/windows-server/administration/openssh/openssh_install_firstuse)  
+
+[Setting to use git-bash as default shell when connecting remotely via OpenSSH to Windows Server 2016](https://superuser.com/questions/1332346/setting-to-use-git-bash-as-default-shell-when-connecting-remotely-via-openssh-to)  
+
+powershell:
+
 ```sql
 drop table TBTNS_COURSE_INFO_TRANS;
 drop table TBTNS_INSTITUTE_INFO_TRANS;
@@ -104,8 +131,15 @@ id 송부
 https://github.com/shevious/crawlproj/invitations  
 
 ## git 사용법
-
+:
 ```bash
+#owsCapability -Online | ? Name -like 'OpenSSH*'
+
+
+# Install the OpenSSH Server
+Add-WindowsCapability -Online -Name OpenSSH.Server~~~~0.0.1.0
+
+Start-Service sshd
 # 프로젝트 복사
 git clone https://github.com/shevious/crawlproj.git
 # remote origin 확인
@@ -122,8 +156,11 @@ git add <filename>
 git commit -m "커밋 내용"
 
 # 서버에 업로드
-git push
-
+git puOPTIONAL but recommended:
+Set-Service -Name sshd -StartupType 'Automatic'
+# Confirm the Firewall rule is configured. It should be created automatically by setup. 
+Get-NetFirewallRule -Name *ssh
+*
 # 서버의 update 다운로드
 git pull
 ```
@@ -154,7 +191,9 @@ https://www.python.org/downloads/windows/
 설치 시:  
 Install now  
  - [x] Add Python 3.8 to Path
- - Disable Path Length LImit 버튼 클릭
+ - Disable Path Length LImit 버튼 클릭There should be a firewall rule named "OpenSSH-Server-In-TCP", which should be enabled
+# If the firewall does not exist, create one
+New-NetFirewallRule -Name sshd -DisplayName 'OpenSSH Server (sshd)' -Enabled True -Direction Inbound -Protocol TCP -Action Allow -LocalPort 22
 
 ## git bash
 
@@ -163,8 +202,8 @@ https://gitforwindows.org/
 설치 시:
  - [x] checkout as-is, commit as-is
  - [x] Use Window's default console window
- - [x] Enable Symbolic links
-
+ - [x] Enable Symbolic links를 default 값으로
+New-ItemProperty -Path "HKLM:\SOFTWARE\OpenSSH" -Name DefaultShell -Value "C:\Program Files\Git\bin\bash.exe" -PropertyType String -Force
 ## pycharm
 
 https://www.jetbrains.com/ko-kr/pycharm/download/#section=mac  
@@ -251,9 +290,25 @@ curl -LO https://download.lfd.uci.edu/pythonlibs/t7epjj8p/Twisted-19.10.0-cp38-c
 pip install Twisted-19.10.0-cp38-cp38-win_amd64.whl
 p install apy
 pip install dateparser
-#pip install scrapyd
+#
+
+https://visualstudio.microsoft.com/ko/downloads/  
+커뮤니티 에디션 설치  
+설치시 C++ desktop만 선택  
+
+## pip 사용방법
+
+```
+pip list
 ```
 
+## scrapy 설치
+
+virtualenv에서  
+```bash
+pip install scrapy
+pip install scrapyd
+```
 https://docs.scrapy.org/en/latest/intro/tutorial.html  
 
 ```bash
@@ -268,7 +323,7 @@ http://www.uill.or.kr/UR/info/lecture/list.do?rbsIdx=34&page=1
 울산 작업분:  
 http://gofile.me/2P1jS/xgKiuo8al  
 
-경북  
+경북  경북
 http://www.gile.or.kr/web/lecture/list.do?mId=72&page=1  
  
 강원  
@@ -290,6 +345,8 @@ http://52.78.43.27:9001
 
 ### basics
 
+# portia
+
 project folders:
 
 /app/data/projects
@@ -297,6 +354,7 @@ project folders:
 ```html
 <a href="#" onclick="fn_applCheck2(\'view.do?rbsIdx=34&page=1&organIdx=3175&idx=EX18645\');return false;" onkeypress="this.onclick;" style="color:#ff8c23;">(\xec\xa3\xbc\xea\xb0\x84)\xeb\xb0\x94\xeb\x94\x94\xeb\x9d\xbc\xec\x9d\xb8 \xec\x9a\x94\xea\xb0\x80&\xed\x95\x84\xeb\x9d\xbc\xed\x85\x8c\xec\x8a\xa4</a>
 ```
+
 https://stackoverflow.com/questions/42989774/scrapy-spider-cant-find-urls-that-load-on-click  
 
 response.x를 사용해 보자
@@ -395,17 +453,21 @@ select dbtimezone from dual;
 
 ```
 
+
 ## django 1.11
 
 cx_oracle 버전 문제:  
 https://code.djangoproject.com/ticket/29759  
 ```bash
 pip install django==1.11.26
+pip install cx_oracle==6.4.1
 django-admin.py startproject myproj
 cd myproj
 ./manage.py migrate
 # ⇒ migrate 성공
+
 ./manage.py startapp myapp
+
 ./manage.py createsuperuser
 ```
 https://deelp.oralcom/sl/siie-dangohtl  
@@ -416,7 +478,7 @@ django==1.11.26
 django-timezone-field==2.1
 celery==4.3.0
 cx-oracle==6.4.1
-django-celery-results==1.1.2
+celery -A myproj beat -l info --scheduler django-_celery-results==1.1.2
 django-celery-beat==1.5.0
 ```
 ```bash
@@ -440,8 +502,17 @@ import os
 for f in [CELERY_BROKER_TRANSPORT_OPTIONS['data_folder_in'],
           CELERY_BROKER_TRANSPORT_OPTIONS['data_folder_processed']]:
     if not os.path.exists(f):
-        os.makedirs(f)
+        os.makedirs(f)_beat.schedulers:DatabaseScheduler
+
+```
+https://developer.oracle.com/dsl/vasiliev-django.html  
+
+`myproj/settings.py`
+```py
+USE_TZ = True
+TIME_ZONE = 'Asia/Seoul'
 CELERY_RESULT_BACKEND = 'django-db'
+
 
 INSTALLED_APPS = [
     ...,
@@ -673,7 +744,12 @@ https://bluese05.tistory.com/31
 
 # 참고용
 
-#### django 3 (oracle 11g안됨)
+##```
+
+
+
+
+## django 3 (oracle 11g안됨)
 `myproj/settings.py`
 ```py
 INSTALLED_APPS = [
@@ -777,7 +853,11 @@ urlpatterns = [
     path(r'^(?P<emp_id>\d+)/(?P<dept_name>\w+)/(?P<dept_id>\d+)/$' , newdept),
 ]
 ```
+
+
 https://stackoverflow.com/questions/49229664/configure-the-django-with-oracle-11g-data-base-issue  
+
+
 
 ## openssh server windows
 
@@ -826,15 +906,62 @@ cp -r ~/workspace/webstudy/django/djangocelery/Ulsan .
 
 # for test and running
 cp ~/workspace/webstudy/django/djangocelery/scrapy.cfg .
-cp ~/workspace/webstudy/django/djangocelery/supervisord.conf .
-# change djangocelery => crawlproj
+cp ~/workspace/webstudy/django/djangocelery/supervl 
+
+cipher list
+https://www.openssl.org/docs/man1.0.2/man1/ciphers.html  
+
+## 작업중
+
+#### oracle instant client on ubuntu
+
+https://www.oracle.com/database/technologies/instant-client/linux-x86-64-downloads.html  
+
+```bash
+sudo apt install alien -y
+
+wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-instantclient19.5-basic-19.5.0.0.0-1.x86_64.rpm
+sudo alien --scripts oracle-instantclient19.5-basic-19.5.0.0.0-1.x86_64.rpm
+sudo dpkg -i oracle-instantclient19.5-basic_19.5.0.0.0-2_amd64.deb
+#brew install libaio
+
+# sqlplus
+wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-instantclient19.5-sqlplus-19.5.0.0.0-1.x86_64.rpm
+sudo alien --scripts oracle-instantclient19.5-sqlplus-19.5.0.0.0-1.x86_64.rpm
+sudo dpkg -i oracle-instantclient19.5-sqlplus_19.5.0.0.0-2_amd64.deb
+sudo apt install libaio1 -y
+
+stty erase ^H
+sqlplus system/oracle@localhost/xe
+#or
+brew install rlwrap
+rlwrap sqlplus system/oracle@localhost/xe
+
+# optional
+wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-instantclient19.5-devel-19.5.0.0.0-1.x86_64.rpm
+
 ```
+
+#### migrate 이후에 table확인해보자
+
+#### scrapy from django
+
+https://blog.theodo.com/2019/01/data-scraping-scrapy-django-integration/  
+https://medium.com/@ali_oguzhan/how-to-use-scrapy-with-django-application-c16fabd0e62e  
+djangoItem:  
+https://docs.scrapy.org/en/0.24/topics/djangoitem.html  
+https://github.com/scrapy-plugins/scrapy-djangoitem 
+egg
+https://stackoverflow.com/questions/47286690/how-do-i-create-and-load-an-egg-file-in-python  
+https://bluese05.tistordy.conf .
+# change djangocelery => crawlproj
+```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNTQ0MjY2MiwxMzc2Njg5ODA5LDUwND
-Y0NjMwOSwxNDMxNTM1OTIxLC02Mzc2NDQ4ODIsMTE0MzYxNjcx
-Niw2MTIzNzIzMTIsMTk2MzAwMjgyMCwxMDQ1MDcwMDg1LC0xMj
-cxMTI2Njc5LDE4Njc4NDQxOTUsLTEyMTM2MTk4OTIsMTc2NzM5
-MzEwNywtMjAwODEzMDA5NCwxNTcxNzQ4NTkwLDE3NjI5MDI3OT
-MsNDk5NjgyNDEyLDE4MjE2MTMzOTAsNzE3NTA0OTgwLDEzMjA3
-MDMyNTVdfQ==
+eyJoaXN0b3J5IjpbLTYyNjQ1NjU2OCwxNTI1NDQyNjYyLDEzNz
+Y2ODk4MDksNTA0NjQ2MzA5LDE0MzE1MzU5MjEsLTYzNzY0NDg4
+MiwxMTQzNjE2NzE2LDYxMjM3MjMxMiwxOTYzMDAyODIwLDEwND
+UwNzAwODUsLTEyNzExMjY2NzksMTg2Nzg0NDE5NSwtMTIxMzYx
+OTg5MiwxNzY3MzkzMTA3LC0yMDA4MTMwMDk0LDE1NzE3NDg1OT
+AsMTc2MjkwMjc5Myw0OTk2ODI0MTIsMTgyMTYxMzM5MCw3MTc1
+MDQ5ODBdfQ==
 -->
