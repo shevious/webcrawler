@@ -15,9 +15,9 @@ course_id 중복 처리:
 >>> hash = hashlib.sha1(f'{organIdx}{lecIdx}'.encode('UTF-8')).hexdigest()
 >>> hash
 '7383a89a7588e80435904ce1f7afcfa49e0ab6e2'
->>> course_id = header + hash[:14]
+>>> course_id = header + hash[:30]
 >>> course_id
-'GB7383a89a7588e8'
+'GB7fcf48bb24f7741bb28ddd23b20804'
 >>> course_id_org = header + organIdx + "_" + lecIdx
 >>>> course_id_org
 'GB614000003_2016082500000024'
@@ -27,7 +27,7 @@ course_id 중복 처리:
 >>> hash = hashlib.sha1(f'{organIdx}{lecIdx}'.encode('UTF-8')).hexdigest()
 >>> hash
 '7fcf48bb24f7741bb28ddd23b20804bc388929a7'
->>> course_id = header + hash[:14]
+>>> course_id = header + hash[:30]
 >>> course_id
 'GB7fcf48bb24f774'
 >>> course_id_org = header + organIdx + "_" + lecIdx
@@ -1004,11 +1004,11 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjMzMjQ4NzUsLTE0NTkzMjU2OTAsMT
-E3MTA0ODIwOCwxNzk2ODAzOTEsLTYyNjQ1NjU2OCwxNTI1NDQy
-NjYyLDEzNzY2ODk4MDksNTA0NjQ2MzA5LDE0MzE1MzU5MjEsLT
-YzNzY0NDg4MiwxMTQzNjE2NzE2LDYxMjM3MjMxMiwxOTYzMDAy
-ODIwLDEwNDUwNzAwODUsLTEyNzExMjY2NzksMTg2Nzg0NDE5NS
-wtMTIxMzYxOTg5MiwxNzY3MzkzMTA3LC0yMDA4MTMwMDk0LDE1
-NzE3NDg1OTBdfQ==
+eyJoaXN0b3J5IjpbLTc5MDQzNDMzNiwtMTQ1OTMyNTY5MCwxMT
+cxMDQ4MjA4LDE3OTY4MDM5MSwtNjI2NDU2NTY4LDE1MjU0NDI2
+NjIsMTM3NjY4OTgwOSw1MDQ2NDYzMDksMTQzMTUzNTkyMSwtNj
+M3NjQ0ODgyLDExNDM2MTY3MTYsNjEyMzcyMzEyLDE5NjMwMDI4
+MjAsMTA0NTA3MDA4NSwtMTI3MTEyNjY3OSwxODY3ODQ0MTk1LC
+0xMjEzNjE5ODkyLDE3NjczOTMxMDcsLTIwMDgxMzAwOTQsMTU3
+MTc0ODU5MF19
 -->
