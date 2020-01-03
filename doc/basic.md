@@ -5,7 +5,11 @@ ex)
 http://www.gile.or.kr/web/lecture/view.do?mId=72&page=121&organIdx=614000003&lecIdx=2016082500000024
 http://www.gile.or.kr/web/lecture/view.do?mId=72&page=144&organIdx=724600001&lecIdx=2016082500000024
 
-강원_강좌정보 : 페이지 안ㄴ
+강원_강좌정보 : list페이지가 안뜸  (151, 217, 239)
+ex)
+https://www.e-room.or.kr/gw/portal/org_lecture_info?mode=list&leccode=&page_no=151&selectRegion=&gubun=&studyKind=&searchKeyWord=&searchFromDate=&searchEndDate=
+강원 강좌정보 194페이지 [강좌정보 등록 테스트] 상세안나옴
+https://www.e-room.or.kr/gw/portal/org_lecture_info?mode=read&leccode=2&page_no=194&selectRegion=&gubun=&studyKind=&searchKeyWord=&searchFromDate=&searchEndDate=
 ## 2019-12-31
 경북_기관정보 INST_ID길이가 GB들어가면 16BYTE초과
 http://www.gile.or.kr/web/organ/view.do?mId=71&organIdx=2019032800000178
@@ -964,11 +968,11 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjYxMDE5MzksMTc5NjgwMzkxLC02Mj
-Y0NTY1NjgsMTUyNTQ0MjY2MiwxMzc2Njg5ODA5LDUwNDY0NjMw
-OSwxNDMxNTM1OTIxLC02Mzc2NDQ4ODIsMTE0MzYxNjcxNiw2MT
-IzNzIzMTIsMTk2MzAwMjgyMCwxMDQ1MDcwMDg1LC0xMjcxMTI2
-Njc5LDE4Njc4NDQxOTUsLTEyMTM2MTk4OTIsMTc2NzM5MzEwNy
-wtMjAwODEzMDA5NCwxNTcxNzQ4NTkwLDE3NjI5MDI3OTMsNDk5
-NjgyNDEyXX0=
+eyJoaXN0b3J5IjpbLTQyMjM0MDQ2NCwxNzk2ODAzOTEsLTYyNj
+Q1NjU2OCwxNTI1NDQyNjYyLDEzNzY2ODk4MDksNTA0NjQ2MzA5
+LDE0MzE1MzU5MjEsLTYzNzY0NDg4MiwxMTQzNjE2NzE2LDYxMj
+M3MjMxMiwxOTYzMDAyODIwLDEwNDUwNzAwODUsLTEyNzExMjY2
+NzksMTg2Nzg0NDE5NSwtMTIxMzYxOTg5MiwxNzY3MzkzMTA3LC
+0yMDA4MTMwMDk0LDE1NzE3NDg1OTAsMTc2MjkwMjc5Myw0OTk2
+ODI0MTJdfQ==
 -->
