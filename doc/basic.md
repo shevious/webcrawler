@@ -1,7 +1,7 @@
 # 전달사항
 ## 2020-01-03
-울산_강좌정보 : organIdx, idx 중복되는 데이터가 31024건
-ex) page만 틀림.
+울산_강좌정보 : organIdx, idx 중복되는 데이터가 31024건. page만 틀림.
+ex) 
 http://www.uill.or.kr/UR/info/lecture/view.do?rbsIdx=34&page=2953&organIdx=103&idx=L0027338
 http://www.uill.or.kr/UR/info/lecture/view.do?rbsIdx=34&page=2954&organIdx=103&idx=L0027338
 http://www.uill.or.kr/UR/info/lecture/view.do?rbsIdx=34&page=2955&organIdx=103&idx=L0027338
@@ -1012,11 +1012,11 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg4MTI0NjkzLC02MjExNDA4NzIsMjE0NT
-UwNDU1OCwtNzkwNDM0MzM2LC0xNDU5MzI1NjkwLDExNzEwNDgy
-MDgsMTc5NjgwMzkxLC02MjY0NTY1NjgsMTUyNTQ0MjY2MiwxMz
-c2Njg5ODA5LDUwNDY0NjMwOSwxNDMxNTM1OTIxLC02Mzc2NDQ4
-ODIsMTE0MzYxNjcxNiw2MTIzNzIzMTIsMTk2MzAwMjgyMCwxMD
-Q1MDcwMDg1LC0xMjcxMTI2Njc5LDE4Njc4NDQxOTUsLTEyMTM2
-MTk4OTJdfQ==
+eyJoaXN0b3J5IjpbLTEzOTUwNDUyMTEsLTYyMTE0MDg3MiwyMT
+Q1NTA0NTU4LC03OTA0MzQzMzYsLTE0NTkzMjU2OTAsMTE3MTA0
+ODIwOCwxNzk2ODAzOTEsLTYyNjQ1NjU2OCwxNTI1NDQyNjYyLD
+EzNzY2ODk4MDksNTA0NjQ2MzA5LDE0MzE1MzU5MjEsLTYzNzY0
+NDg4MiwxMTQzNjE2NzE2LDYxMjM3MjMxMiwxOTYzMDAyODIwLD
+EwNDUwNzAwODUsLTEyNzExMjY2NzksMTg2Nzg0NDE5NSwtMTIx
+MzYxOTg5Ml19
 -->
