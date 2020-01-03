@@ -1,9 +1,30 @@
 # 전달사항
 ## 2020-01-03
-경북_강좌정보 :  url의 lecIdx만 course_id로 사용 시 중복되는건 240건발생
-ex) 
-http://www.gile.or.kr/web/lecture/view.do?mId=72&page=121&organIdx=614000003&lecIdx=2016082500000024
-http://www.gile.or.kr/web/lecture/view.do?mId=72&page=144&organIdx=724600001&lecIdx=2016082500000024
+경북_강좌정보 :  url의 lecIdx만 course_id로 사용 시 중복되는건 240건발생  
+ex)   
+http://www.gile.or.kr/web/lecture/view.do?mId=72&page=121&organIdx=614000003&lecIdx=2016082500000024  
+http://www.gile.or.kr/web/lecture/view.do?mId=72&page=144&organIdx=724600001&lecIdx=2016082500000024  
+
+course_id 중복 처리:  
+```py
+>>> import hashlib
+>>> header='GB'
+
+>>> organIdx='614000003'
+>>> lecIdx='2016082500000024'
+>>> hash = hashlib.sha1(f'{organIdx}{lecIdx}'.encode('UTF-8')).hexdigest()
+>>> course_id = header + hash[:14]
+>>> course_id
+'GB7383a89a7588e8'
+
+>>> organIdx='724600001'
+>>> lecIdx='2016082500000024'
+>>> hash = hashlib.sha1(f'{organIdx}{lecIdx}'.encode('UTF-8')).hexdigest()
+>>> course_id = header + hash[:14]
+>>> course_id
+'GB7fcf48bb24f774'
+```
+
 
 강원_강좌정보 : list페이지가 안뜸  (151, 217, 239)
 ex)
@@ -970,11 +991,11 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3MTA0ODIwOCwxNzk2ODAzOTEsLTYyNj
-Q1NjU2OCwxNTI1NDQyNjYyLDEzNzY2ODk4MDksNTA0NjQ2MzA5
-LDE0MzE1MzU5MjEsLTYzNzY0NDg4MiwxMTQzNjE2NzE2LDYxMj
-M3MjMxMiwxOTYzMDAyODIwLDEwNDUwNzAwODUsLTEyNzExMjY2
-NzksMTg2Nzg0NDE5NSwtMTIxMzYxOTg5MiwxNzY3MzkzMTA3LC
-0yMDA4MTMwMDk0LDE1NzE3NDg1OTAsMTc2MjkwMjc5Myw0OTk2
-ODI0MTJdfQ==
+eyJoaXN0b3J5IjpbLTE0NTkzMjU2OTAsMTE3MTA0ODIwOCwxNz
+k2ODAzOTEsLTYyNjQ1NjU2OCwxNTI1NDQyNjYyLDEzNzY2ODk4
+MDksNTA0NjQ2MzA5LDE0MzE1MzU5MjEsLTYzNzY0NDg4MiwxMT
+QzNjE2NzE2LDYxMjM3MjMxMiwxOTYzMDAyODIwLDEwNDUwNzAw
+ODUsLTEyNzExMjY2NzksMTg2Nzg0NDE5NSwtMTIxMzYxOTg5Mi
+wxNzY3MzkzMTA3LC0yMDA4MTMwMDk0LDE1NzE3NDg1OTAsMTc2
+MjkwMjc5M119
 -->
