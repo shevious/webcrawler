@@ -35,14 +35,16 @@ course_id 중복 처리:
 'GB724600001_2016082500000024'
 ```
 
-강원_강좌정보 : list페이지가 안뜸  (151, 217, 239)  
+강원_강좌정보 : list페이지가 안뜸  (151, 217, 239)  
 ex)  
 https://www.e-room.or.kr/gw/portal/org_lecture_info?mode=list&leccode=&page_no=151&selectRegion=&gubun=&studyKind=&searchKeyWord=&searchFromDate=&searchEndDate==  
 
-⇒  페이지 안뜨는 것은 크롤링에서 제외하도록 고객과 얘기하겠습니다.  
+⇒  **페이지 안뜨는 것은 크롤링에서 제외하도록 고객과 얘기하겠습니다.**  
 
 강원 강좌정보 194페이지 [강좌정보 등록 테스트] 상세안나옴
 https://www.e-room.or.kr/gw/portal/org_lecture_info?mode=read&leccode=2&page_no=194&selectRegion=&gubun=&studyKind=&searchKeyWord=&searchFromDate=&searchEndDate=
+
+⇒  **상세 안나오는 것도 크롤링에서 제외하도록 고객과 얘기하겠습니다.** 
 
 ## 2019-12-31
 경북_기관정보 INST_ID길이가 GB들어가면 16BYTE초과
@@ -1002,11 +1004,11 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwODc3MjU4NSwtMTQ1OTMyNTY5MCwxMT
-cxMDQ4MjA4LDE3OTY4MDM5MSwtNjI2NDU2NTY4LDE1MjU0NDI2
-NjIsMTM3NjY4OTgwOSw1MDQ2NDYzMDksMTQzMTUzNTkyMSwtNj
-M3NjQ0ODgyLDExNDM2MTY3MTYsNjEyMzcyMzEyLDE5NjMwMDI4
-MjAsMTA0NTA3MDA4NSwtMTI3MTEyNjY3OSwxODY3ODQ0MTk1LC
-0xMjEzNjE5ODkyLDE3NjczOTMxMDcsLTIwMDgxMzAwOTQsMTU3
-MTc0ODU5MF19
+eyJoaXN0b3J5IjpbLTEyNjMzMjQ4NzUsLTE0NTkzMjU2OTAsMT
+E3MTA0ODIwOCwxNzk2ODAzOTEsLTYyNjQ1NjU2OCwxNTI1NDQy
+NjYyLDEzNzY2ODk4MDksNTA0NjQ2MzA5LDE0MzE1MzU5MjEsLT
+YzNzY0NDg4MiwxMTQzNjE2NzE2LDYxMjM3MjMxMiwxOTYzMDAy
+ODIwLDEwNDUwNzAwODUsLTEyNzExMjY2NzksMTg2Nzg0NDE5NS
+wtMTIxMzYxOTg5MiwxNzY3MzkzMTA3LC0yMDA4MTMwMDk0LDE1
+NzE3NDg1OTBdfQ==
 -->
