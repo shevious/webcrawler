@@ -16,7 +16,9 @@ course_id 중복 처리:
 >>> course_id = header + hash[:14]
 >>> course_id
 'GB7383a89a7588e8'
->>> course_id_org = header + oraganIdx + "_" + lecIdx
+>>> course_id_org = header + organIdx + "_" + lecIdx
+>>>> course_id_org
+'GB614000003_2016082500000024'
 
 >>> organIdx='724600001'
 >>> lecIdx='2016082500000024'
@@ -24,8 +26,9 @@ course_id 중복 처리:
 >>> course_id = header + hash[:14]
 >>> course_id
 'GB7fcf48bb24f774'
->>> course_id_org = header + oraganIdx + "_" + lecIdx
-
+>>> course_id_org = header + organIdx + "_" + lecIdx
+>>> course_id_org
+'GB724600001_2016082500000024'
 ```
 
 
@@ -994,7 +997,7 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg4NzgzODY4NCwtMTQ1OTMyNTY5MCwxMT
+eyJoaXN0b3J5IjpbLTgxNjMzNzg4OCwtMTQ1OTMyNTY5MCwxMT
 cxMDQ4MjA4LDE3OTY4MDM5MSwtNjI2NDU2NTY4LDE1MjU0NDI2
 NjIsMTM3NjY4OTgwOSw1MDQ2NDYzMDksMTQzMTUzNTkyMSwtNj
 M3NjQ0ODgyLDExNDM2MTY3MTYsNjEyMzcyMzEyLDE5NjMwMDI4
