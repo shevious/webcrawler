@@ -1,7 +1,7 @@
 # 전달사항
 ## 2020-01-03
 울산_강좌정보 : organIdx,idx 중복되는 데이터가 31024건
-ex)
+ex) page만 틀림.
 http://www.uill.or.kr/UR/info/lecture/view.do?rbsIdx=34&page=2953&organIdx=103&idx=L0027338
 http://www.uill.or.kr/UR/info/lecture/view.do?rbsIdx=34&page=2954&organIdx=103&idx=L0027338
 http://www.uill.or.kr/UR/info/lecture/view.do?rbsIdx=34&page=2955&organIdx=103&idx=L0027338
@@ -1012,7 +1012,7 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMDAyMDUyNCwtNjIxMTQwODcyLDIxND
+eyJoaXN0b3J5IjpbLTcwMzI3Nzc4NywtNjIxMTQwODcyLDIxND
 U1MDQ1NTgsLTc5MDQzNDMzNiwtMTQ1OTMyNTY5MCwxMTcxMDQ4
 MjA4LDE3OTY4MDM5MSwtNjI2NDU2NTY4LDE1MjU0NDI2NjIsMT
 M3NjY4OTgwOSw1MDQ2NDYzMDksMTQzMTUzNTkyMSwtNjM3NjQ0
