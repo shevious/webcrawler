@@ -29,7 +29,7 @@ course_id 중복 처리:
 '7fcf48bb24f7741bb28ddd23b20804bc388929a7'
 >>> course_id = header + hash[:30]
 >>> course_id
-'GB7fcf48bb24f774'
+'GB7fcf48bb24f7741bb28ddd23b20804'
 >>> course_id_org = header + organIdx + "_" + lecIdx
 >>> course_id_org
 'GB724600001_2016082500000024'
@@ -1004,11 +1004,11 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI1NzgyODcyLC03OTA0MzQzMzYsLTE0NT
-kzMjU2OTAsMTE3MTA0ODIwOCwxNzk2ODAzOTEsLTYyNjQ1NjU2
-OCwxNTI1NDQyNjYyLDEzNzY2ODk4MDksNTA0NjQ2MzA5LDE0Mz
-E1MzU5MjEsLTYzNzY0NDg4MiwxMTQzNjE2NzE2LDYxMjM3MjMx
-MiwxOTYzMDAyODIwLDEwNDUwNzAwODUsLTEyNzExMjY2NzksMT
-g2Nzg0NDE5NSwtMTIxMzYxOTg5MiwxNzY3MzkzMTA3LC0yMDA4
-MTMwMDk0XX0=
+eyJoaXN0b3J5IjpbMjE0NTUwNDU1OCwtNzkwNDM0MzM2LC0xND
+U5MzI1NjkwLDExNzEwNDgyMDgsMTc5NjgwMzkxLC02MjY0NTY1
+NjgsMTUyNTQ0MjY2MiwxMzc2Njg5ODA5LDUwNDY0NjMwOSwxND
+MxNTM1OTIxLC02Mzc2NDQ4ODIsMTE0MzYxNjcxNiw2MTIzNzIz
+MTIsMTk2MzAwMjgyMCwxMDQ1MDcwMDg1LC0xMjcxMTI2Njc5LD
+E4Njc4NDQxOTUsLTEyMTM2MTk4OTIsMTc2NzM5MzEwNywtMjAw
+ODEzMDA5NF19
 -->
