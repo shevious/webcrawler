@@ -1,6 +1,13 @@
 # 전달사항
 ## 2020-01-03
-d
+울산_강좌정보 : organIdx,idx 중복되는 데이터가 31024건
+ex)
+http://www.uill.or.kr/UR/info/lecture/view.do?rbsIdx=34&page=2953&organIdx=103&idx=L0027338
+http://www.uill.or.kr/UR/info/lecture/view.do?rbsIdx=34&page=2954&organIdx=103&idx=L0027338
+http://www.uill.or.kr/UR/info/lecture/view.do?rbsIdx=34&page=2955&organIdx=103&idx=L0027338
+http://www.uill.or.kr/UR/info/lecture/view.do?rbsIdx=34&page=2957&organIdx=103&idx=L0027338
+http://www.uill.or.kr/UR/info/lecture/view.do?rbsIdx=34&page=2956&organIdx=103&idx=L0027338
+
 경북_강좌정보 :  url의 lecIdx만 course_id로 사용 시 중복되는건 240건발생  
 ex)   
 http://www.gile.or.kr/web/lecture/view.do?mId=72&page=121&organIdx=614000003&lecIdx=2016082500000024  
@@ -1005,11 +1012,11 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjc2ODM2NTQsLTYyMTE0MDg3MiwyMT
-Q1NTA0NTU4LC03OTA0MzQzMzYsLTE0NTkzMjU2OTAsMTE3MTA0
-ODIwOCwxNzk2ODAzOTEsLTYyNjQ1NjU2OCwxNTI1NDQyNjYyLD
-EzNzY2ODk4MDksNTA0NjQ2MzA5LDE0MzE1MzU5MjEsLTYzNzY0
-NDg4MiwxMTQzNjE2NzE2LDYxMjM3MjMxMiwxOTYzMDAyODIwLD
-EwNDUwNzAwODUsLTEyNzExMjY2NzksMTg2Nzg0NDE5NSwtMTIx
-MzYxOTg5Ml19
+eyJoaXN0b3J5IjpbLTQxMDAyMDUyNCwtNjIxMTQwODcyLDIxND
+U1MDQ1NTgsLTc5MDQzNDMzNiwtMTQ1OTMyNTY5MCwxMTcxMDQ4
+MjA4LDE3OTY4MDM5MSwtNjI2NDU2NTY4LDE1MjU0NDI2NjIsMT
+M3NjY4OTgwOSw1MDQ2NDYzMDksMTQzMTUzNTkyMSwtNjM3NjQ0
+ODgyLDExNDM2MTY3MTYsNjEyMzcyMzEyLDE5NjMwMDI4MjAsMT
+A0NTA3MDA4NSwtMTI3MTEyNjY3OSwxODY3ODQ0MTk1LC0xMjEz
+NjE5ODkyXX0=
 -->
