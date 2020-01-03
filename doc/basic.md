@@ -5,6 +5,7 @@ ex)
 http://www.gile.or.kr/web/lecture/view.do?mId=72&page=121&organIdx=614000003&lecIdx=2016082500000024
 http://www.gile.or.kr/web/lecture/view.do?mId=72&page=144&organIdx=724600001&lecIdx=2016082500000024
 
+강원_강좌정보 : 페이지 안ㄴ
 ## 2019-12-31
 경북_기관정보 INST_ID길이가 GB들어가면 16BYTE초과
 http://www.gile.or.kr/web/organ/view.do?mId=71&organIdx=2019032800000178
@@ -963,11 +964,11 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NjgwMzkxLC02MjY0NTY1NjgsMTUyNT
-Q0MjY2MiwxMzc2Njg5ODA5LDUwNDY0NjMwOSwxNDMxNTM1OTIx
-LC02Mzc2NDQ4ODIsMTE0MzYxNjcxNiw2MTIzNzIzMTIsMTk2Mz
-AwMjgyMCwxMDQ1MDcwMDg1LC0xMjcxMTI2Njc5LDE4Njc4NDQx
-OTUsLTEyMTM2MTk4OTIsMTc2NzM5MzEwNywtMjAwODEzMDA5NC
-wxNTcxNzQ4NTkwLDE3NjI5MDI3OTMsNDk5NjgyNDEyLDE4MjE2
-MTMzOTBdfQ==
+eyJoaXN0b3J5IjpbLTIwMjYxMDE5MzksMTc5NjgwMzkxLC02Mj
+Y0NTY1NjgsMTUyNTQ0MjY2MiwxMzc2Njg5ODA5LDUwNDY0NjMw
+OSwxNDMxNTM1OTIxLC02Mzc2NDQ4ODIsMTE0MzYxNjcxNiw2MT
+IzNzIzMTIsMTk2MzAwMjgyMCwxMDQ1MDcwMDg1LC0xMjcxMTI2
+Njc5LDE4Njc4NDQxOTUsLTEyMTM2MTk4OTIsMTc2NzM5MzEwNy
+wtMjAwODEzMDA5NCwxNTcxNzQ4NTkwLDE3NjI5MDI3OTMsNDk5
+NjgyNDEyXX0=
 -->
