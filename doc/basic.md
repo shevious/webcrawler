@@ -35,7 +35,6 @@ course_id 중복 처리:
 'GB724600001_2016082500000024'
 ```
 
-
 강원_강좌정보 : list페이지가 안뜸  (151, 217, 239)
 ex)
 https://www.e-room.or.kr/gw/portal/org_lecture_info?mode=list&leccode=&page_no=151&selectRegion=&gubun=&studyKind=&searchKeyWord=&searchFromDate=&searchEndDate=
@@ -1001,11 +1000,11 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjgyNzI3NzksLTE0NTkzMjU2OTAsMT
-E3MTA0ODIwOCwxNzk2ODAzOTEsLTYyNjQ1NjU2OCwxNTI1NDQy
-NjYyLDEzNzY2ODk4MDksNTA0NjQ2MzA5LDE0MzE1MzU5MjEsLT
-YzNzY0NDg4MiwxMTQzNjE2NzE2LDYxMjM3MjMxMiwxOTYzMDAy
-ODIwLDEwNDUwNzAwODUsLTEyNzExMjY2NzksMTg2Nzg0NDE5NS
-wtMTIxMzYxOTg5MiwxNzY3MzkzMTA3LC0yMDA4MTMwMDk0LDE1
-NzE3NDg1OTBdfQ==
+eyJoaXN0b3J5IjpbLTQ3Mjg4OTYyOSwtMTQ1OTMyNTY5MCwxMT
+cxMDQ4MjA4LDE3OTY4MDM5MSwtNjI2NDU2NTY4LDE1MjU0NDI2
+NjIsMTM3NjY4OTgwOSw1MDQ2NDYzMDksMTQzMTUzNTkyMSwtNj
+M3NjQ0ODgyLDExNDM2MTY3MTYsNjEyMzcyMzEyLDE5NjMwMDI4
+MjAsMTA0NTA3MDA4NSwtMTI3MTEyNjY3OSwxODY3ODQ0MTk1LC
+0xMjEzNjE5ODkyLDE3NjczOTMxMDcsLTIwMDgxMzAwOTQsMTU3
+MTc0ODU5MF19
 -->
