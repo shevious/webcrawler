@@ -13,6 +13,8 @@ COURSE_PTTN_CD 강좌 유형코드 온라인/오프라인
 
 ## 기관정보 테이블
 
+**inst_id**  기관 정보 중복 없게 하는 법  
+
 |TOTAL_CD|토탈코드| |  
 |SIDO_CD|시도코드| |  
 |SIGUNGU_CD|시군구코드| |  
@@ -32,7 +34,7 @@ CON_KIND_CD
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ4MzYwMzY3LDkwMjI1MTk2NiwtMTE3Nz
-U4MzQzMywyNzU0MjA0NywxMzQ0MDA4NDgsMTg1ODcxNDA0Nl19
-
+eyJoaXN0b3J5IjpbLTE1MDI3MzY3MzEsNjQ4MzYwMzY3LDkwMj
+I1MTk2NiwtMTE3NzU4MzQzMywyNzU0MjA0NywxMzQ0MDA4NDgs
+MTg1ODcxNDA0Nl19
 -->
