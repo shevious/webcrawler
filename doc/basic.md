@@ -1,6 +1,9 @@
 # 전달사항
 ## 2020-01-03
-경북_강좌정보 :  url의 lecIdx만 
+경북_강좌정보 :  url의 lecIdx만 course_id로 사용 시 중복되는건 240건발생
+ex) 
+http://www.gile.or.kr/web/lecture/view.do?mId=72&page=121&organIdx=614000003&lecIdx=2016082500000024
+http://www.gile.or.kr/web/lecture/view.do?mId=72&page=144&organIdx=724600001&lecIdx=2016082500000024
 
 ## 2019-12-31
 경북_기관정보 INST_ID길이가 GB들어가면 16BYTE초과
@@ -960,11 +963,11 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjcwNzkwNjksLTYyNjQ1NjU2OCwxNT
-I1NDQyNjYyLDEzNzY2ODk4MDksNTA0NjQ2MzA5LDE0MzE1MzU5
-MjEsLTYzNzY0NDg4MiwxMTQzNjE2NzE2LDYxMjM3MjMxMiwxOT
-YzMDAyODIwLDEwNDUwNzAwODUsLTEyNzExMjY2NzksMTg2Nzg0
-NDE5NSwtMTIxMzYxOTg5MiwxNzY3MzkzMTA3LC0yMDA4MTMwMD
-k0LDE1NzE3NDg1OTAsMTc2MjkwMjc5Myw0OTk2ODI0MTIsMTgy
-MTYxMzM5MF19
+eyJoaXN0b3J5IjpbMTc5NjgwMzkxLC02MjY0NTY1NjgsMTUyNT
+Q0MjY2MiwxMzc2Njg5ODA5LDUwNDY0NjMwOSwxNDMxNTM1OTIx
+LC02Mzc2NDQ4ODIsMTE0MzYxNjcxNiw2MTIzNzIzMTIsMTk2Mz
+AwMjgyMCwxMDQ1MDcwMDg1LC0xMjcxMTI2Njc5LDE4Njc4NDQx
+OTUsLTEyMTM2MTk4OTIsMTc2NzM5MzEwNywtMjAwODEzMDA5NC
+wxNTcxNzQ4NTkwLDE3NjI5MDI3OTMsNDk5NjgyNDEyLDE4MjE2
+MTMzOTBdfQ==
 -->
