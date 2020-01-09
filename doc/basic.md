@@ -1,4 +1,18 @@
 # 전달사항
+
+## 2020-01-09
+
+수정사항:  
+crawl에 두번째 argument로 task명 지정하도록 변경됨  
+```bash
+./manage.py crawl ulsan_inst
+./manage.py crawl ulsan_course
+./manage.py crawl gangwon_inst
+./manage.py crawl gangwon_course
+
+```
+
+
 ## 2020-01-03
 울산_강좌정보 : organIdx, idx 중복되는 데이터가 31024건. page만 틀림.
 ex) 
@@ -1012,11 +1026,11 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTUwNDUyMTEsLTYyMTE0MDg3MiwyMT
-Q1NTA0NTU4LC03OTA0MzQzMzYsLTE0NTkzMjU2OTAsMTE3MTA0
-ODIwOCwxNzk2ODAzOTEsLTYyNjQ1NjU2OCwxNTI1NDQyNjYyLD
-EzNzY2ODk4MDksNTA0NjQ2MzA5LDE0MzE1MzU5MjEsLTYzNzY0
-NDg4MiwxMTQzNjE2NzE2LDYxMjM3MjMxMiwxOTYzMDAyODIwLD
-EwNDUwNzAwODUsLTEyNzExMjY2NzksMTg2Nzg0NDE5NSwtMTIx
-MzYxOTg5Ml19
+eyJoaXN0b3J5IjpbNTk0Njc2OTg4LC0xMzk1MDQ1MjExLC02Mj
+ExNDA4NzIsMjE0NTUwNDU1OCwtNzkwNDM0MzM2LC0xNDU5MzI1
+NjkwLDExNzEwNDgyMDgsMTc5NjgwMzkxLC02MjY0NTY1NjgsMT
+UyNTQ0MjY2MiwxMzc2Njg5ODA5LDUwNDY0NjMwOSwxNDMxNTM1
+OTIxLC02Mzc2NDQ4ODIsMTE0MzYxNjcxNiw2MTIzNzIzMTIsMT
+k2MzAwMjgyMCwxMDQ1MDcwMDg1LC0xMjcxMTI2Njc5LDE4Njc4
+NDQxOTVdfQ==
 -->
