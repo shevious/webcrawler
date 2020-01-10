@@ -4,7 +4,8 @@
 울산_강좌: 15154건 저장. 31024건 중복.   총 46178건.
 경북_기관: 697건 저장. 1건 상세없음. 총 698건.
 http://www.gile.or.kr/web/organ/view.do?mId=71&page=20&organIdx=2019032800000283  ←상세data없는페이지
-경북_강좌 : 5429건 저장. 총 5433건이라고 화면에 표시되지만
+경북_강좌 : 5429건 저장. 총 5433건이라고 화면에 표시되지만 272page에 가보면 4건이 빠지고 5번부터시작함.
+강원_기관: 
 ## 2020-01-09
 
 수정사항:  
@@ -1033,11 +1034,11 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjM3NTM5NTg5LC0xNDE5MzEzMzE1LDgyMT
-I5MDEzNSw1OTQ2NzY5ODgsLTEzOTUwNDUyMTEsLTYyMTE0MDg3
-MiwyMTQ1NTA0NTU4LC03OTA0MzQzMzYsLTE0NTkzMjU2OTAsMT
-E3MTA0ODIwOCwxNzk2ODAzOTEsLTYyNjQ1NjU2OCwxNTI1NDQy
-NjYyLDEzNzY2ODk4MDksNTA0NjQ2MzA5LDE0MzE1MzU5MjEsLT
-YzNzY0NDg4MiwxMTQzNjE2NzE2LDYxMjM3MjMxMiwxOTYzMDAy
-ODIwXX0=
+eyJoaXN0b3J5IjpbMTQ3MTk3NzQ0MywtMTQxOTMxMzMxNSw4Mj
+EyOTAxMzUsNTk0Njc2OTg4LC0xMzk1MDQ1MjExLC02MjExNDA4
+NzIsMjE0NTUwNDU1OCwtNzkwNDM0MzM2LC0xNDU5MzI1NjkwLD
+ExNzEwNDgyMDgsMTc5NjgwMzkxLC02MjY0NTY1NjgsMTUyNTQ0
+MjY2MiwxMzc2Njg5ODA5LDUwNDY0NjMwOSwxNDMxNTM1OTIxLC
+02Mzc2NDQ4ODIsMTE0MzYxNjcxNiw2MTIzNzIzMTIsMTk2MzAw
+MjgyMF19
 -->
