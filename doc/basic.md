@@ -6,7 +6,7 @@
 http://www.gile.or.kr/web/organ/view.do?mId=71&page=20&organIdx=2019032800000283  ←상세data없는페이지
 경북_강좌 : 5429건 저장. 총 5433건이라고 화면에 표시되지만 272page에 가보면 4건이 빠지고 5번부터시작함.
 강원_기관: 351건저장. function들어가는 8건제외. 총 359건.
-강원_강좌: 4423건 저장. 리스트, 상세안나오는 46건, 중복1건, course_nm에 꺽쇠들어가는부분 scrapy key error 1건. 총
+강원_강좌: 4422건 저장. 리스트, 상세안나오는 46건, 중복1건, course_nm에 꺽쇠들어가는부분 scrapy key error 1건. 총
 ## 2020-01-09
 
 수정사항:  
@@ -1035,11 +1035,11 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzczMzU2MjcsLTE0MTkzMTMzMTUsOD
-IxMjkwMTM1LDU5NDY3Njk4OCwtMTM5NTA0NTIxMSwtNjIxMTQw
-ODcyLDIxNDU1MDQ1NTgsLTc5MDQzNDMzNiwtMTQ1OTMyNTY5MC
-wxMTcxMDQ4MjA4LDE3OTY4MDM5MSwtNjI2NDU2NTY4LDE1MjU0
-NDI2NjIsMTM3NjY4OTgwOSw1MDQ2NDYzMDksMTQzMTUzNTkyMS
-wtNjM3NjQ0ODgyLDExNDM2MTY3MTYsNjEyMzcyMzEyLDE5NjMw
-MDI4MjBdfQ==
+eyJoaXN0b3J5IjpbMTYzNDQwNTYyMCwtMTQxOTMxMzMxNSw4Mj
+EyOTAxMzUsNTk0Njc2OTg4LC0xMzk1MDQ1MjExLC02MjExNDA4
+NzIsMjE0NTUwNDU1OCwtNzkwNDM0MzM2LC0xNDU5MzI1NjkwLD
+ExNzEwNDgyMDgsMTc5NjgwMzkxLC02MjY0NTY1NjgsMTUyNTQ0
+MjY2MiwxMzc2Njg5ODA5LDUwNDY0NjMwOSwxNDMxNTM1OTIxLC
+02Mzc2NDQ4ODIsMTE0MzYxNjcxNiw2MTIzNzIzMTIsMTk2MzAw
+MjgyMF19
 -->
