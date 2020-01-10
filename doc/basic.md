@@ -8,6 +8,7 @@ http://www.gile.or.kr/web/organ/view.do?mId=71&page=20&organIdx=2019032800000283
 강원_기관: 351건저장. function들어가는 8건제외. 총 359건.
 강원_강좌: 4422건 저장. 리스트, 상세안나오는 46건, 중복1건, course_nm에 꺽쇠들어가는부분 scrapy key error 1건. 총 4470건.
 ex) course_nm꺽쇠들어가는부분
+[https://www.e-room.or.kr/gw/portal/org_lecture_info?mode=read&leccode=4116&page_no=26&selectRegion=&gubun=&studyKind=&searchKeyWord=&searchFromDate=&searchEndDate=](https://www.e-room.or.kr/gw/portal/org_lecture_info?mode=read&leccode=4116&page_no=26&selectRegion=&gubun=&studyKind=&searchKeyWord=&searchFromDate=&searchEndDate=)
 
 ## 2020-01-09
 
@@ -1037,11 +1038,11 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDM2MjUzLC0xNDE5MzEzMzE1LDgyMT
-I5MDEzNSw1OTQ2NzY5ODgsLTEzOTUwNDUyMTEsLTYyMTE0MDg3
-MiwyMTQ1NTA0NTU4LC03OTA0MzQzMzYsLTE0NTkzMjU2OTAsMT
-E3MTA0ODIwOCwxNzk2ODAzOTEsLTYyNjQ1NjU2OCwxNTI1NDQy
-NjYyLDEzNzY2ODk4MDksNTA0NjQ2MzA5LDE0MzE1MzU5MjEsLT
-YzNzY0NDg4MiwxMTQzNjE2NzE2LDYxMjM3MjMxMiwxOTYzMDAy
-ODIwXX0=
+eyJoaXN0b3J5IjpbMTgzODU2MDUwNCwtMTQxOTMxMzMxNSw4Mj
+EyOTAxMzUsNTk0Njc2OTg4LC0xMzk1MDQ1MjExLC02MjExNDA4
+NzIsMjE0NTUwNDU1OCwtNzkwNDM0MzM2LC0xNDU5MzI1NjkwLD
+ExNzEwNDgyMDgsMTc5NjgwMzkxLC02MjY0NTY1NjgsMTUyNTQ0
+MjY2MiwxMzc2Njg5ODA5LDUwNDY0NjMwOSwxNDMxNTM1OTIxLC
+02Mzc2NDQ4ODIsMTE0MzYxNjcxNiw2MTIzNzIzMTIsMTk2MzAw
+MjgyMF19
 -->
