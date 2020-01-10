@@ -1,6 +1,7 @@
 # 전달사항
 ## 2020-01-10
-울산_강좌 : 총333
+울산_기관 : 총333건중 309건저장 23건 중복 1건 상세안나옴.
+울산_강좌: 총 46178건중 15154건 저장.
 ## 2020-01-09
 
 수정사항:  
@@ -1029,7 +1030,7 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5ODMxODY1LDgyMTI5MDEzNSw1OTQ2Nz
+eyJoaXN0b3J5IjpbMjg5MzkxOTk4LDgyMTI5MDEzNSw1OTQ2Nz
 Y5ODgsLTEzOTUwNDUyMTEsLTYyMTE0MDg3MiwyMTQ1NTA0NTU4
 LC03OTA0MzQzMzYsLTE0NTkzMjU2OTAsMTE3MTA0ODIwOCwxNz
 k2ODAzOTEsLTYyNjQ1NjU2OCwxNTI1NDQyNjYyLDEzNzY2ODk4
