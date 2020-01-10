@@ -6,7 +6,7 @@
 http://www.gile.or.kr/web/organ/view.do?mId=71&page=20&organIdx=2019032800000283  ←상세data없는페이지
 경북_강좌 : 5429건 저장. 총 5433건이라고 화면에 표시되지만 272page에 가보면 4건이 빠지고 5번부터시작함.
 강원_기관: 351건저장. function들어가는 8건제외. 총 359건.
-강원_강좌: 
+강원_강좌: 4423건 저장. 리스트, 상세안나오는 46건, 중복1건, title에 ㄲ
 ## 2020-01-09
 
 수정사항:  
@@ -1035,7 +1035,7 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDAzMTg3NiwtMTQxOTMxMzMxNSw4Mj
+eyJoaXN0b3J5IjpbLTM4NTY1NjQ0NCwtMTQxOTMxMzMxNSw4Mj
 EyOTAxMzUsNTk0Njc2OTg4LC0xMzk1MDQ1MjExLC02MjExNDA4
 NzIsMjE0NTUwNDU1OCwtNzkwNDM0MzM2LC0xNDU5MzI1NjkwLD
 ExNzEwNDgyMDgsMTc5NjgwMzkxLC02MjY0NTY1NjgsMTUyNTQ0
