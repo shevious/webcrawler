@@ -1,6 +1,6 @@
 # 전달사항
 ## 2020-01-10
-울산_강좌 : 총
+울산_강좌 : 총333
 ## 2020-01-09
 
 수정사항:  
@@ -1029,7 +1029,7 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMwNTA4NDk0LDgyMTI5MDEzNSw1OTQ2Nz
+eyJoaXN0b3J5IjpbMTQ5ODMxODY1LDgyMTI5MDEzNSw1OTQ2Nz
 Y5ODgsLTEzOTUwNDUyMTEsLTYyMTE0MDg3MiwyMTQ1NTA0NTU4
 LC03OTA0MzQzMzYsLTE0NTkzMjU2OTAsMTE3MTA0ODIwOCwxNz
 k2ODAzOTEsLTYyNjQ1NjU2OCwxNTI1NDQyNjYyLDEzNzY2ODk4
