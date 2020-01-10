@@ -2,7 +2,9 @@
 ## 2020-01-10
 울산_기관 :  309건저장. 23건 중복. 1건 상세없음. 총 333건.
 울산_강좌: 15154건 저장. 31024건 중복.   총 46178건.
-경북_기관: 697건 저장. 1건 상세없음. 총 698건
+경북_기관: 697건 저장. 1건 상세없음. 총 698건.
+http://www.gile.or.kr/web/organ/view.do?mId=71&page=20&organIdx=2019032800000283  ←상세data없는페이지
+
 ## 2020-01-09
 
 수정사항:  
@@ -1031,7 +1033,7 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzNDE3MzgwOCwtMTQxOTMxMzMxNSw4Mj
+eyJoaXN0b3J5IjpbLTU4ODQ5OTU1NiwtMTQxOTMxMzMxNSw4Mj
 EyOTAxMzUsNTk0Njc2OTg4LC0xMzk1MDQ1MjExLC02MjExNDA4
 NzIsMjE0NTUwNDU1OCwtNzkwNDM0MzM2LC0xNDU5MzI1NjkwLD
 ExNzEwNDgyMDgsMTc5NjgwMzkxLC02MjY0NTY1NjgsMTUyNTQ0
