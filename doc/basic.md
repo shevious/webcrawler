@@ -1,5 +1,5 @@
 # 전달사항
-
+#
 ## 2020-01-09
 
 수정사항:  
@@ -13,7 +13,7 @@ crawl에 두번째 argument로 task명 지정하도록 변경됨
 ./manage.py crawl gyeongbuk_course
 ```
 db 및 table 설정:  
-`config_dev.yml`을 `config.yml`에 복사한 후 환경에 맞도록 설정함.  
+`config_dev.yml`을 `config.yml`에 복사한 후 환경에 맞도록 설정함.  
 
 ## 2020-01-03
 울산_강좌정보 : organIdx, idx 중복되는 데이터가 31024건. page만 틀림.
@@ -1028,11 +1028,11 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODIxMjkwMTM1LDU5NDY3Njk4OCwtMTM5NT
-A0NTIxMSwtNjIxMTQwODcyLDIxNDU1MDQ1NTgsLTc5MDQzNDMz
-NiwtMTQ1OTMyNTY5MCwxMTcxMDQ4MjA4LDE3OTY4MDM5MSwtNj
-I2NDU2NTY4LDE1MjU0NDI2NjIsMTM3NjY4OTgwOSw1MDQ2NDYz
-MDksMTQzMTUzNTkyMSwtNjM3NjQ0ODgyLDExNDM2MTY3MTYsNj
-EyMzcyMzEyLDE5NjMwMDI4MjAsMTA0NTA3MDA4NSwtMTI3MTEy
-NjY3OV19
+eyJoaXN0b3J5IjpbMTg4OTk2NTU2OCw4MjEyOTAxMzUsNTk0Nj
+c2OTg4LC0xMzk1MDQ1MjExLC02MjExNDA4NzIsMjE0NTUwNDU1
+OCwtNzkwNDM0MzM2LC0xNDU5MzI1NjkwLDExNzEwNDgyMDgsMT
+c5NjgwMzkxLC02MjY0NTY1NjgsMTUyNTQ0MjY2MiwxMzc2Njg5
+ODA5LDUwNDY0NjMwOSwxNDMxNTM1OTIxLC02Mzc2NDQ4ODIsMT
+E0MzYxNjcxNiw2MTIzNzIzMTIsMTk2MzAwMjgyMCwxMDQ1MDcw
+MDg1XX0=
 -->
