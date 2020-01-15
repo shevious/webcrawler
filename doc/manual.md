@@ -7,7 +7,11 @@
 
 ## 개요
 
-울산, 강원, 경북 평생학습관의 오프라인 강좌 정보 및 
+울산, 강원, 경북 평생학습관의 오프라인 강좌 정보 및 기관 정보를 크롤링하는 모듈
+
+### 2020-01-15 시점 크롤링 통계
+
+- 울산 기관: 309건 (ㄴ
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDY5ODc2NDcyXX0=
+eyJoaXN0b3J5IjpbLTgzOTc4NDk3N119
 -->
