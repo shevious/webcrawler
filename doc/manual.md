@@ -49,7 +49,7 @@
 
 ### 접속
 
-`http://203.235.44.145:18000/admin`
+`http://203.235.44.154:18000/admin`
 
 
 ![enter image description here](https://github.com/shevious/webcrawler/blob/master/screenshot/adminmain.png?raw=true)
@@ -63,8 +63,10 @@ Periodic Tasks ⇒ Crontabs ⇒ Crontab 추가 혹은 변경
 - Day(s) of The Week: 0 (일요일)   
 - Time Zone: Asia/Seoul  
 
+### 태스트 목록
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc0OTY4NjkwLC0xMjg0NjIzNTg1LDExMz
-AwOTg2NTksNTkxNzU0NjM1XX0=
+eyJoaXN0b3J5IjpbLTEyODAyNzM3ODEsLTEyODQ2MjM1ODUsMT
+EzMDA5ODY1OSw1OTE3NTQ2MzVdfQ==
 -->
