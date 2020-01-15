@@ -18,9 +18,16 @@
 - 강원 기관: 351건 
 - 강원 강좌: 4422건
 - 경북 기관: 697건
-- 경북 강좌:  
+- 경북 강좌: 5429건
 - 기관 합계: 1357건
 - 강좌 합계: 25005건
+
+## 기동 및 중지
+
+`kadm`계정으로 로그인  
+
+-  기동: `/home/kadm/webcrawler/crawlproj/crawlproj/start.sh`
+- 중지: `
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ0NDQ1NzY2OSw1OTE3NTQ2MzVdfQ==
+eyJoaXN0b3J5IjpbLTIwMTE3NTA0NDEsNTkxNzU0NjM1XX0=
 -->
