@@ -48,7 +48,11 @@
 
 ### 접속
 
-`http://20
+`http://203.235.44.145:18000/admin`
+
+### 데몬 기동 시간 설정
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzc5MTIzODAsNTkxNzU0NjM1XX0=
+eyJoaXN0b3J5IjpbLTEyNjA1NDgyNTMsNTkxNzU0NjM1XX0=
 -->
