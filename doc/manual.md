@@ -55,10 +55,14 @@
 ![enter image description here](https://github.com/shevious/webcrawler/blob/master/screenshot/adminmain.png?raw=true)
 ### 데몬 기동 시간 설정
 
-Periodic Tasks ⇒ Cl
+Periodic Tasks ⇒ Crontabs ⇒ Crontab 추가 혹은 변경
 
 ![enter image description here](https://github.com/shevious/webcrawler/blob/master/screenshot/admincron.png?raw=true)
+Minutes: 0분
+Hour: 0시
+Day(s) of The Week: 0 (일요일) 
+Time Zone: Asia/Se
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NzE5MjY3NCwtMTI4NDYyMzU4NSwxMT
-MwMDk4NjU5LDU5MTc1NDYzNV19
+eyJoaXN0b3J5IjpbLTEwNTI2NDM0MzQsLTEyODQ2MjM1ODUsMT
+EzMDA5ODY1OSw1OTE3NTQ2MzVdfQ==
 -->
