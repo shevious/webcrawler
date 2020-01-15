@@ -76,8 +76,8 @@ Periodic Tasks ⇒ Crontabs ⇒ Crontab 추가 혹은 변경
 ## 설치 방법 (centos 6.5기준)
 
 1. python 3.7.5 virtualenv 이용
-2. 
-3. 
+2. `pip install requirements.txt`
+3. `./managepy migrate`
 
 ## 특이사항 목록
 
@@ -105,14 +105,14 @@ https://www.uill.or.kr/UR/info/organ/info.do?rbsIdx=35&organIdx=3258
 울산_기관 :  309건저장. 23건 중복. 1건 상세없음. 총 333건.  
 울산_강좌: 15154건 저장. 31024건 중복.   총 46178건.  
 경북_기관: 697건 저장. 1건 상세없음. 총 698건.  
-ex) 상세data없는페이지  
-http://www.gile.or.kr/web/organ/view.do?mId=71&page=20&organIdx=2019032800000283
-경북_강좌 : 5429건 저장. 총 5433건이라고 화면에 표시되지만 272page에 가보면 4건이 빠지고 5번부터시작함.
-강원_기관: 351건저장. function들어가는 8건제외. 총 359건.
-강원_강좌: 4422건 저장. 리스트, 상세안나오는 46건, 중복1건, course_nm에 꺽쇠들어가는부분 scrapy key error 1건. 총 4470건.
-ex) course_nm꺽쇠들어가는부분
-[https://www.e-room.or.kr/gw/portal/org_lecture_info?mode=read&leccode=4116&page_no=26&selectRegion=&gubun=&studyKind=&searchKeyWord=&searchFromDate=&searchEndDate=](https://www.e-room.or.kr/gw/portal/org_lecture_info?mode=read&leccode=4116&page_no=26&selectRegion=&gubun=&studyKind=&searchKeyWord=&searchFromDate=&searchEndDate=)
+ex) 상세data없는페이지  
+http://www.gile.or.kr/web/organ/view.do?mId=71&page=20&organIdx=2019032800000283  
+경북_강좌 : 5429건 저장. 총 5433건이라고 화면에 표시되지만 272page에 가보면 4건이 빠지고 5번부터시작함.  
+강원_기관: 351건저장. function들어가는 8건제외. 총 359건.  
+강원_강좌: 4422건 저장. 리스트, 상세안나오는 46건, 중복1건, course_nm에 꺽쇠들어가는부분 scrapy key error 1건. 총 4470건.  
+ex) course_nm꺽쇠들어가는부분  
+https://www.e-room.or.kr/gw/portal/org_lecture_info?mode=read&leccode=4116&page_no=26&selectRegion=&gubun=&studyKind=&searchKeyWord=&searchFromDate=&searchEndDate=  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAwNTM1NTQsLTEyODAyNzM3ODEsLTEyOD
-Q2MjM1ODUsMTEzMDA5ODY1OSw1OTE3NTQ2MzVdfQ==
+eyJoaXN0b3J5IjpbLTE1ODA4NDMxNDIsLTEyODAyNzM3ODEsLT
+EyODQ2MjM1ODUsMTEzMDA5ODY1OSw1OTE3NTQ2MzVdfQ==
 -->
