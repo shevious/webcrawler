@@ -78,6 +78,17 @@ Periodic Tasks ⇒ Crontabs ⇒ Crontab 추가 혹은 변경
 1. python 3.7.5 virtualenv 이용
 2. `pip install requirements.txt`
 3. `./managepy migrate`
+4. oracle client 설치
+
+```bash
+wget https://download.oracle.com/otn_software/linux/instantclient/195000/instantclient-basic-linux.x64-19.5.0.0.0dbru.zip
+
+mkdir -p $HOME/local/oracle
+cd $HOME/local/oracle
+unzip ~/instantclient-basic-linux.x64-19.5.0.0.0dbru.zip
+
+export LD_LIBRARY_PATH=$HOME/local/oracle/instantclient_19_5:$LD_LIBRARY_PATH
+```
 
 ## 특이사항 목록
 
@@ -113,6 +124,6 @@ http://www.gile.or.kr/web/organ/view.do?mId=71&page=20&organIdx=2019032800000283
 ex) course_nm꺽쇠들어가는부분  
 https://www.e-room.or.kr/gw/portal/org_lecture_info?mode=read&leccode=4116&page_no=26&selectRegion=&gubun=&studyKind=&searchKeyWord=&searchFromDate=&searchEndDate=  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODA4NDMxNDIsLTEyODAyNzM3ODEsLT
-EyODQ2MjM1ODUsMTEzMDA5ODY1OSw1OTE3NTQ2MzVdfQ==
+eyJoaXN0b3J5IjpbMTg0OTYzNDE3MCwtMTI4MDI3Mzc4MSwtMT
+I4NDYyMzU4NSwxMTMwMDk4NjU5LDU5MTc1NDYzNV19
 -->
