@@ -765,7 +765,7 @@ wget https://download.oracle.com/otn_software/linux/instantclient/195000/oracle-
 sudo alien --scripts oracle-instantclient19.5-basic-19.5.0.0.0-1.x86_64.rpm
 sudo dpkg -i oracle-instantclient19.5-basic_19.5.0.0.0-2_amd64.deb
 
-#brew install libaio
+brew install libaio
 
 # client zip
 
@@ -1040,11 +1040,11 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzAxMDg1Mzk0LC01MDY3MTM0OTQsMTgzOD
-U2MDUwNCwtMTQxOTMxMzMxNSw1OTQ2NzY5ODgsLTEzOTUwNDUy
-MTEsLTYyMTE0MDg3MiwyMTQ1NTA0NTU4LC03OTA0MzQzMzYsLT
-E0NTkzMjU2OTAsMTE3MTA0ODIwOCwxNzk2ODAzOTEsLTYyNjQ1
-NjU2OCwxNTI1NDQyNjYyLDEzNzY2ODk4MDksNTA0NjQ2MzA5LD
-E0MzE1MzU5MjEsLTYzNzY0NDg4MiwxMTQzNjE2NzE2LDYxMjM3
-MjMxMl19
+eyJoaXN0b3J5IjpbMTA0MjIxNDg2NywzMDEwODUzOTQsLTUwNj
+cxMzQ5NCwxODM4NTYwNTA0LC0xNDE5MzEzMzE1LDU5NDY3Njk4
+OCwtMTM5NTA0NTIxMSwtNjIxMTQwODcyLDIxNDU1MDQ1NTgsLT
+c5MDQzNDMzNiwtMTQ1OTMyNTY5MCwxMTcxMDQ4MjA4LDE3OTY4
+MDM5MSwtNjI2NDU2NTY4LDE1MjU0NDI2NjIsMTM3NjY4OTgwOS
+w1MDQ2NDYzMDksMTQzMTUzNTkyMSwtNjM3NjQ0ODgyLDExNDM2
+MTY3MTZdfQ==
 -->
