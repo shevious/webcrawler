@@ -73,10 +73,12 @@ Periodic Tasks ⇒ Crontabs ⇒ Crontab 추가 혹은 변경
 - gyeongbuk_course: 경북 강좌
 - gyeongbuk_inst: 경북 기관
 
-## 설치 방법
+## 설치 방법 (centos 6.5기준)
 
-
+1. python 3.7.5 virtualenv 이용
+2. 
+3. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxOTQ5NjUsLTEyODAyNzM3ODEsLTEyOD
-Q2MjM1ODUsMTEzMDA5ODY1OSw1OTE3NTQ2MzVdfQ==
+eyJoaXN0b3J5IjpbNzA5Njk5OTQxLC0xMjgwMjczNzgxLC0xMj
+g0NjIzNTg1LDExMzAwOTg2NTksNTkxNzU0NjM1XX0=
 -->
