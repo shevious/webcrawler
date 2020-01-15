@@ -58,11 +58,13 @@
 Periodic Tasks ⇒ Crontabs ⇒ Crontab 추가 혹은 변경
 
 ![enter image description here](https://github.com/shevious/webcrawler/blob/master/screenshot/admincron.png?raw=true)
-Minutes: 0분
-Hour: 0시
-Day(s) of The Week: 0 (일요일) 
-Time Zone: Asia/Se
+- Minutes: 0분  
+- Hour: 0시  
+- Day(s) of The Week: 0 (일요일)   
+- Time Zone: Asia/Seoul  
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTI2NDM0MzQsLTEyODQ2MjM1ODUsMT
-EzMDA5ODY1OSw1OTE3NTQ2MzVdfQ==
+eyJoaXN0b3J5IjpbNTkyOTY1NDAyLC0xMjg0NjIzNTg1LDExMz
+AwOTg2NTksNTkxNzU0NjM1XX0=
 -->
