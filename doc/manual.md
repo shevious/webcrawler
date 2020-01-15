@@ -36,6 +36,7 @@
 - Oracle 11x
 
 설치 폴더: 
+
 - `/home/kadm/webcrawler`
 
 로그 폴더:  
@@ -53,6 +54,7 @@
 ### 데몬 기동 시간 설정
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNjA1NDgyNTMsNTkxNzU0NjM1XX0=
+eyJoaXN0b3J5IjpbMTEzMDA5ODY1OSw1OTE3NTQ2MzVdfQ==
 -->
