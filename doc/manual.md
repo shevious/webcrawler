@@ -63,10 +63,11 @@ Periodic Tasks ⇒ Crontabs ⇒ Crontab 추가 혹은 변경
 - Day(s) of The Week: 0 (일요일)   
 - Time Zone: Asia/Seoul  
 
-### 태스트 목록
+### 커ㄹ 목록
 
+![enter image description here](https://github.com/shevious/webcrawler/blob/master/screenshot/admincron.png?raw=true)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyODAyNzM3ODEsLTEyODQ2MjM1ODUsMT
-EzMDA5ODY1OSw1OTE3NTQ2MzVdfQ==
+eyJoaXN0b3J5IjpbLTE1ODg3NDEzMzksLTEyODAyNzM3ODEsLT
+EyODQ2MjM1ODUsMTEzMDA5ODY1OSw1OTE3NTQ2MzVdfQ==
 -->
