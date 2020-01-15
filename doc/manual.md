@@ -51,10 +51,12 @@
 
 `http://203.235.44.145:18000/admin`
 
+
+![enter image description here](https://github.com/shevious/webcrawler/blob/master/screenshot/adminmain.png?raw=true)
 ### 데몬 기동 시간 설정
 
-
-
+Periodic Tasks ⇒ Clocked ⇒ 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMDA5ODY1OSw1OTE3NTQ2MzVdfQ==
+eyJoaXN0b3J5IjpbLTEyODQ2MjM1ODUsMTEzMDA5ODY1OSw1OT
+E3NTQ2MzVdfQ==
 -->
