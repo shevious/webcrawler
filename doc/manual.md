@@ -42,7 +42,13 @@
 
 - celery worker: `/home/kadm/log/celery/worker*.log`
 - celear beat: `/home/kadm/log/celery/beat*.log`
-- supervisor log:  `/home/kadm/log/supervisor
+- supervisor log:  `/home/kadm/log/supervisor`
+
+## 간이 모니터링 웹도구
+
+### 접속
+
+`http://20
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE0MzQ0NzkzLDU5MTc1NDYzNV19
+eyJoaXN0b3J5IjpbLTE3Mzc5MTIzODAsNTkxNzU0NjM1XX0=
 -->
