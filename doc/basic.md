@@ -13,7 +13,7 @@ ex) course_nm꺽쇠들어가는부분
 
 ## 2020-01-09
 
-수정사항:  
+변경된 사항:  
 crawl에 두번째 argument로 task명 지정하도록 변경됨  
 ```bash
 ./manage.py crawl ulsan_inst
@@ -24,7 +24,7 @@ crawl에 두번째 argument로 task명 지정하도록 변경됨
 ./manage.py crawl gyeongbuk_course
 ```
 db 및 table 설정:  
-`config_dev.yml`을 `config.yml`에 복사한 후 환경에 맞도록 설정함.  
+`config_dev.yml`을 `config.yml`에 복사한 후 환경에 맞도록 설정함. 
 
 ## 2020-01-03
 울산_강좌정보 : organIdx, idx 중복되는 데이터가 31024건. page만 틀림.
@@ -1039,11 +1039,11 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwNjcxMzQ5NCwxODM4NTYwNTA0LC0xND
-E5MzEzMzE1LDgyMTI5MDEzNSw1OTQ2NzY5ODgsLTEzOTUwNDUy
-MTEsLTYyMTE0MDg3MiwyMTQ1NTA0NTU4LC03OTA0MzQzMzYsLT
-E0NTkzMjU2OTAsMTE3MTA0ODIwOCwxNzk2ODAzOTEsLTYyNjQ1
-NjU2OCwxNTI1NDQyNjYyLDEzNzY2ODk4MDksNTA0NjQ2MzA5LD
-E0MzE1MzU5MjEsLTYzNzY0NDg4MiwxMTQzNjE2NzE2LDYxMjM3
-MjMxMl19
+eyJoaXN0b3J5IjpbLTEwODUyOTQ2NTYsLTUwNjcxMzQ5NCwxOD
+M4NTYwNTA0LC0xNDE5MzEzMzE1LDU5NDY3Njk4OCwtMTM5NTA0
+NTIxMSwtNjIxMTQwODcyLDIxNDU1MDQ1NTgsLTc5MDQzNDMzNi
+wtMTQ1OTMyNTY5MCwxMTcxMDQ4MjA4LDE3OTY4MDM5MSwtNjI2
+NDU2NTY4LDE1MjU0NDI2NjIsMTM3NjY4OTgwOSw1MDQ2NDYzMD
+ksMTQzMTUzNTkyMSwtNjM3NjQ0ODgyLDExNDM2MTY3MTYsNjEy
+MzcyMzEyXX0=
 -->
