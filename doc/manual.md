@@ -63,11 +63,18 @@ Periodic Tasks ⇒ Crontabs ⇒ Crontab 추가 혹은 변경
 - Day(s) of The Week: 0 (일요일)   
 - Time Zone: Asia/Seoul  
 
-### 커ㄹ 목록
+### 크롤러 목록
 
-![enter image description here](https://github.com/shevious/webcrawler/blob/master/screenshot/admincron.png?raw=true)
+![enter image description here](https://github.com/shevious/webcrawler/blob/master/screenshot/admintasklist.png?raw=true)
+- ulsan_course: 울산 강좌
+- ulsan_inst: 울산 기관
+- gangwon_course: 강원 강좌
+- gangwon_inst: 강원 기관
+- gyeongbuk_course: 경북 강좌
+- gyeongbuk_inst: 경북 기관
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1ODg3NDEzMzksLTEyODAyNzM3ODEsLT
-EyODQ2MjM1ODUsMTEzMDA5ODY1OSw1OTE3NTQ2MzVdfQ==
+eyJoaXN0b3J5IjpbNTMxMDk0MTc5LC0xMjgwMjczNzgxLC0xMj
+g0NjIzNTg1LDExMzAwOTg2NTksNTkxNzU0NjM1XX0=
 -->
