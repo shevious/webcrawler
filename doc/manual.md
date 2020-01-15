@@ -35,8 +35,14 @@
 - Django 1.11
 - Oracle 11x
 
-설치 폴더: `/home/kadm/webcrawler`
-로그 폴더: 
+설치 폴더: 
+- `/home/kadm/webcrawler`
+
+로그 폴더:  
+
+- celery worker: `/home/kadm/log/celery/worker*.log`
+- celear beat: `/home/kadm/log/celery/beat*.log`
+- supervisor log:  `/home/kadm/log/supervisor
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTI5MzQxMjc0OSw1OTE3NTQ2MzVdfQ==
+eyJoaXN0b3J5IjpbOTE0MzQ0NzkzLDU5MTc1NDYzNV19
 -->
