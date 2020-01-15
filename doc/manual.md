@@ -14,13 +14,13 @@
 **2020-01-15 기준**
 
 - 울산 기관: 309건
-- 울산 강좌: 
+- 울산 강좌: 15154건
 - 강원 기관: 351건 
-- 강원 강좌: 
+- 강원 강좌: 4422건
 - 경북 기관: 697건
 - 경북 강좌:  
 - 기관 합계: 1357건
-- 강좌 합계: 
+- 강좌 합계: 25005건
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTkxNzU0NjM1XX0=
+eyJoaXN0b3J5IjpbLTQ0NDQ1NzY2OSw1OTE3NTQ2MzVdfQ==
 -->
