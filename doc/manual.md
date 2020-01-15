@@ -78,7 +78,17 @@ Periodic Tasks ⇒ Crontabs ⇒ Crontab 추가 혹은 변경
 1. python 3.7.5 virtualenv 이용
 2. 
 3. 
+
+## 특이사항 목록
+
+### 
+
+강원_기관정보 기관소개에 FUNCTION들어가있는부분
+https://www.e-room.or.kr/gw/portal/org_info?mode=read&orgcode=2199&page_no=24&selectRegion=&keyword=
+
+울산_기관정보 화면안나오는 페이지
+https://www.uill.or.kr/UR/info/organ/info.do?rbsIdx=35&organIdx=3258
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzA5Njk5OTQxLC0xMjgwMjczNzgxLC0xMj
-g0NjIzNTg1LDExMzAwOTg2NTksNTkxNzU0NjM1XX0=
+eyJoaXN0b3J5IjpbLTE1ODc4NzAyMDksLTEyODAyNzM3ODEsLT
+EyODQ2MjM1ODUsMTEzMDA5ODY1OSw1OTE3NTQ2MzVdfQ==
 -->
