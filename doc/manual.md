@@ -73,8 +73,10 @@ Periodic Tasks ⇒ Crontabs ⇒ Crontab 추가 혹은 변경
 - gyeongbuk_course: 경북 강좌
 - gyeongbuk_inst: 경북 기관
 
+## 설치 방법
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYxMDcwNjM3NSwtMTI4MDI3Mzc4MSwtMT
-I4NDYyMzU4NSwxMTMwMDk4NjU5LDU5MTc1NDYzNV19
+eyJoaXN0b3J5IjpbLTQxOTQ5NjUsLTEyODAyNzM3ODEsLTEyOD
+Q2MjM1ODUsMTEzMDA5ODY1OSw1OTE3NTQ2MzVdfQ==
 -->
