@@ -1,5 +1,5 @@
 
-# 운영자 매뉴얼
+# 늘배움 크롤러 운영자 매뉴얼
 
 ## 업데이트 기록
 
@@ -75,6 +75,6 @@ Periodic Tasks ⇒ Crontabs ⇒ Crontab 추가 혹은 변경
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTMxMDk0MTc5LC0xMjgwMjczNzgxLC0xMj
-g0NjIzNTg1LDExMzAwOTg2NTksNTkxNzU0NjM1XX0=
+eyJoaXN0b3J5IjpbMTYxMDcwNjM3NSwtMTI4MDI3Mzc4MSwtMT
+I4NDYyMzU4NSwxMTMwMDk4NjU5LDU5MTc1NDYzNV19
 -->
