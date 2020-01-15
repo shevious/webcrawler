@@ -27,7 +27,16 @@
 `kadm`계정으로 로그인  
 
 -  기동: `/home/kadm/webcrawler/crawlproj/crawlproj/start.sh`
-- 중지: `
+- 중지: `/home/kadm/webcrawler/crawlproj/crawlproj/stop.sh`
+
+## 운영 환경
+
+- python 3.7.5
+- Django 1.11
+- Oracle 11x
+
+설치 폴더: `/home/kadm/webcrawler`
+로그 폴더: 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMTE3NTA0NDEsNTkxNzU0NjM1XX0=
+eyJoaXN0b3J5IjpbLTI5MzQxMjc0OSw1OTE3NTQ2MzVdfQ==
 -->
