@@ -1,9 +1,9 @@
-
+The *Gamma function* satisfying $\Gamma(n) = (n-1)!\quad\forall n\in\mathbb N$ is via the Euler integral  $$  \Gamma(z) = \int_0^\infty t^{z-1}e^{-t}dt\,.  $$
 
 # 웹 크롤러 테이블 정의서
 
 
-## 강좌 정보  
+## 강좌 정보  
 (아래 쪽에 상세 정보가 있습니다.)  
 
 |FIELD_NAME|COMMENT|비고|
@@ -746,9 +746,9 @@ ALTER TABLE NILE.TBTNS_CON_LOG ADD (
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTg0NjAxMDQ4LDEzODQyODI2MjcsMjEyNz
-UxNjc2MywtMTUzNzczODg0NywxMzUwNDA0MzQ4LC02NDcxMDEz
-MTksMTA5NzAyNTc1NSwxOTE4NzkzMTMsLTE1NDQ2MzQ5NzUsMj
-EwNDMwMDQ5LC03MzA0NjAxNDAsLTQ4NDIxNTIwOCwxMjQzNjE3
-Nzg3LDQ0MDIwNDAxM119
+eyJoaXN0b3J5IjpbLTMwNDExNzY0MSw5ODQ2MDEwNDgsMTM4ND
+I4MjYyNywyMTI3NTE2NzYzLC0xNTM3NzM4ODQ3LDEzNTA0MDQz
+NDgsLTY0NzEwMTMxOSwxMDk3MDI1NzU1LDE5MTg3OTMxMywtMT
+U0NDYzNDk3NSwyMTA0MzAwNDksLTczMDQ2MDE0MCwtNDg0MjE1
+MjA4LDEyNDM2MTc3ODcsNDQwMjA0MDEzXX0=
 -->
