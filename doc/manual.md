@@ -14,7 +14,7 @@
 #### 강원 평생교육원
 
 URL 없음.
-구 ssl 인증서로 크롤링 시 특수 처리됨.
+사이트가 구 ssl 인증서를 사용하고 있어서 크롤링 시 별도 인증서 처리함. (firefox 접속 불가 사이트)
 
 ### 크롤링 통계 (누적 건수)
 
@@ -131,7 +131,7 @@ http://www.gile.or.kr/web/organ/view.do?mId=71&page=20&organIdx=2019032800000283
 ex) course_nm꺽쇠들어가는부분  
 https://www.e-room.or.kr/gw/portal/org_lecture_info?mode=read&leccode=4116&page_no=26&selectRegion=&gubun=&studyKind=&searchKeyWord=&searchFromDate=&searchEndDate=  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgzMjQ3MDEzNywxODAwNjM2Mjc5LC0xMj
+eyJoaXN0b3J5IjpbMTA5NDM2MzE3NCwxODAwNjM2Mjc5LC0xMj
 gwMjczNzgxLC0xMjg0NjIzNTg1LDExMzAwOTg2NTksNTkxNzU0
 NjM1XX0=
 -->
