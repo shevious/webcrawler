@@ -11,7 +11,10 @@
 
 3개 사이트 모두 javascript기반의 URL scheme을 사용하고 있어서, 모두 전용 크롤링 모듈을 개발 하에 크롤링이 수행되었음.
 
-강원도의 경우 
+#### 강원 평생교육원
+
+URL 없음.
+구 ssl 인증서로 크롤링 시 특수 처리됨.
 
 ### 크롤링 통계 (누적 건수)
 
@@ -128,6 +131,7 @@ http://www.gile.or.kr/web/organ/view.do?mId=71&page=20&organIdx=2019032800000283
 ex) course_nm꺽쇠들어가는부분  
 https://www.e-room.or.kr/gw/portal/org_lecture_info?mode=read&leccode=4116&page_no=26&selectRegion=&gubun=&studyKind=&searchKeyWord=&searchFromDate=&searchEndDate=  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMDYzNjI3OSwtMTI4MDI3Mzc4MSwtMT
-I4NDYyMzU4NSwxMTMwMDk4NjU5LDU5MTc1NDYzNV19
+eyJoaXN0b3J5IjpbLTgzMjQ3MDEzNywxODAwNjM2Mjc5LC0xMj
+gwMjczNzgxLC0xMjg0NjIzNTg1LDExMzAwOTg2NTksNTkxNzU0
+NjM1XX0=
 -->
