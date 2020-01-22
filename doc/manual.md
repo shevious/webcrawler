@@ -56,7 +56,7 @@ URL 없음.
 
 ### 접속
 
-`http://203.235.44.154:18000/admin`
+`http://203.235.44.165:18000/admin`
 
 
 ![enter image description here](https://github.com/shevious/webcrawler/blob/master/screenshot/adminmain.png?raw=true)
@@ -131,7 +131,7 @@ http://www.gile.or.kr/web/organ/view.do?mId=71&page=20&organIdx=2019032800000283
 ex) course_nm꺽쇠들어가는부분  
 https://www.e-room.or.kr/gw/portal/org_lecture_info?mode=read&leccode=4116&page_no=26&selectRegion=&gubun=&studyKind=&searchKeyWord=&searchFromDate=&searchEndDate=  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA5NDM2MzE3NCwxODAwNjM2Mjc5LC0xMj
-gwMjczNzgxLC0xMjg0NjIzNTg1LDExMzAwOTg2NTksNTkxNzU0
-NjM1XX0=
+eyJoaXN0b3J5IjpbMTIzMTA2NTE1OCwxMDk0MzYzMTc0LDE4MD
+A2MzYyNzksLTEyODAyNzM3ODEsLTEyODQ2MjM1ODUsMTEzMDA5
+ODY1OSw1OTE3NTQ2MzVdfQ==
 -->
