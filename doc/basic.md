@@ -1,5 +1,10 @@
 # 전달사항
 
+## 2020-01-21
+
+[https://www.e-room.or.kr/gw/portal/org_lecture_info?mode=read&leccode=4617&page_no=1&selectRegion=&gubun=&studyKind=&searchKeyWord=&searchFromDate=&searchEndDate=](https://www.e-room.or.kr/gw/portal/org_lecture_info?mode=read&leccode=4617&page_no=1&selectRegion=&gubun=&studyKind=&searchKeyWord=&searchFromDate=&searchEndDate=)  
+
+
 ## 2020-01-10
 울산_기관 :  309건저장. 23건 중복. 1건 상세없음. 총 333건.
 울산_강좌: 15154건 저장. 31024건 중복.   총 46178건.
@@ -1040,11 +1045,11 @@ https://bluese05.tistordy.conf .
 # change djangocelery => crawlproj
 ```m/31  
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA0MjIxNDg2NywzMDEwODUzOTQsLTUwNj
-cxMzQ5NCwxODM4NTYwNTA0LC0xNDE5MzEzMzE1LDU5NDY3Njk4
-OCwtMTM5NTA0NTIxMSwtNjIxMTQwODcyLDIxNDU1MDQ1NTgsLT
-c5MDQzNDMzNiwtMTQ1OTMyNTY5MCwxMTcxMDQ4MjA4LDE3OTY4
-MDM5MSwtNjI2NDU2NTY4LDE1MjU0NDI2NjIsMTM3NjY4OTgwOS
-w1MDQ2NDYzMDksMTQzMTUzNTkyMSwtNjM3NjQ0ODgyLDExNDM2
-MTY3MTZdfQ==
+eyJoaXN0b3J5IjpbLTEyODQxOTA2MDgsMTA0MjIxNDg2NywzMD
+EwODUzOTQsLTUwNjcxMzQ5NCwxODM4NTYwNTA0LC0xNDE5MzEz
+MzE1LDU5NDY3Njk4OCwtMTM5NTA0NTIxMSwtNjIxMTQwODcyLD
+IxNDU1MDQ1NTgsLTc5MDQzNDMzNiwtMTQ1OTMyNTY5MCwxMTcx
+MDQ4MjA4LDE3OTY4MDM5MSwtNjI2NDU2NTY4LDE1MjU0NDI2Nj
+IsMTM3NjY4OTgwOSw1MDQ2NDYzMDksMTQzMTUzNTkyMSwtNjM3
+NjQ0ODgyXX0=
 -->
